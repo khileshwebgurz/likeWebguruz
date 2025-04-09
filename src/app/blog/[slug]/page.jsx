@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import axios from "axios";
+
 import { notFound, redirect } from "next/navigation";
 import ContentBlogClient from "../../../components/blogComponents/ContentBlogClient";
 import NewBlogSubscriber from "@/components/blogComponents/NewBlogSubscriber";
@@ -102,13 +102,11 @@ const Page = async ({ params }) => {
   // console.log('my data is >>',typeof(post._id));
 
   const res = await fetch(
-    `${process.env.NEXTAUTH_URL}/api/Likes?slug=${post.slug}`,
-    {
-      params: { slug },
-    }
+    `${process.env.NEXTAUTH_URL}/api/Likes?slug=${post.slug}`
   );
 
   const datas = await res.json();
+  console.log('my datas >>>>',datas.totalLikes)
 
   if (post.acf && post.acf.inforgaphic_image) {
     redirect(`/infographic/${slug}`);

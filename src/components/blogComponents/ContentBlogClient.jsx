@@ -25,9 +25,8 @@ const ContentBlogClient = ({
   const [activeSection, setActiveSection] = useState(null);
   const router = useRouter();
   const [likes, setLikes] = useState(myLikes);
-  const [liked, setLiked] = useState(false);
+  // const [liked, setLiked] = useState(false);
 
- 
   console.log('my likes is >>',myLikes, 'likes i s>>',likes)
 
   const newUrl = post.yoast_head_json.schema["@graph"][4].image.caption
@@ -67,9 +66,21 @@ const ContentBlogClient = ({
   };
 
 
+  useEffect(() => {
+    const fetchLikes = async () => {
+      try {
+        const res = await fetch(`/api/Likes?slug=${post.slug}`);
+        const data = await res.json();
+        setLikes(data.totalLikes);
+      } catch (error) {
+        console.error("Error fetching likes:", error);
+      }
+    };
+
+    fetchLikes();
+  }, [post.slug]);
+
   const handleLikeClick = async () => {
-    if (liked) return;
-  
     try {
       const res = await fetch("/api/Likes", {
         method: "POST",
@@ -78,15 +89,9 @@ const ContentBlogClient = ({
         },
         body: JSON.stringify({ postSlug: post.slug }),
       });
-  
+
       const data = await res.json();
-  
       setLikes(data.totalLikes);
-      if (data.success) {
-        setLiked(true);
-      } else {
-        alert(data.message);
-      }
     } catch (err) {
       console.error("Like failed:", err);
     }
