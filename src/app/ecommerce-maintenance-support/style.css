@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+
+.Hireecommerce .hire-experts-card {
+  padding: 20px 20px;
+  background: #000a35bd;
+  min-height: 100%;
+}
+
+.Hireecommerce .hire-experts-card h4,
+.Hireecommerce .hire-experts-card p {
+  color: #fff;
+}
+
+.Hireecommerce .hire-experts-card .expert-number span {
+  color: #bdc7ff;
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.Hireecommerce .hire-experts-card .expert-number {
+  text-align: end;
+}
+
+
+.Hireecommerce .col-lg-4 {
+  padding: 0;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.Hireecommerce .hire-experts-card p {
+  margin: 0;
+}
+
+.Hireecommerce {
+  background: url(/images/ecommercemainteimg/maintebg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.Hireecommerce:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #d6d7d724;
+  z-index: -1;
+}
+
+.Hireecommerce .row,
+.Hireecommerce p {
+  margin: 0;
+}
+.maintenaceservices .services-box {
+  background: #0dcaf021;
+  border: 2px solid #f6f5f2;
+  border-radius: 15px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
+  transform-origin: bottom;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  min-height: 100%;
+}
+.maintenaceservices .services-box:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  right: 0;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background: #20a0b1;
+}
+.maintenaceservices .services-box:hover {
+  box-shadow: #82828236 0 2px 40px 0;
+  transform: translateY(-10px);
+}
+.maintenaceservices .services-box h5,
+.maintenaceservices .services-box p {
+  transition: all 0.4s ease-in-out;
+}
+.maintenaceservices .services-box:hover h5,
+.maintenaceservices .services-box:hover p {
+  color: #fff;
+}
+.maintenaceservices .services-box:hover:after {
+  opacity: 1;
+  visibility: visible;
+  bottom: 0;
+}
+/* chooseing-section start */
+
+.maintenacechoosing .row.chooseing img {
+  width: 55px;
+}
+
+.maintenacechoosing .row.chooseing .feature-text.left-icon {
+  display: flex;
+  gap: 15px;
+}
+section.customised-content-section.support-maintain-process .icon-awareness {
+  background: #fff;
+}
+section.customised-content-section.support-maintain-process {
+  background-image: linear-gradient(45deg, #1a73e821, #f9fbfc52);
+}
+.maintenacechoosing .row.chooseing .feature-text.left-icon h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+.maintenance-agency-section {
+  background: #e3ffcbb0;
+}
+
+.maintenance-agency-section img {
+  max-width: 50px;
+  margin-bottom: 20px;
+}
+.maintenance-agency-section {
+  background: #89898921;
+  position: relative;
+  background-image: url(/images/features-bg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.maintenance-agency-section .services-box {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: #99906426 0 0 20px;
+  transition: all 0.5s ease-in-out;
+  min-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.maintenance-agency-section .services-box:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #0d6efd14;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.maintenance-agency-section .services-box:hover:after {
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+/* benifit-section */
+.benifiti-details .benifit-list ul li {
+  position: relative;
+  padding-left: 0;
+  text-indent: 25px;
+  margin-bottom: 10px;
+}
+
+.benifiti-details .benifit-list ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 12px;
+  height: 12px;
+  background: #20a0b1;
+  border-radius: 50px;
+}
+.maintenace-benifit-section a.explore-btn {
+  text-transform: capitalize;
+}
+.magento-dev-details.ecom-support-detail {
+  background-color: #b8eaf1a8;
+}
+.Technologystack-section.ecom-supoport-tech {
+  background: #b9b9b912;
+  background-image: url(/images/bg-dots.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.magento-dev-details.ecom-support-detail {
+  background-color: #f4f4f4;
+}
+.Technologystack-section.ecom-supoport-tech .techmolgy-box {
+  background: #ffffff;
+}
+section.customised-content-section.support-maintain-process  .no-space .col-lg-4 {
+  margin-top: -30px;
+}
+.maintenacechoosing .col-lg-7::-webkit-scrollbar {
+  width: 6px;
+  height: 85px;
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+.maintenacechoosing .col-lg-7::-webkit-scrollbar-track {
+  background: rgba(110, 109, 134, 0.15);
+  border-radius: 5px;
+}
+
+.maintenacechoosing .col-lg-7::-webkit-scrollbar-thumb {
+  background: #00BCD4;
+  border-radius: 10px;
+}
+
+.maintenacechoosing .col-lg-7::-webkit-scrollbar-thumb:hover {
+  background: #3f51b5a8;
+}
+
+.maintenacechoosing .col-lg-7 {
+    max-height: 696px;
+    overflow: auto;
+}
+@media (max-width: 1599px) {
+  .Hireecommerce .hire-experts-card .expert-number {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 0;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .Hireecommerce .hire-experts-card .expert-number span {
+    font-size: 45px;
+    margin-top: 0;
+  }
+
+  .Hireecommerce .hire-experts-card .expert-number {
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .maintenance-agency-section .row.maintenace-agency {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .Hireecommerce .col-lg-4 {
+    border-bottom: 1px solid #fff;
+  }
+  .maintenacechoosing .col-lg-7 {
+    max-height: 100%;
+    overflow: hidden;
+}
+  .maintenaceservices .services-box,
+  .maintenacechoosing .heading-main {
+    text-align: center;
+  }
+  .maintenace-benifit-section .row {
+    flex-direction: column-reverse;
+  }
+  .maintenace-benifit-section h2 {
+    text-align: center;
+  }
+}

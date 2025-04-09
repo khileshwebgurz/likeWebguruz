@@ -1,0 +1,547 @@
+.squarespace-services {
+    position: relative;
+    z-index: 1;
+}
+
+.squarespace-services:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 68%;
+    z-index: -1;
+    background-image: url(/images/features-bg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.squarespace-services .card-icon img {
+    max-width: 45px;
+}
+.squarespace-services .squarspace-card h4 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.squarespace-services a.explore-btn {
+    margin-top: 40px;
+}
+.squarespace-services .squarspace-card {
+    padding: 25px 20px;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 100%;
+    transition: all .4s ease-out;
+    background: #fff;
+}
+
+.squarespace-services .card-icon {
+    position: relative;
+    z-index: 1;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.squarespace-services .card-icon:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 60px;
+    height: 60px;
+    background: #00a0af33;
+    border-radius: 23%;
+    transform: rotate(46deg);
+}
+
+.squarespace-services .squarspace-card:hover {
+    box-shadow: #0000003d 0 0 20px;
+}
+
+.squarespace-services .squarspace-card p {
+    margin: 0;
+}
+
+/* our-smart start */
+.squarespace-smart {
+    background: #F8F8F8;
+}
+
+.squarespace-smart .our-smart-list ul {
+    column-gap: 45px;
+    column-count: 3;
+    display: block;
+}
+
+.squarespace-smart .our-smart-list ul li {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    position: relative;
+    font-weight: 500;
+    width: 100%;
+    display: inline-block;
+    page-break-inside: avoid;
+}
+
+.squarespace-smart .our-smart-list ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    background: #00a0af;
+    background-image: url(/images/squarespaceimg/squarecheck.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center center;
+}
+
+/* squareprocess-section start */
+.squareprocess-section .process-card-box {
+    display: flex;
+    background-color: #23486A;
+    -webkit-clip-path: polygon(0% 0%, 94% 0%, 100% 50%, 94% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 92% 0%, 100% 50%, 92% 100%, 0% 100%);
+    padding: 27px 40px 27px 27px;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 40px;
+    min-height: 100%;
+    transition: all .4s ease-out;
+}
+
+.squareprocess-section .process-card-box:hover {
+    transform: translateY(-6px);
+}
+
+.squareprocess-section {
+    background: #3b6790cc;
+}
+
+.squareprocess-section h2,
+.squareprocess-section p,
+.squareprocess-section h5 {
+    color: #fff;
+}
+
+.squareprocess-section .process-icon {
+    border: 1px solid #ffffff;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 100%;
+    padding: 24px;
+    max-width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.squareprocess-section p {
+    margin: 0;
+}
+
+.squareprocess-section h5 {
+    margin-bottom: 10px;
+}
+
+.squareprocess-section .row.sqaure-process-row {
+    align-items: center;
+}
+
+.squareprocess-section .right-process-box .process-card-box {
+    clip-path: polygon(8% 0%, 100% 1%, 100% 100%, 8% 100%, 0% 50%);
+    flex-direction: row-reverse;
+    padding-left: 60px;
+}
+
+.squareprocess-section .right-process-box .process-card-box .process-icon {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+/* end */
+/* square-whychoose -start */
+.square-whychoose .why-choose-list ul li:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    border: 1px solid hsla(0, 0%, 100%, .4);
+    width: 100%;
+    z-index: -1;
+}
+
+.square-whychoose .why-choose-list ul li p {
+    margin-top: 25px;
+    min-height: 100%;
+    height: 100%;
+    width: 80%;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.square-whychoose .why-choose-list ul li:after {
+    position: absolute;
+    content: url(/images/squarespaceimg/square-angle.svg);
+    top: -15px;
+    left: 0;
+}
+
+.square-whychoose .why-choose-list ul li:nth-child(4):after {
+    content: url(/images/squarespaceimg/squar-circle.svg);
+}
+
+.square-whychoose .why-choose-list ul li:nth-child(5):after,
+.square-whychoose .why-choose-list ul li:nth-child(6):after {
+    content: url(/images/squarespaceimg/square-left.svg);
+}
+
+.square-whychoose .why-choose-list ul li:nth-child(4),
+.square-whychoose .why-choose-list ul li:nth-child(5),
+.square-whychoose .why-choose-list ul li:nth-child(6) {
+    margin-top: 60px;
+}
+
+.square-whychoose .row {
+    padding: 50px 20px;
+    background: rgb(22, 139, 154);
+    background: linear-gradient(0deg, rgba(22, 139, 154, 1) 0%, rgba(33, 188, 211, 1) 100%);
+    border-radius: 10px;
+}
+
+.square-whychoose .why-choose-list ul {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.square-whychoose .why-choose-list ul:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 202px;
+    max-height: 175px;
+    height: 100%;
+    border-radius: 0 50% 50% 0;
+    border: 2px solid hsla(0, 0%, 100%, .4);
+    border-left: 0;
+}
+
+.square-whychoose .why-choose-list ul li {
+    max-width: 33.33%;
+    padding: 0 10px 0 0;
+    z-index: 999;
+    position: relative;
+}
+
+.square-whychoose h2,
+.square-whychoose p {
+    color: #fff;
+}
+
+.square-whychoose h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.square-whychoose .why-choose-list ul li:nth-child(3):before,
+.square-whychoose .why-choose-list ul li:nth-child(6):before {
+    content: unset !important;
+}
+
+/* end */
+/* square-advantage-start */
+.square-advantage {
+    background-image: url(/images/wocommercesimg/dotsbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+.square-advantage:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #faebd787;
+    z-index: -1;
+}
+.square-advantage .row.squareadvantage-row {
+    background: #fff;
+    border-radius: 10px;
+    margin: 0;
+    box-shadow: 0 0 10px #ccc;
+}
+.square-advantage .col-md-4 {
+    border-bottom: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+.square-advantage .advantage-card {
+    padding: 10px 15px;
+    margin: 0;
+    min-height: 100%;
+    transition: all .4s ease-in-out;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+.square-advantage .row.squareadvantage-row .col-md-4:nth-child(4) , 
+.square-advantage .row.squareadvantage-row .col-md-4:nth-child(5) , 
+.square-advantage .row.squareadvantage-row .col-md-4:nth-child(6) {
+    border-bottom: 0;
+}
+.square-advantage .row.squareadvantage-row .col-md-4:nth-child(3), .square-advantage .row.squareadvantage-row .col-md-4:nth-child(6) {
+    border-right: 0;
+}
+.square-advantage .heading-main p , .squarespace-services p {
+    margin: 0;
+}
+.square-advantage .advantage-card h4 {
+    margin-bottom: 15px;
+}
+.square-advantage .advantage-card p {
+    margin: 0;
+}
+.square-advantage .advantage-card h4, .square-advantage .advantage-card p {
+    transition: all .4s ease-out;
+}
+.square-advantage .col-md-4:after {
+    content: "";
+    width: 10%;
+    height: 10%;
+    background: transparent;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    border-radius: 50%;
+    transition: 400ms ease-in-out;
+    z-index: -1;
+}
+
+.square-advantage .col-md-4:hover:after {
+    background: #168B9A;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    left: 0;
+}
+.square-advantage .col-md-4:hover h4 , 
+.square-advantage .col-md-4:hover  p {
+    color: #fff;
+}
+/* end */
+@media(max-width:1600px) {
+    .square-whychoose .why-choose-list ul:before {
+        width: 190px;
+        max-height: 159px;
+    }
+}
+
+@media(max-width:1399px) {
+    .square-whychoose .why-choose-list ul:before {
+        width: 160px;
+    }
+}
+
+@media(max-width:1199px) {
+    .squareprocess-section p {
+        line-height: 24px;
+    }
+
+    .squareprocess-section .process-icon {
+        margin-right: 22px;
+    }
+
+    .squareprocess-section .right-process-box .process-card-box .process-icon {
+        margin-right: 0;
+        margin-left: 22px;
+    }
+
+    .squareprocess-section .process-icon {
+        height: 85px;
+        max-width: 85px;
+    }
+}
+
+@media(max-width:1024px) {
+    .square-whychoose .why-choose-list ul:before {
+        width: 127px;
+    }
+}
+
+@media(max-width:991px) {
+    .squarespace-smart .our-smart-list ul {
+        column-count: 2;
+    }
+
+    .square-whychoose .why-choose-list ul:before {
+        width: 121px;
+    }
+
+    .square-whychoose .why-choose-list ul li p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .squarespace-services a.explore-btn {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:767px) {
+    .squarespace-smart .our-smart-list ul {
+        column-count: 1;
+    }
+
+    .squareprocess-section .row.sqaure-process-row .col-lg-6.col-12 .process-card-box:nth-child(2) {
+        flex-direction: row-reverse;
+        clip-path: polygon(8% 0%, 100% 1%, 100% 100%, 8% 100%, 0% 50%);
+        flex-direction: row-reverse;
+        padding-left: 60px;
+    }
+
+    .squareprocess-section .right-process-box .process-card-box:nth-child(2) {
+        flex-direction: row !important;
+        clip-path: polygon(0% 0%, 92% 0%, 100% 50%, 92% 100%, 0% 100%) !important;
+        padding: 27px 40px 27px 27px !important;
+    }
+
+    .squareprocess-section .right-process-box .process-card-box:nth-child(2) .process-icon {
+        margin-left: 0;
+        margin-right: 22px;
+    }
+
+    .square-whychoose .why-choose-list {
+        margin-top: 30px;
+    }
+
+    .square-whychoose .why-choose-list ul {
+        flex-direction: column;
+        row-gap: 22px;
+    }
+
+    .square-whychoose .why-choose-list ul:before,
+    .square-whychoose .why-choose-list ul li:before {
+        content: unset;
+    }
+
+    .square-whychoose .why-choose-list ul li {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 25px;
+    }
+
+    .square-whychoose .why-choose-list ul li p {
+        padding-left: 20px;
+        margin: 0;
+        margin-top: 3px;
+    }
+
+    .square-whychoose .why-choose-list ul li:after {
+        top: 0;
+    }
+
+    .square-whychoose .why-choose-list ul li:nth-child(4),
+    .square-whychoose .why-choose-list ul li:nth-child(5),
+    .square-whychoose .why-choose-list ul li:nth-child(6) {
+        margin-top: 0;
+    }
+    
+    
+    .square-whychoose .why-choose-list ul li:nth-child(4):after {
+        content: url(/images/squarespaceimg/square-angle.svg);
+    }
+    
+    .square-whychoose .why-choose-list ul li:nth-child(5):after,
+    .square-whychoose .why-choose-list ul li:nth-child(6):after {
+        content: url(/images/squarespaceimg/square-angle.svg);
+    }
+    .square-advantage .col-md-4 {
+        border-right: 0;
+        border-bottom: 1px solid #D3D3D3 !important;
+    }
+    .square-advantage .row.squareadvantage-row .col-md-4:nth-child(6) {
+        border-bottom: 0 !important;
+    }
+    .square-advantage .advantage-card {
+        padding: 0;
+    }
+    .squareprocess-section .row.sqaure-process-row .col-lg-6.col-12 .process-card-box:nth-child(2) .process-icon {
+        margin-right: 0;
+        margin-left: 22px;
+    }
+    .squareprocess-section .row.sqaure-process-row .right-process-box .process-card-box:nth-child(2) .process-icon {
+        margin-left: 0 !important;
+        margin-right: 22px !important;
+    }
+}
+
+@media(max-width:576px) {
+    .squareprocess-section .process-card-box {
+        flex-direction: column !important;
+        text-align: center;
+        row-gap: 20px;
+        margin-bottom: 25px;
+        -webkit-clip-path: unset !important;
+        clip-path: unset !important;
+        padding: 30px 25px !important;
+    }
+    .squareprocess-section .row.sqaure-process-row .col-lg-6.col-12 .process-card-box:nth-child(2) .process-icon {
+        margin-right: 0;
+        margin-left: 0px;
+    }
+    .squareprocess-section .row.sqaure-process-row .right-process-box .process-card-box:nth-child(2) .process-icon {
+        margin-left: 0 !important;
+        margin-right: 0px !important;
+    }
+    .squareprocess-section .right-process-box .process-card-box .process-icon {
+        margin-right: 0;
+        margin-left: 0 !important;
+    }
+    .squareprocess-section .right-process-box .process-card-box:nth-child(2) {
+        clip-path: unset !important;
+    }
+
+    .squareprocess-section .right-process-box .process-card-box,
+    .squareprocess-section .right-process-box .process-card-box:nth-child(2) {
+        flex-direction: column !important;
+    }
+
+    .squareprocess-section .right-process-box .process-card-box:nth-child(2) {
+        padding: 30px 25px !important;
+    }
+
+    .squareprocess-section .right-process-box .process-card-box:nth-child(2) .process-icon,
+    .squareprocess-section .process-icon {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .square-advantage .advantage-card {
+        text-align: center;
+    }
+}
+
+/* end */

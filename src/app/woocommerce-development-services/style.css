@@ -1,0 +1,362 @@
+    *{
+    box-sizing: border-box;
+}
+
+.Wocommerceservices-section img {
+    max-width: 55px;
+}
+
+.Wocommerceservices-section .img-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+}
+.Wocommerceservices-section .img-text .text {
+    width: 83%;
+}
+
+.Wocommerceservices-section .row.woocommerces-row {
+    background: #ffffff;
+    border-radius: 25px;
+    margin: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.Wocommerceservices-section {
+    background-image: url(/images/wocommercesimg/dotsbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+.Wocommerceservices-section:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #20a0b129;
+    z-index: -1;
+}
+.Wocommerceservices-section .row.woocommerces-row .woocard-one:hover {
+    background: #349CDD;
+}
+.Wocommerceservices-section .row.woocommerces-row .woocard-one:hover h5 , .Wocommerceservices-section .row.woocommerces-row .woocard-one:hover p {
+    color: #fff;
+}
+
+.Wocommerceservices-section .row.woocommerces-row .woocard-one h5, .Wocommerceservices-section .row.woocommerces-row .woocard-one p {
+    transition: all .4s ease-out;
+}
+.Wocommerceservices-section .row.woocommerces-row .woocard-one {
+    padding: 10px 15px;
+    margin: 0;
+    min-height: 100%;
+    transition: all .4s ease-in-out;
+    border-radius: 15px;
+
+}
+.Wocommerceservices-section .row.woocommerces-row .col-md-4 {
+    border-bottom: 1px solid #b6b8c0;
+    border-right: 1px solid #b6b8c0;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.Wocommerceservices-section .row.woocommerces-row .woo-bottom {
+    border-bottom: 0;
+}
+
+.Wocommerceservices-section .row.woocommerces-row .three-wo {
+    border-right: 0;
+}
+.Wocommerceplat-sec .platform-one {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 10px;
+}
+.Wocommerceplat-sec .plateform-content {
+    padding: 15px;
+    width: 100%;
+    background: #ff563ceb;
+    min-height: 185px;
+}
+.Wocommerceplat-sec .plat-counting {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 110px;
+}
+
+.Wocommerceplat-sec .plat-counting h3 {
+    color: #FF816E;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+}
+.Wocommerceplat-sec .plateform-content p {
+    margin: 0;
+}
+.platform-one.plate-two .plateform-content {
+    background: #0021ffb0;
+}
+.platform-one.plate-two  h3 {
+    color: #203DFF;
+}
+.Wocommerceplat-sec .col-md-6 {
+    margin-bottom: 8px;
+}
+.platform-one.plate-three .plateform-content {
+    background: #20a0b1;
+}
+
+.platform-one.plate-three .plat-counting h3 {
+    color: #20a0b1;
+}
+.platform-one.plate-foure .plateform-content {
+    background: #ff9933;
+}
+.platform-one.plate-foure   h3 {
+    color: #FF9933;
+}
+
+.platform-one.plate-five .plateform-content {
+    background: #ed2891ed;
+}
+
+.platform-one.plate-five  h3 {
+    color: #ed2891;
+}
+.platform-one.plate-six .plateform-content {
+    background: #003e85;
+}
+
+.platform-one.plate-six h3 {
+    color: #003e85;
+}
+.platform-one.plate-seven .plateform-content {
+    background: #9a4716;
+}
+.platform-one.plate-seven h3{
+    color: #9a4716;
+}
+.Wocommerceplat-sec .plateform-content h5, .Wocommerceplat-sec .plateform-content p {
+    color: #fff;
+}
+.Wooexpert-section {
+    background: #F7FCFF;
+}
+
+.Wooexpert-section .expert-card {
+    padding: 30px 25px;
+    background: #fff;
+    transition: all .4s ease-in-out;
+    min-height: 100%;
+}
+.Wooexpert-section .expert-card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Wooexpert-section .expert-card h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.Wooexpert-section .expert-card p {
+    margin: 0;
+}
+.Navigatesucess-section img {
+    max-width: 55px;
+}
+
+.Navigatesucess-section .Navigatesucess-box {
+    text-align: center;
+    padding: 20px;
+}
+.Navigatesucess-section .Navigatesucess-box .navigate-icon {
+    max-width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background: #20a0b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.Woobenifit-section .benifit-title-main {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-top: 2px solid #14151b;
+}
+.Navigatesucess-section.woocommerce-navigate {
+    background: #fff;
+}
+.Woobenifit-section {
+    background: #fdcfc157;
+}
+.wocommerce-process{
+    background: #ffeaf2a6;
+}
+.shopify-development-process.wocommerce-process .box-imgs img {
+    background: #fff ;
+}
+.Woobenifit-section .benifit-title-main p {
+    padding-left: 10px;
+    margin: 0;
+    width: 70%;
+}
+.Woobenifit-section .benifit-title-main .wo-title {
+    width: 30%;
+}
+.Woobenifit-section .benfit-img {
+    padding: 0 0 0 30px;
+}
+.Woobenifit-section .benifit-title-main h4 {
+    font-size: 24px;
+}
+.Technologystack-section.wocommerce-tech-stack .row {
+    max-width: 100%;
+}
+.Whychoosemagento.woocomerce-reasons .right-choose {
+    height: 550px;
+    overflow-y: scroll;
+}
+.Whychoosemagento.woocomerce-reasons .right-choose::-webkit-scrollbar {
+    width: 6px;
+    height: 85px;
+    border-radius: 5px;
+    overflow: scroll;
+  }
+  
+  .Whychoosemagento.woocomerce-reasons .right-choose::-webkit-scrollbar-track {
+    background: rgba(110, 109, 134, 0.15);
+    border-radius: 5px;
+  }
+  
+  .Whychoosemagento.woocomerce-reasons .right-choose::-webkit-scrollbar-thumb {
+    background: #20a0b1;
+    border-radius: 10px;
+  }
+  
+  .Whychoosemagento.woocomerce-reasons .right-choose::-webkit-scrollbar-thumb:hover {
+    background: #61ac0b27;
+  }
+  section.magento-dev-details.woocomerce-deatiling {
+    background: #fff;
+}
+
+.Whychoosemagento.woocomerce-reasons {
+    background-image: url(/images/bg-dots.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(max-width:1399px){
+    .Wocommerceplat-sec .plateform-content {
+        min-height: 212px;
+    }
+}
+@media(max-width:991px){
+    .Wocommerceservices-section h5 {
+        font-size: 16px;
+    }
+    .Wooexpert-section .expert-card {
+        padding: 30px 20px;
+    }
+    .Wocommerceplat-sec .plateform-content {
+        min-height: 260px;
+    }
+    .woocomerce-why-choose .row {
+        flex-direction: column-reverse;
+    }
+    .Wocommerceservices-section img {
+        max-width: 55px;
+    }
+    
+}
+@media(max-width:767px){
+    .Whychoosemagento.woocomerce-reasons .right-choose {
+        height: auto;
+        overflow-y: auto;
+    }
+.Wocommerceservices-section .row.woocommerces-row .col-md-4:last-child {
+    border: 0 !important;
+}
+.Wocommerceservices-section .row.woocommerces-row .col-md-4 {
+    border-bottom: 1px solid #b6b8c0 !important;
+    border-right: 0;
+}
+.Woobenifit-section .benfit-img {
+    padding: 0 ;
+}
+.Wocommerceplat-sec .plateform-content {
+    min-height: auto;
+}
+.Remarketingmatric.woocomerce-why-choose .row {
+    flex-direction: column-reverse;
+}
+
+.woocomerce-why-choose .row .heading-main h2 , .woocomerce-why-choose .row .heading-main p {
+    text-align: center;
+}
+.Wocommerceservices-section .row.woocommerces-row .woocard-one {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+}
+@media(max-width:576px){
+    .Woobenifit-section .benifit-title-main {
+        text-align: center;
+        display: block;
+    }
+    .Wooexpert-section .expert-card {
+text-align: center;
+    }
+    .Woobenifit-section .benifit-title-main p {
+        padding: 0;
+    }
+    .Woobenifit-section .benifit-title-main p ,.Woobenifit-section .benifit-title-main .wo-title {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .Woobenifit-section .benifit-title-main h4 {
+        font-size: 22px;
+    }
+    .Wocommerceservices-section .row.woocommerces-row .woocard-one {
+        padding: 24px 10px;
+        text-align: center;
+    }
+    section.counter-main.woocommerce-development-counter label {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    section.counter-main.woocommerce-development-counter .col.col-xs-12 {
+        margin-bottom: 20px;
+    }
+    .Wocommerceservices-section .img-text {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .Wocommerceservices-section .img-text .text {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .Wocommerceservices-section .img-text .img {
+        width: 100%;
+    }
+    .Wocommerceservices-section h5 {
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,227 @@
+section.training-entry-form {
+  background: #d9defe38;
+}
+section.training-after-life .after-course-details {
+  text-align: center;
+  background: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  border-radius: 10px;
+  height: 100%;
+  min-height: 100%;
+  transition: all 0.3s ease-in;
+  border: 1px solid #20a0b1;
+}
+section.training-after-life .after-course-details:hover {
+  background: #c2edfc;
+  border-color: transparent;
+  transform: translateY(-10px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+span.highlight-course {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+section.training-after-life.py-5 {
+  position: relative;
+  background-image: url(/images/features-bg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.tech-features {
+  background-color: #f7f0f0;
+  padding: 25px 30px;
+  border-radius: 12px;
+  min-height: 100%;
+  transition: all 0.3s ease-in;
+}
+.tech-features:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.tech-features .training-feat-icon {
+  max-width: 70px;
+  height: 70px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin: 0 0px 20px;
+}
+section.training-features.digital .tech-features img {
+  max-width: 45px;
+}
+
+section.training-after-life img {
+  max-width: 55px;
+}
+.training-after-life .row,
+.training-features.digital .row {
+  row-gap: 20px;
+}
+section.training-after-life .after-course-content h4, section.training-after-life .after-course-content p {
+  color: #383838;
+}
+section.training-entry-form span {
+  line-height: 1.2;
+}
+.after-course-content p {
+
+  font-size: 16px;
+}
+.single-training-description h2.training-heading , section.training.certifications h2,
+section.training-after-life h2{
+  margin-bottom: 20px;
+}
+
+
+section.training-features.digital {
+  background: #f4f4f452;
+}
+section.training.certifications{
+  background: #20a0b11c;
+}
+.training-program-benefits {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.training-program-benefits .beneifts-icons {
+  background: #d1ebff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  border-radius: 50%;
+}
+section.wgz-training-benefits h4 {
+  font-size: 18px;
+}
+.wgz-training-benefits .row.program-list {
+  padding-top: 30px;
+}
+
+.wgz-training-benefits .row.program-list .col-md-6 {
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.wgz-training-benefits .row.program-list .col-md-6:nth-child(2),.wgz-training-benefits  .row.program-list .col-md-6:nth-child(4) {
+  border-right: 0;
+  padding-left: 35px;
+}
+
+.wgz-training-benefits .row.program-list .col-md-6:nth-child(3), .wgz-training-benefits .row.program-list .col-md-6:nth-child(4) {
+  border-bottom: 0;
+  padding-top: 30px;
+}
+
+.training-program-benefits .beneifts-icons img {
+  max-width: 35px;
+}
+section.training-features.digital h4, section.training-after-life h4 {
+  font-size: 24px;
+}
+
+@media(max-width:1399px){
+  .training-program-benefits {
+    gap: 0;
+    column-gap: 10px;
+}
+section.wgz-training-benefits h4 {
+  font-size: 16px;
+}
+.wgz-training-benefits .row.program-list .col-md-6:nth-child(2), .wgz-training-benefits  .row.program-list .col-md-6:nth-child(4) {
+  border-right: 0;
+  padding-left: 10px;
+}
+.wgz-training-benefits .row.program-list .col-md-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+}
+@media(max-width:991px){
+  .training-program-benefits {
+    column-gap: 10px;
+}
+
+}
+@media(max-width:767px){
+section.training-entry-form .training-form-contents {
+  text-align: center;
+}
+
+section.training-entry-form .course-enroll-btn , section.training-entry-form .training-form-contents ,
+section.training-entry-form .course-enroll-btn ,.single-training-description{
+  text-align: center;
+}
+
+.single-training-description .row {
+  flex-direction: column-reverse;
+}
+
+.single-training-description .row .single-training-content {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+section.training-features.digital .tech-features {
+  text-align: center;
+}
+
+section.training-features.digital .tech-features .training-feat-icon {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+section.training-features.digital .tech-features .training-feat-icon img {
+  max-width: 40px;
+}
+section.wgz-training-benefits h2 {
+  text-align: center;
+}
+
+
+section.wgz-training-benefits .col-md-6.col-12 {
+  border: 0 !important;
+  border-bottom: 1px solid !important;
+  padding: 15px 15px !important;
+}
+
+section.wgz-training-benefits .col-md-6.col-12 .training-program-benefits {
+  justify-content: center;
+  column-gap: 12px;
+}
+section.wgz-training-benefits .col-md-6.col-12:last-child {
+  border: 0 !important;
+}
+
+section.wgz-training-benefits .col-md-6.col-12:first-child {
+  padding-top: 0 !important;
+}
+section.training.certifications {
+  text-align: center;
+}
+.training-program-benefits .beneifts-icons {
+  width: 55px;
+  height: 55px;
+  min-width: 55px;
+}
+section.training.certifications .heading-main {
+  margin-bottom: 30px;
+}
+
+section.training.certifications .heading-main h2 {
+  margin-bottom: 20px;
+}
+}

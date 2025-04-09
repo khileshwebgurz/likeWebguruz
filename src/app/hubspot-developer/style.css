@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+/* certified-section-css-start */
+.hubdev-certified img {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.certified-img {
+    text-align: center;
+}
+
+/* why-hire-section-css */
+.hubdev-whyhire {
+    background: #FCF7F0;
+}
+
+.hubdev-whyhire .dev-why-hire-card {
+    background: #ffff;
+    border-radius: 10px;
+    box-shadow: #DDDDDD 0 0 10px 0;
+    padding: 25px 20px;
+    transition: all .5s ease-in-out;
+}
+
+.hubdev-whyhire .dev-why-hire-card img {
+    max-width: 50px;
+    height: auto;
+}
+
+.hubdev-whyhire .dev-why-hire-card .img {
+    margin-bottom: 15px;
+}
+
+.hubdev-whyhire .dev-why-hire-card:hover {
+    transform: translateY(-10px);
+}
+
+
+.Our-Developers-section img {
+    max-width: 58px;
+    height: auto;
+    margin: 0 auto;
+    padding: 2px;
+}
+/* .row.our-developer {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+.Our-Developers-section .our-dev-box {
+    padding: 20px;
+    /* border: 1px solid #f1f1f1; */
+    transition: all .5s ease-out;
+    min-height: 100%;
+    background: #e4fcffed;
+}
+.box-img.mb-4 {
+    max-width: 100px;
+    margin: 0 auto;
+    background: #ffffff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+.Our-Developers-section .our-dev-box:hover {
+    box-shadow: #dddddd 0 0 10px 0;
+}
+.devTechnology-section .tech-one {
+    padding: 22px;
+    box-shadow: #DDDDDD 0 0 10px 0;
+    border-radius: 10px;
+    transition: all .5s ease-out;
+    overflow: hidden;
+}
+
+.devTechnology-section .tech-one li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.devTechnology-section .tech-one:hover {
+    transform: scale(1.04);
+}
+.devTechnology-section .tech-one li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: #168b9a;
+    border-radius: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.developer-key-section ul.key-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.developer-key-section ul.key-list li {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    width: 49%;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: #ffffff;
+    color: #212529;
+    border-radius: 5px;
+}
+.developer-key-section h2 {
+    color: #fff !important;
+}
+
+.developer-key-section h2 span {
+    font-weight: 900;
+    color: #fff !important;
+}
+
+.developer-key-section {
+    background: #F7F7F7;
+    background-image: url(/images/hubspot-developer-img/hub-develop.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+}
+.hub-developer-services .container .row:nth-child(odd) {
+    background-color: #F9FBFC;
+}
+.hub-developer-services .container .row:nth-child(even) {
+    background-color: transparent;
+}
+.customised-content-section.customize-hub-dev .no-space .col-lg-4 {
+    margin-top: 0px;
+}
+.Our-Developers-section .our-dev-box .our-box-content {
+    min-height: 300px;
+}
+@media(max-width:1399px){
+ .Our-Developers-section .our-dev-box .our-box-content {
+        min-height: 341px;
+    }
+}
+
+@media screen and (max-width: 767px) and ( min-width: 575px) {
+
+
+.hubdev-whyhire .whyhire-card .row , .row.our-developer , .devTechnology-section .row.technology-card{
+    flex-direction: row; 
+    justify-content: center;
+}
+.hubdev-whyhire .whyhire-card .row .dev-why-hire-card {
+    max-width: 48%;
+    margin: 0 auto;
+}
+.row.our-developer .col-md-4 , .devTechnology-section .row.technology-card .col-md-4    {
+    width: 50%;
+    flex: 0 0 50%;
+}
+
+}
+@media screen and (max-width: 991px){
+    .Our-Developers-section .our-dev-box .our-box-content {
+        min-height: 301px;
+    }
+}
+@media screen and (max-width: 767px){
+    .developer-key-section ul.key-list li {
+        margin-bottom: 0px;
+        padding-right: 0;
+    }
+    .Our-Developers-section .our-dev-box .our-box-content {
+        min-height: auto;
+    }
+    .devTechnology-section .row.technology-card .col-md-4:last-child {
+        width: 100%;
+        flex: 100%;
+    }
+    .hub-developer-services .container .row .card-content {
+        flex-direction: column;
+    }
+    .hubdev-whyhire .hub-certified-content.devwhy-content, .hubdev-certified .hub-certified-content {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 575px){
+    .developer-key-section ul.key-list li {
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .hubdev-whyhire .row {
+        margin: 0;
+    }
+}

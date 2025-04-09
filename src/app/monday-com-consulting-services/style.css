@@ -1,0 +1,292 @@
+.mondaycons-service {
+  background: #f9f2ec87;
+}
+
+.mondaycons-service p {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.apporach-card {
+  border: 1px solid #eff3f6;
+  border-radius: 10px;
+  width: 100%;
+  padding: 60px;
+  box-shadow: 0px 54px 80px 0px rgba(99, 32, 238, 0.01),
+    0px 22.56px 33.422px 0px rgba(99, 32, 238, 0.02),
+    0px 12.062px 17.869px 0px rgba(99, 32, 238, 0.02),
+    0px 6.762px 10.017px 0px rgba(99, 32, 238, 0.03),
+    0px 3.591px 5.32px 0px rgba(163, 138, 215, 0.04),
+    0px 1.494px 2.214px 0px rgba(125, 107, 164, 0.05);
+    min-height: 100%;
+}
+
+.apporach-card li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 35px;
+}
+.mondaycons-approach .row.monday-approach-cards {
+  margin: 0;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.apporach-card h4 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.apporach-card li {
+  background-image: url("/images/mondayconsimages/redcross.webp");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: left 13px;
+}
+.apporach-card.blue-check li {
+  background-image: url("/images/mondayconsimages/blue-check.webp");
+}
+
+.mondaycons-approach .row.monday-approach-cards {
+  margin: 0;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+section.monday-consulting-process {
+  background-image: url(/images/bg-dots.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.teamservice.monday-consulting-features {
+  background: unset;
+}
+.why-consulting-box {
+  width: 100%;
+  position: relative;
+  padding: 30px;
+  border-top-width: 3px;
+  border-top-style: solid;
+  margin: 0 0 10px;
+  transition: 0.3s ease-in-out 0s;
+  background: #f2f8ff;
+  border-color: #136cf5;
+}
+.why-right .why-consulting-box:nth-child(2) {
+  border-color: #ec4326;
+  background: #fff2f0;
+}
+.why-right .why-consulting-box:nth-child(3) {
+  border-color: #04ad77;
+  background: #f1fbf2;
+}
+.monday-consult-team {
+  background: #f2fff680;
+}
+
+.monday-consult-team li {
+  position: relative;
+  z-index: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+}
+
+.monday-consult-team li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 32px;
+  height: 30px;
+  background-image: url("/images/zohocrmimages/check-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.process-list ul {
+  padding: 20px 0;
+}
+
+.monday-consult-team .contact-btn a {
+  background-color: #20a0b1;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out 0s;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  z-index: 1;
+  margin: 0px;
+  color: #fff;
+}
+
+.monday-consult-team .contact-btn {
+  margin-top: 24px;
+}
+.monday-consult-manage img {
+  max-width: 55px;
+}
+
+.monday-consult-manage .Navigatesucess-box {
+  text-align: center;
+  padding: 20px;
+}
+.monday-consult-manage .Navigatesucess-box .navigate-icon {
+  max-width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  background: #889ea136;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.monday-consult-manage .Navigatesucess-box h5 {
+  color: #20a0b1;
+}
+
+.monday-consult-manage {
+  background: #bdf6ff30;
+}
+.monday-consult-offering {
+  background: #f5f7fe;
+}
+
+.monday-consult-offering .whyppc-card:hover {
+  background: #fff;
+  border-color: transparent;
+}
+.monday-consult-offering .whyppc-card {
+  padding: 30px 25px;
+  border: 1px solid #abaaaa;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  min-height: 100%;
+}
+.monday-consult-offering .whyppc-card:hover .ppc-icon {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.monday-consult-offering .whyppc-card .ppc-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-radius: 50px;
+  /* border: 1px solid #25c1d5; */
+  transition: all 0.3s ease-in-out;
+}
+
+.monday-consult-offering .whyppc-card .ppc-icon img {
+  margin: 0;
+  max-width: 55px;
+}
+.consult-process-img img {
+  border-radius: 30px;
+}
+/* tabs-section-start */
+section.monday-consulting-process {
+  background-image: url(/images/bg-dots.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.teamservice.monday-consulting-features {
+  background: unset;
+}
+
+section.monday-consulting-process .nav-link.active {
+  background: #00a0af;
+  color: #fff;
+}
+
+section.monday-consulting-process ul#uncontrolled-example {
+  padding-bottom: 0 !important;
+  justify-content: space-between;
+}
+section.monday-consulting-process  .monday-tabbing-content {
+  padding: 30px;
+  box-shadow: unset !important;
+}
+
+section.monday-consulting-process  .tab-content {
+  box-shadow: unset;
+  border: 1px solid #e2e2e2;
+  border-top: 0;
+  min-height: 227px;
+}
+
+section.monday-consulting-process .nav-link {
+  padding: 12px 57px;
+  border-radius: 0;
+  color: #383838;
+  border: 1px solid #e2e2e2;
+}
+section.monday-consulting-process .row {
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .monday-consult-offering .row.whychooseppc-row {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1399px) {
+  section.monday-consulting-process .nav-link {
+    padding: 12px 45px;
+}
+}
+@media (max-width: 1199px) {
+  .monday-consult-manage .Navigatesucess-box h5 {
+    font-size: 20px;
+  }
+  section.monday-consulting-process .nav-link {
+    padding: 12px 15px;
+    max-width: 100%;
+    width: 100%;
+}
+section.monday-consulting-process ul#uncontrolled-example {
+  
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+section.monday-consulting-process ul#uncontrolled-example li.nav-item {
+  width: 100%;
+  max-width: 209px;
+}
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .mondaycons-service , .monday-consult-team .heading-main h2, .monday-consult-team .heading-main p {
+    text-align: center;
+  }
+  .monday-consult-team .row.align-items-center {
+    flex-direction: column-reverse;
+}
+}
+@media (max-width: 444px) {
+  section.monday-consulting-process ul#uncontrolled-example {
+    overflow: visible;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  section.monday-consulting-process ul#uncontrolled-example li.nav-item {
+    max-width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .apporach-card {
+    padding: 35px 25px;    
+  }
+}
+
+

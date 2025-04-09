@@ -1,0 +1,210 @@
+.pardotservices {
+    background: #b5bce854;
+}
+
+.pardotservices li {
+    padding-top: 12px;
+    text-align: left;
+}
+
+.pardotservices ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+.pardot-campaign .row {
+    align-items: center;
+}
+
+.pardotservices .row {
+    flex-direction: column-reverse;
+}
+.pardotservices li {
+    padding-top: 12px;
+}
+
+.pardotservices ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* .Pardotarea-start */
+.Pardotarea {
+    background-image: url(/images/bg-dots.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.Pardotarea .pardot-card img {
+    max-width: 65px;
+}
+
+.Pardotarea .pardot-card .pardot-img {
+    margin-bottom: 15px;
+}
+
+.Pardotarea .pardot-card h5 {
+    margin-bottom: 15px;
+}
+
+.Pardotarea .pardot-card ul li {
+    padding-top: 12px;
+}
+
+.Pardotarea .pardot-card ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.Pardotarea .pardot-card {
+    padding: 20px 10px;
+    background: #FFFFFF;
+    box-shadow: #0000001f 0 0 20px;
+    min-height: 100%;
+    position: relative;
+    z-index: 1;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Pardotarea .pardot-card:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: #00a0af;
+    transition: all .4s ease-out;
+    z-index: -1;
+}
+
+.Pardotarea .pardot-card:hover:after {
+    height: 100%;
+    background: #00a0af30;
+}
+.Pardotarea .pardot-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+/* end */
+/* pardot-sale-start */
+.pardot-sales-section.Pardotarea {
+    background: unset;
+}
+
+.pardot-sales-section.Pardotarea .pardot-card {
+    padding: 20px;
+    min-height: 100%;
+}
+
+.pardot-sales-section.Pardotarea .pardot-card:after {
+    content: unset;
+}
+/* end */
+.pardotwhy {
+    background: #fcd4c333;
+}
+
+.pardotwhy .pardot-why-one {
+    padding: 20px;
+    border-left: 4px solid #00a0af;
+    margin-bottom: 20px;
+}
+
+.pardot-why-one.pardot-two {
+    border-color: #ff5b3e;
+}
+
+.pardot-why-one.pardot-three {
+    border-color: #349CDD;
+}
+
+.pardot-why-one.pardot-four {
+    border-color: #FF9933;
+}
+
+.pardot-why-one.pardot-five {
+    border-color: #001D6F;
+}
+
+.pardotwhy .pardot-why-one p {
+    margin: 0;
+}
+/* end */
+.pardotfeat-section .eservices-main {
+    display: flex;
+    background-color: #fff;
+    border-left: 3px solid #168B9A;
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    min-height: 100%;
+    transition: all .4s ease-in-out;
+}
+.pardotfeat-section .eservices-main:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pardotfeat-section {
+    background-image: url(/images/features-bg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ececec;
+}
+
+.pardotfeat-section h5 {
+    margin: 0;
+}
+.pardotfeat-section .const-text {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* pardot-step-section-start */
+.pardot-steps .no-space .col-lg-4 {
+    margin-top: -55px;
+}
+
+/* end */
+@media(min-width:576px){
+    .pardot-tabs li.nav-item {
+        width: 15.9%;
+    }
+}
+@media(min-width:768px){
+    .pardotservices .row {
+        flex-direction: row;
+    }
+    .pardot-tabs img.img-fluid {
+        min-height: 410px;
+        height: 410px;
+        object-fit: contain;
+    }
+}
+@media(max-width:991px){
+    .pardotfeat-section h5 {
+        font-size: 18px;
+    }
+    .pardotfeat-section .eservices-main {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .pardotfeat-section .const-text{
+        min-height: 50px;
+    }
+}
+@media(max-width:767px){
+    .pardotfeat-section .const-text {
+        min-height: auto;
+    }
+
+}

@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+.Amazonoffer-section {
+    background-image: url(/images/amazeimages/amazonbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.Amazonoffer-section img , .Amazonprocess-sec img , .Amazonagency-section img{
+    max-width: 60px;
+    margin-bottom: 20px;
+}
+
+.Amazonoffer-section .amazon-card {
+    padding: 30px 25px;
+    background: #fff;
+    transition: all .4s ease-in-out;
+    position: relative;
+    z-index: 1;
+    min-height: 100%;
+    border: 1px solid #eee;
+}
+.Amazonoffer-section:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f6f6f675;
+    z-index: -1;
+}
+.Amazonoffer-section .amazon-card li {
+    padding-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+.Amazonoffer-section .amazon-card li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    background: #168B9A;
+    border-radius: 50px;
+}
+.Amazonoffer-section .amazon-card ul {
+    padding-top: 15px;
+}
+.Amazonoffer-section h4{
+    font-size: 24px;
+}
+.Amazonoffer-section .amazon-card:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 5px;
+    background: #20a0b1;
+    bottom: 0;
+    transition: all .4s linear;
+}
+.Amazonoffer-section .amazon-card:hover:after {
+    width: 100%;
+}
+.Amazonoffer-section .amazon-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-color: transparent;
+}
+/* .Amazonprocess-sec-start */
+.Amazonprocess-sec {
+    background: #F0F0F0;
+    text-align: center;
+}
+/* .Amazonagency-section start */
+.Amazonagency-section {
+    background: #F7FCFF;
+}
+.Amazonagency-section .amamzon-agency-card {
+    padding: 25px;
+    border: 1px solid #383838;
+    border-radius: 10px;
+    min-height: 100%;
+    text-align: center;
+    transition: all .4s ease-in-out;
+}
+.Amazonagency-section .amamzon-agency-card:hover {
+    background: #ffb7a54d;
+    border-color: transparent;
+}
+
+.Amazonbussines-sec {
+    background: #e5f8d854;
+}
+.Amazonbussines-sec .Amazonbussines-card {
+    padding: 25px;
+    background: #fff;
+    border-bottom: 10px solid #ff5c35;
+    transition: all .9s;
+    box-shadow: 0 0 20px rgba(46, 59, 125, 0.23);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    min-height: 100%;
+    position: relative;
+    z-index: 1;
+    transition: all .4s linear;
+}
+.Amazonbussines-sec .Amazonbussines-card:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: #0dcaf029;
+    z-index: -1;
+    background: #ff5c35;
+    transition: all .2s linear;
+}
+.Amazonbussines-sec .Amazonbussines-card:hover:after {
+    height: 100%;
+}
+
+.Amazonbussines-sec .Amazonbussines-card:hover  h5, .Amazonbussines-sec .Amazonbussines-card:hover  p {
+    color: #fff;
+}
+@media(min-width:768px){
+    .Amazonagency-section .amamzon-agency-card , .Amazonbussines-sec .Amazonbussines-card{
+        text-align: left;
+    }
+}
+@media(max-width:767px){
+    section.counter-main.seo-stratergy-counter label {
+        min-height: 100%;
+    }
+    .counter-main .container .row:last-child .col.col-xs-12:nth-child(1) ,
+    .counter-main .container .row:last-child .col.col-xs-12:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+}

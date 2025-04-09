@@ -1,0 +1,46 @@
+.privacy-banner-wgz {
+  background-image: url(/images/privacy-policy-banner.webp);
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.privacy-content {
+  position: relative;
+  z-index: 1;
+}
+.webguruz-policies li a:hover,
+.webguruz-policies p a:hover {
+  color: #1ab6ca;
+}
+section.webguruz-policies p,
+section.webguruz-policies li {
+  font-size: 15px;
+}
+section.webguruz-policies h3 {
+  font-weight: 400;
+}
+section.webguruz-policies li {
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+section.webguruz-policies ul {
+  list-style: disc;
+  
+}
+section.webguruz-policies ul a,
+section.webguruz-policies p a {
+  font-weight: 400;
+  font-size: 15px;
+}
+section.webguruz-policies ul.address {
+  list-style: none;
+}
+section.webguruz-policies  p {
+  margin-bottom: 16px !important;
+}

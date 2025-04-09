@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+.content-seo-icon{
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.content-writing-services-sec {
+    background: #F7FCFF;
+}
+.contert-writing-card {
+    padding: 10px;
+    text-align: center;
+}
+.content-writing-work .contert-writing-card {
+background: #26c5da49;
+padding: 20px;
+min-height: 100%;
+border-radius: 7px;
+transition: all .5s ease-in-out;
+}
+.content-writing-work .contert-writing-card:hover{
+    transform: translateY(-10px);
+}
+.Writingmater-section {
+    background: url(/images/contentseoimgages/contentbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.Writingmater-section:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #26c6da21;
+    z-index: -1;
+}
+.Writingmater-section .checkicon img {
+    max-width: 30px;
+}
+.wiriting-mater-box:hover {
+    box-shadow: #0000005e 0px 7px 29px 0px;
+}
+.check-text {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.wiriting-mater-box {
+    padding: 20px;
+    background: #fff;
+    transition: all .3s ease-in-out;
+}
+/* .Hireseocontent-section start */
+.Hireseocontent {
+    background: #afb6e53d;
+}
+
+.Hireseocontent img.checkicon {
+    max-width: 50px;
+
+}
+.Hireseocontent .hire-img {
+    padding: 10px;
+    max-width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    background: #20a0b140;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hireseocontent h5 {
+    font-size: 20px;
+}
+.Hireseocontent .why-hire-seo-content {
+    text-align: center;
+    padding: 20px;
+    min-height: 100%;
+}
+
+.wiriting-mater-box h4 {
+    font-size: 22px;
+}
+@media(min-width:1199px){
+    .wiriting-mater-box h4 {
+        font-size: 24px;
+    } 
+}
+/* .Hireseocontent-section end */
+@media (min-width:768px){
+    .contert-writing-card {
+        text-align: left;
+    } 
+}
+
+@media (max-width:767px) and (min-width:576px){
+    .content-writing-work .contert-writing-card {
+        text-align: left;
+    }
+
+.content-writing-work .row {
+    flex-direction: row;
+}
+
+.content-writing-work .row .col-md-3 {
+    width: 50%;
+}
+}
+@media(max-width:767px){
+    .content-seo-team .row.qteam {
+        flex-direction: column-reverse;
+    }
+}
+@media(max-width:576px){
+    .Writingmater-section .checkicon {
+        width: 31px;
+    }
+
+section.counter-main.content-seo-counter p {
+    line-height: 1.4;
+}
+
+section.counter-main.content-seo-counter label {
+    min-height: 100%;
+    height: auto;
+}
+
+section.counter-main.content-seo-counter .col.col-xs-12 {
+    margin-bottom: 25px;
+}
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Diagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 960 800">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#radial-gradient);
+      }
+
+      .st1 {
+        fill: url(#radial-gradient1);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="78" cy="402.6" fx="78" fy="402.6" r="1055.6" gradientTransform="translate(0 802.8) scale(1.1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#2bcff3"/>
+      <stop offset=".3" stop-color="#2bcff3" stop-opacity="1"/>
+      <stop offset=".4" stop-color="#2bcff3" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#2bcff3" stop-opacity=".6"/>
+      <stop offset=".5" stop-color="#2bcff3" stop-opacity=".4"/>
+      <stop offset=".6" stop-color="#2bcff3" stop-opacity=".3"/>
+      <stop offset=".7" stop-color="#2bcff3" stop-opacity=".2"/>
+      <stop offset=".8" stop-color="#2bcff3" stop-opacity=".1"/>
+      <stop offset=".8" stop-color="#2bcff3" stop-opacity=".1"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient1" cx="-2.6" cy="402.4" fx="-2.6" fy="402.4" r="750.9" gradientTransform="translate(0 802.8) scale(1.1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#547af5"/>
+      <stop offset=".2" stop-color="#547af5" stop-opacity=".7"/>
+      <stop offset=".4" stop-color="#547af5" stop-opacity=".5"/>
+      <stop offset=".6" stop-color="#547af5" stop-opacity=".3"/>
+      <stop offset=".8" stop-color="#547af5" stop-opacity=".1"/>
+      <stop offset=".9" stop-color="#547af5" stop-opacity="0"/>
+      <stop offset="1" stop-color="#547af5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path class="st0" d="M868.7,22.3l-263.4,114.5c37,76.5,58.5,161.2,60.5,250.5h18.4v-20.4l27.2,34-27.2,34v-21h-18.4c-1.9,88.8-22.9,173.1-59.4,249.3l262.3,114c58.3-121.5,91.3-233.8,91.3-376.1s-32.3-256.8-91.3-378.9Z"/>
+  <path class="st1" d="M596.5,413.9v21l-27.2-34,27.2-34v20.4h19.2c-2-82.2-21.8-160.2-55.9-230.7L0,399.8l560.8,243.7c33.6-70.2,53-147.8,54.9-229.5h-19.2Z"/>
+</svg>

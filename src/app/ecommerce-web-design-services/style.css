@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+}
+.ecommerce-designing-team {
+  background: #fff !important;
+}
+.Designservices-section {
+  background: linear-gradient(
+    279.59deg,
+    rgba(135, 198, 250, 0.7),
+    rgba(195, 210, 249, 0.7) 62.02%,
+    hsla(51, 41%, 97%, 0.7)
+  );
+}
+
+.Designservices-section .design-services-one {
+  display: flex;
+  align-items: self-start;
+  gap: 20px;
+  padding: 20px 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+min-height: 100%;
+  background: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.Designservices-section.Develpomentservices{
+  background: #fff;
+}
+.Designservices-section .design-services-one:hover {
+  box-shadow: #00000033 0 2px 40px;
+}
+
+.Designservices-section .design-services-one img {
+  max-width: 65px;
+}
+
+.Develpomentservices {
+  background: #ebebeb36;
+}
+
+.Designservices-section h5 {
+  color: #20a0b1;
+  font-size: 20px;
+}
+
+.Develpomentservices .design-services-one {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 15px;
+}
+
+.Develpomentservices .design-services-one:hover {
+  box-shadow: unset;
+}
+
+.Develpomentservices .design-services-one img {
+  width: 35px;
+  max-width: max-content;
+  display: inline-block;
+}
+
+.Develpomentservices .design-services-one .dev-img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #20a0b1;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 100px;
+  background: #fff;
+}
+
+.Develpomentservices h5 {
+  color: #383838;
+}
+
+.Develpomentservices .design-services-one .dev-img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #20a0b1;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 100px;
+  background: #fff;
+}
+
+
+.Wework-section img {
+  max-width: 55px;
+  margin-bottom: 20px;
+}
+
+.Wework-section .work-card:hover {
+  background: #fffbed;
+}
+
+.Wework-section .work-card {
+  padding: 20px;
+  border: 1px solid #96969655;
+  box-shadow: #c0c0c080 0 2px 7px;
+  border-radius: 5px;
+  min-height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.Ourecommerce-section {
+  background: #75757517;
+  position: relative;
+  background-image: url(/images/features-bg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Ourecommerce-section .our-card {
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  min-height: 100%;
+  border: 1px solid #ddd;
+  transition: all 0.4s ease-in-out;
+}
+
+.Ourecommerce-section .our-card:hover {
+  box-shadow: #00000012 0 7px 14px 0;
+  border-color: #20a0b1;
+}
+
+.Ourecommerce-section .our-card .our-content {
+  padding-bottom: 15px;
+  border-bottom: 4px solid #d9d9d9;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  min-height: 191px;
+}
+.Ourecommerce-section .our-card .our-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Ourecommerce-section .our-card .our-list li:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background-image: url(/images/ecommercewebdesignimg/check1.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.Ourecommerce-section .our-card .our-list li {
+  width: 50%;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+  z-index: 1;
+  display: block;
+  font-size: 14px;
+}
+
+.Ourecommerce-section .our-card .our-content p {
+  margin: 0;
+}
+/*  slider-css-start  */
+
+.Designdev-process-sec .slider-main {
+  position: relative;
+}
+
+.Designdev-process-sec .slider-content h3 {
+  font-size: 26px;
+}
+
+.Designdev-process-sec p,
+.Designdev-process-sec h2,
+.Designdev-process-sec h3 {
+  color: #fff;
+}
+.Designdev-process-sec span.slider-counter {
+  display: block;
+  color: rgb(255 255 255 / 36%);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0 0 0);
+  font-size: clamp(60px, 9vw, 94px);
+  font-weight: 900;
+  line-height: 110%;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.Designdev-process-sec {
+  background: #00031f;
+}
+.Designdev-process-sec .slider-row {
+  transition: transform 0.4s ease-out;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+.Designdev-process-sec  span.swiper-pagination-bullet {
+  background: #ffffff;
+  width: 10px;
+  height: 10px;
+}
+
+  .Designdev-process-sec .swiper-horizontal {
+    padding-bottom: 50px;
+  }
+/* slider-css end */
+.web-scalable.design-ecommerce-reasons {
+  background: #00008812;
+}
+
+.web-scalable.design-ecommerce-reasons .row:nth-child(2) .inner-flex-statins-list:nth-child(1),
+.web-scalable.design-ecommerce-reasons .row:nth-child(2) .inner-flex-statins-list:nth-child(4) , 
+.web-scalable.design-ecommerce-reasons .row:nth-child(2) .inner-flex-statins-list:nth-child(5) {
+  background: #fff;
+}
+@media (min-width: 1600px) {
+  .Ourecommerce-section .our-card .our-list li {
+    font-size: 17px;
+  }
+}
+@media (max-width: 991px) {
+  .Ourecommerce-section .our-card .our-list li {
+    width: 100%;
+    margin-bottom: 8px;
+}
+}
+@media (max-width: 767px) {
+  .Wework-section .work-card {
+    text-align: center;
+  }
+  .Ourecommerce-section .our-card .our-content {
+    min-height: auto;
+}
+}
+
+@media (max-width: 576px) {
+  .Designservices-section .design-services-one {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .web-scalable.design-ecommerce-reasons .inner-flex-statins-list:nth-child(2) {
+    background: transparent;
+}
+
+.web-scalable.design-ecommerce-reasons .inner-flex-statins-list:nth-child(odd) {
+    background: #ffffff;
+}
+
+.web-scalable.design-ecommerce-reasons .row:nth-child(2) .inner-flex-statins-list:nth-child(4) {
+    background: transparent;
+}
+.web-scalable.design-ecommerce-reasons .inner-flex-statins-list {
+  padding: 30px 20px;
+}
+.web-scalable.design-ecommerce-reasons .row:nth-child(2) .inner-flex-statins-list:nth-child(6) {
+    background: transparent;
+}
+}
+
+@media (max-width: 398px) {
+.ecommerce-design-counter label {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.ecommerce-design-counter .col.col-xs-12:nth-child(1) ,
+.ecommerce-design-counter .col.col-xs-12:nth-child(2) {
+  margin-bottom: 20px;
+}
+}

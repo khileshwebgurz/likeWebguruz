@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+.sitemap-banner.py-5 {
+  background-image: url(/images/sitemap-banner.webp);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  min-height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.sitemap-banner h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.sitemap-content-section h4 {
+  text-transform: uppercase;
+}
+.sitemap-content-section h4 a {
+  font-size: 22px;
+}
+.sitemap-content-section h4:hover a {
+  color: #26c6da;
+}
+.linking-home a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.row.sitemap-row {
+  padding-top: 20px;
+}
+.row.sitemap-row h3 a {
+  font-size: 18px;
+  color: #26c6da;
+}
+.sitemap-content-section.py-5 .row.sitemap-row h3 a {
+  color: #26c6da;
+  font-size: 18px;
+}
+.sitemap-content-section.py-5 .row.sitemap-row h3 {
+  margin-bottom: 15px;
+}
+
+.sitemap-secton-1 ul.webdevlopment-link li:hover a,
+.row.sitemap-row.sitemap-blog h4 a:hover {
+  color: #26c6da;
+}
+.sitemap-secton-1 ul.webdevlopment-link li {
+  padding-bottom: 8px;
+}
+.sitemap-secton-1 ul.webdevlopment-link li a {
+  text-transform: uppercase;
+  color: #54595f;
+  font-weight: 400;
+  font-size: 16px;
+}
+.row.sitemap-row.sitemap-blog h4 a {
+  color: #54595f;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.row.sitemap-row.sitemap-blog ul li a {
+  color: #54595f;
+  font-size: 16px;
+  font-weight: 600;
+}
+.row.sitemap-row.sitemap-blog ul li:hover a {
+  color: #26c6da;
+}
+.sitemap-blog-content h2 {
+  font-weight: 600;
+}
+
+.sitemap-blog-content ul.sitemap-blog-link {
+  list-style: disc;
+  padding-left: 30px;
+}
+
+.sitemap-blog-content ul.sitemap-blog-link li a {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sitemap-blog-content ul.sitemap-blog-link li a:hover {
+  color: #fd4d92;
+}
+.sitemap-main-links {
+  padding-left: 25px;
+}
+ul.main-list-sub a.imp-link-heading {
+  padding-bottom: 3px !important;
+}
+ul.main-lists li a {
+  font-size: 20px;
+  color: #023575;
+  font-weight: 600;
+  font-family: var(--font-outfit);
+}
+ul.main-list-sub {
+  padding-bottom: 35px;
+}
+a.about-links {
+  padding-bottom: 1px !important;
+}
+ul.main-list-sub.about-gap {
+  padding-bottom: 29px;
+}
+ul.main-list-sub li > ul {
+  padding-left: 24px;
+}
+
+ul.main-list-sub li ul li a {
+  font-size: 16px;
+}
+
+ul.main-list-sub li > ul li > ul {
+  padding: 2px 0px 40px 25px;
+}
+ul.inner-listings.manage-content {
+  padding-bottom: 21px;
+}
+ul.main-list-sub li > ul li > ul li span {
+  font-size: 14px;
+  padding-top: 9px;
+  display: inline-block;
+  margin: 0px;
+  line-height: normal;
+}
+ul.main-list-sub li > ul li > ul li span:hover {
+  color: #0c93ff;
+}
+ul.main-list-sub li a:hover {
+  color: #0c93ff;
+}
+ul.main-lists h2 a:hover {
+  color: #0c93ff;
+}
+.linking-pages ul li ul li a {
+  position: relative;
+  color: #023575;
+}
+ul.main-list-sub.it-services a.it-links {
+  padding-bottom: 5px;
+}
+ul.main-list-sub > li > a {
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fd4d92;
+  font-weight: 700;
+  display: block;
+  padding-bottom: 20px;
+}
+.linking-pages .list-setting:before {
+  content: "\f0da";
+  font-family: "FontAwesome";
+  font-size: 16px;
+  font-weight: 900;
+  position: absolute;
+  left: -20px;
+  top: -2px;
+  margin: 0;
+  color: orange;
+}
+ul.inner-listings li a:before {
+  content: "\f0da";
+  font-family: "FontAwesome";
+  font-size: 16px;
+  font-weight: 900;
+  position: absolute;
+  left: -20px;
+  margin: 0;
+  color: orange;
+  top: 7px;
+}
+ul.inner-listings li a {
+  display: inline-block;
+}
+ul.menu-child li ul {
+  position: relative;
+  padding: 8px 0px 27px 25px;
+}
+ul.menu-child li ul li a {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  .sitemap-main-links {
+    padding-left: 0px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 767px) {
+  .sitemap-banner.py-5 {
+    min-height: 500px;
+    text-align: left;
+  }
+  .linking-home a {
+    justify-content: start;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+  .sitemap-content-section .row.sitemap-row {
+    flex-direction: row;
+  }
+  .sitemap-content-section .row.sitemap-row .col-md-4 {
+    width: 50%;
+  }
+}

@@ -1,0 +1,528 @@
+* {
+  box-sizing: border-box;
+}
+
+.Magentodev-section {
+  background: #f4f4f4;
+}
+.magento-solutions-left {
+  cursor: pointer;
+}
+.Magentobenifit-section .benifit-card {
+  background: linear-gradient(114.91deg, #fffbf2 6.97%, #ffffff 96.89%);
+  padding: 50px 22px;
+  transition: 0.46s ease-in;
+  height: 100%;
+  z-index: 1;
+  position: relative;
+  border-radius: 4px;
+}
+
+.Magentobenifit-section .benifit-card:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+  border-radius: 4px;
+  height: 5px;
+  background: linear-gradient(107.51deg, #ec9b00 23.99%, #fff 82.69%);
+}
+.benifit-card.benifit-two {
+  background: linear-gradient(116.3deg, #f2fbf9 4.01%, #ffffff 98.21%);
+}
+
+.benifit-card.benifit-two:after {
+  background: linear-gradient(107.51deg, #4bd099 23.99%, #fff 82.69%);
+}
+
+.benifit-card.benifit-three {
+  background: linear-gradient(116.18deg, #f9f8ff 3.58%, #ffffff 100%);
+}
+
+.benifit-card.benifit-three:after {
+  background: linear-gradient(107.51deg, #6471d7 23.99%, #fff 82.69%);
+}
+
+.benifit-card.benifit-four {
+  background: linear-gradient(115.16deg, #fff0f5 5.13%, #ffffff 98.53%);
+}
+
+.benifit-card.benifit-four:after {
+  background: linear-gradient(107.51deg, #c86485 23.99%, #ffffff 82.69%);
+}
+.magento-dev-process .no-space .col-lg-4 {
+  margin-top: -36px !important;
+}
+.magenteoplatform-sec .Platform-card {
+  box-shadow: 0 0 14px 2px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  padding: 20px 20px;
+  -webkit-box-align: ce;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  min-height: 100%;
+}
+
+.magenteoplatform-sec {
+  background: #faecec;
+}
+
+.magenteoplatform-sec .Platform-card p {
+  margin: 0;
+}
+
+.magenteoplatform-sec .Platform-card img {
+  max-width: 40px;
+}
+.Technologystack-section {
+  background: #eef0ff2b;
+}
+
+.Technologystack-section .techmolgy-box {
+  background: #e2e6fe96;
+  padding: 20px;
+  display: flex;
+  text-align: left;
+  border: 1px solid #e2e6fe;
+  border-radius: 16px;
+  justify-content: space-between;
+  min-height: 100%;
+}
+
+
+.Technologystack-section.ecommere-techno .row {
+  max-width: 100% !important;
+}
+.Technologystack-section .techmolgy-box a {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Technologystack-section .techmolgy-box h4 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.tech-box-one {
+  width: 100%;
+}
+.Technologystack-section .techmolgy-box li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding-bottom: 8px;
+  width: 50%;
+}
+.tech-box-one ul.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Technologystack-section .techmolgy-box li img {
+  width: 12px;
+  margin-top: 5px;
+}
+.mag-solution-icon img,
+.dynamic-img img {
+  max-width: 40px;
+}
+.Navigatesucess-section img {
+  max-width: 55px;
+}
+
+.Navigatesucess-section .Navigatesucess-box {
+  text-align: center;
+  padding: 20px;
+}
+.Navigatesucess-section .Navigatesucess-box .navigate-icon {
+  max-width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  background: #889ea136;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.Navigatesucess-section .Navigatesucess-box h5 {
+  color: #20a0b1;
+}
+.Whychoosemagento {
+  background: #ffffff;
+}
+.Navigatesucess-section {
+  background: #bdf6ff30;
+}
+
+.Whychoosemagento h5 {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.Whychoosemagento h5:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  background: #168b9a;
+  width: 11px;
+  height: 12px;
+  border-radius: 50px;
+}
+
+.Magentodiscover-section ul.magento-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 22px;
+  column-gap: 10px;
+}
+.Magentodiscover-section ul.magento-list li {
+  width: 48%;
+  position: relative;
+  z-index: 1;
+  padding-left: 21px;
+  font-size: 17px;
+}
+
+.Magentodiscover-section .row.why-chose {
+  align-items: center;
+}
+
+.Magentodiscover-section ul.magento-list li:before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  background: #20a0b1;
+  border-radius: 50px;
+  top: 8px;
+}
+section.magento-dev-details {
+  background: #fcfaf8;
+}
+section.magento-dev-details ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+section.magento-dropdown-section .magento-accord-heading {
+  font-size: 20px;
+  /* padding-bottom: 40px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  font-weight: 500 !important;
+  padding-top: 20px;
+  transition: all 0.4s ease-in-out;
+}
+section.magento-dropdown-section h4 {
+  font-size: 21px;
+  margin: 0;
+}
+section.magento-dropdown-section .magento-accord-heading h4 {
+  padding-bottom: 30px;
+}
+section.magento-dropdown-section .magento-dropdown.active h4 {
+  padding: 0;
+}
+section.magento-dropdown-section .magento-dropdown {
+  margin-top: 15px;
+  border-bottom: 1px solid #d1d1e1;
+}
+.magento-dropdown.active .magento-accord-heading {
+  padding-bottom: 30px;
+}
+section.magento-dropdown-section .magento-accord-heading span {
+  padding: 12px 15px;
+  border: 1px solid #d1d1e1;
+  color: #20a0b1;
+  transform: translateY(2px);
+  margin: 0;
+}
+section.magento-dropdown-section .magento-dropdown.active span {
+  border: 0 !important;
+  opacity: 0;
+  visibility: hidden;
+}
+.magento-dropdown.active .accContentMain.magento-accord-content {
+  padding-bottom: 40px;
+}
+
+.mag-solution-icon {
+  display: flex;
+}
+
+section.magento-dev-solution {
+  background: linear-gradient(
+    279.59deg,
+    rgba(135, 198, 250, 0.7),
+    rgba(195, 210, 249, 0.7) 62.02%,
+    hsla(51, 41%, 97%, 0.7)
+  );
+}
+
+section.magento-dev-solution .mag-solution-icon {
+  align-items: self-start;
+  gap: 13px;
+  background: #fff;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+section.magento-dev-solution .mag-solution-icon p {
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+section.magento-dev-solution .mag-solution-icon h4.mag-solution-controls {
+  font-size: 20px;
+}
+section.magento-dev-solution .magento-solutions-left.active .mag-solution-icon {
+  background: #168b9a33;
+}
+
+section.magento-dev-solution .dynamic-solutions {
+  padding: 25px;
+  background: #fff;
+  border-radius: 10px;
+  min-height: 100%;
+}
+
+section.magento-dev-solution .dynamic-solutions ul.related-items {
+  padding-top: 20px;
+}
+
+section.magento-dev-solution .dynamic-solutions ul.related-items ul li {
+  padding-bottom: 7px;
+}
+
+section.magento-dev-solution .dynamic-solutions ul.related-items li {
+  position: relative;
+  z-index: 1;
+  padding-left: 20px;
+  padding-bottom: 11px;
+}
+
+section.magento-dev-solution .dynamic-solutions ul.related-items li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  background: #000;
+  border-radius: 50px;
+}
+section.magento-dev-solution .main-magento {
+  margin-right: 1.5rem;
+  max-height: 475px;
+  overflow: auto;
+  padding-right: 1.875rem;
+  scrollbar-color: #168b9ac7 rgb(255 255 255 / 78%);
+  scrollbar-width: thin;
+}
+section.magento-dev-solution .dynamic-img {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+section.magento-dev-solution .dynamic-solutions h4.dynamic-heading {
+  font-size: 20px;
+  margin: 0;
+  color: #20a0b1;
+}
+section.magento-dev-details .mag-details-left {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 112px;
+  max-height: 400px;
+  overflow-y: scroll;
+  padding-right: 30px;
+}
+section.magento-dev-details .mag-details-left h4 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 20px;
+  cursor: pointer;
+}
+section.magento-dev-details .tab-content {
+  box-shadow: unset;
+  padding: 0;
+  background-color: transparent;
+}
+section.magento-dev-solution p.dynamic-content {
+  margin: 0;
+}
+section.magento-dev-details .mag-details-left h4.active {
+  color: #20a0b1;
+  text-decoration: underline;
+}
+section.magento-dev-details .tab-content h4 {
+  font-size: 22px;
+}
+section.magento-dev-details .mag-details-left::-webkit-scrollbar {
+  width: 6px;
+  height: 85px;
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+section.magento-dev-details .mag-details-left::-webkit-scrollbar-track {
+  background: rgba(110, 109, 134, 0.15);
+  border-radius: 5px;
+}
+
+section.magento-dev-details .mag-details-left::-webkit-scrollbar-thumb {
+  background: #00BCD4;
+  border-radius: 10px;
+}
+section.magento-dev-details .mag-details-left::-webkit-scrollbar-thumb:hover {
+  background: #8b8b8b73;
+}
+section.magento-dev-details div#right-scroll p {
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+@media (max-width:991px) and (min-width:767px){
+  .Whychoosemagento .right-content {
+    min-height: 500px;
+    max-height: 500px;
+    overflow: auto;
+}
+.row.why-chose.align-items-center {
+  align-items: start !important;
+}
+}
+@media (max-width: 1399px) {
+}
+@media (max-width: 1199px) {
+  .Magentodiscover-section ul.magento-list li {
+    font-size: 14px;
+  }
+  .Navigatesucess-section .Navigatesucess-box h5 {
+    font-size: 20px;
+}
+}
+@media (max-width: 991px) {
+  .magenteoplatform-sec .Platform-card {
+    padding: 20px 15px;
+    gap: 14px;
+  }
+
+  .Technologystack-section .techmolgy-box h4 {
+    font-size: 20px;
+  }
+  .Technologystack-section .techmolgy-box {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .tech-box-one {
+    padding: 0 0px;
+    width: 100%;
+  }
+
+  .Technologystack-section .techmolgy-box li {
+    gap: 5px;
+  }
+  section.magento-dropdown-section img {
+    display: none;
+  }
+  section.magento-dropdown-section p.mb-4 {
+    margin: 0 !important;
+  }
+  section.magento-dropdown-section
+    .magento-accordian
+    .magento-dropdown.active:nth-child(1)
+    .magento-accord-heading {
+    padding-bottom: 10px;
+  }
+  section.magento-dropdown-section
+    .magento-accordian
+    .magento-dropdown.active:nth-child(1) {
+    margin-top: 0;
+  }
+  section.magento-dropdown-section .magento-service-heading {
+    text-align: center;
+  }
+  .magenteoplatform-sec .Platform-card{
+    align-items: start;
+  }
+}
+@media (max-width: 767px) {
+  .Magentodev-section,
+  .Magentobenifit-section {
+    text-align: center;
+  }
+  section.magento-dev-details .mag-details-left {
+    margin-bottom: 30px;
+  }
+
+  .Technologystack-section .row {
+    max-width: 575px;
+    margin: 0 auto;
+  }
+  .Whychoosemagento .row.why-chose,
+  .Magentodiscover-section .row.why-chose {
+    flex-direction: column-reverse;
+  }
+  .Magentodiscover-section img {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  section.magento-dev-solution .main-magento {
+    margin-right: 0;
+    max-height: 100%;
+    overflow: hidden;
+    padding-right: 0;
+  }
+  section.magento-dev-solution .dynamic-solutions {
+    margin-top: 30px;
+  }
+  .Technologystack-section .heading-main h2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  section.magento-dropdown-section h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  section.magento-dropdown-section .magento-accord-heading h4 {
+    padding-bottom: 15px;
+  }
+  .Technologystack-section .techmolgy-box li {
+    width: 100%;
+}
+}
+@media (max-width: 479px) {
+  .Technologystack-section .techmolgy-box {
+    max-width: 100%;
+  }
+}
+@media (max-width: 391px) {
+  .Technologystack-section .techmolgy-box li {
+    width: 100%;
+  }
+  }
+@media (max-width: 767px) and (min-width: 576px) {
+  .magenteoplatform-sec .Platform-card {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

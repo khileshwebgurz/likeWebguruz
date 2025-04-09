@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+.Ourdtc-section {
+    background: #e3e3e382;
+    position: relative;
+    background-image: url(/images/features-bg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Ourdtc-section .ourppc-card {
+    background: #fff;
+    padding: 30px 25px;
+    min-height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+.Ourdtc-section .ourppc-card h4 {
+    font-size: 24px;
+}
+.Ourdtc-section .ourppc-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Ourdtc-section .ourppc-card img {
+    max-width: 50px;
+    margin-bottom: 20px;
+}
+/* .Marketing-section-start */
+.Marketing-section img , .Whychooseppc img , .Ecommerceagency-section img{
+width:  55px;
+margin-bottom: 20px;
+}
+.marketing-icon-section{
+    text-align: center;
+}
+.Marketing-section {
+    background: #fff0c469;
+}
+.ecommerce-ppc-process .no-space .col-lg-4 {
+    margin-top: -31px;
+}
+/* Whychooseppc-section-start */
+.Whychooseppc {
+    background: #F5F7FE;
+}
+
+.Whychooseppc .whyppc-card:hover {
+    background: #fff;
+    border-color: transparent;
+}
+.Whychooseppc .whyppc-card {
+    padding: 30px 25px;
+    border: 1px solid #ABAAAA;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    min-height: 100%;
+}
+.Whychooseppc .whyppc-card:hover .ppc-icon {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Whychooseppc .whyppc-card .ppc-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 50px;
+    /* border: 1px solid #25c1d5; */
+    transition: all .3s ease-in-out;
+}
+
+.Whychooseppc .whyppc-card .ppc-icon img {
+    margin: 0;
+}
+.Ecommerceagency-section .ecommerce-agency-card {
+    text-align: center;
+}
+/* .Ecommerceagency-section-start */
+
+.Ecommerceagency-section h5{
+    font-size: 20px;
+}
+@media (min-width:768px){
+    .Whychooseppc .row.whychooseppc-row {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .Ecommerceagency-section .ecommerce-agency-card {
+        text-align: left;
+    }
+}
+@media (max-width:992px) and (min-width:768px){
+    .Ourdtc-section .ourppc-card {
+        padding: 30px 10px;
+       
+    }
+}
+@media (max-width:768px) and (min-width:576px){
+    .Marketing-section .row .col-md-3 {
+        width: 50%;
+    }
+    
+    .Marketing-section .row {
+        flex-direction: row;
+    }
+}
+@media (max-width:576px)
+{
+
+    section.counter-main.ecommerce-ppc-counter label {
+        min-height: 100%;
+        margin: 0;
+    }
+    
+    
+    section.counter-main.ecommerce-ppc-counter .col.col-xs-12:nth-child(1),
+    section.counter-main.ecommerce-ppc-counter .col.col-xs-12:nth-child(2) {
+        margin-bottom: 25px;
+      }
+}

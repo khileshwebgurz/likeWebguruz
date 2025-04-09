@@ -1,0 +1,319 @@
+ul.roi-list {
+    column-count: 2;
+    display: block;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+ul.roi-list li {
+    position: relative;
+    z-index: 1;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+ul.roi-list li::before {
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url('/images/revoppsimage/points-1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* offer-section-start */
+.revoffer-section {
+    position: relative;
+    z-index: 1;
+}
+.revoffer-section .offer-card img {
+    max-width: 52px;
+    transition: all 0.8s ease-out;
+}
+.revoffer-section .offer-card .offer-img {
+    width: 100%;
+    max-width: 70px;
+    height: 70px;
+    background: #12A8E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    transition: all 0.8s ease-out;
+}
+.revoffer-section .offer-card:hover .offer-img {
+    background: #ffffff;
+} 
+.revoffer-section .offer-card:hover img {
+    filter: contrast(0);
+}
+.revoffer-section .offer-card  h3 {
+    margin-bottom: 15px;
+}
+.revoffer-section .offer-card p {
+    margin: 0;
+}
+.revoffer-section .row .col-md-4:nth-child(2) {
+    margin-top: -50px;
+}
+.revoffer-section .row .col-md-4 {
+    padding: 0;
+}
+.revoffer-section .row .col-md-4:nth-child(2) .offer-card {
+    min-height: auto;
+}
+.row.revoffer-row {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.revoffer-section:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(/images/revoppsimage/offerbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+}
+.revoffer-section .offer-card {
+    padding: 40px;
+    border: 1px solid #EBEBEB;
+    box-shadow: #12a8e33d 0 0 4px;
+    min-height: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    transition: all 0.8s ease-out;
+    overflow: hidden;
+}
+
+.revoffer-section .offer-card:hover h3 , .revoffer-section .offer-card:hover p {
+    color: #fff;
+}
+.revoffer-section .offer-card:hover{
+    border-color: #00a5df !important;
+}
+.revoffer-section .offer-card h3, .revoffer-section .offer-card p {
+    transition: all 0.8s ease-out;
+}
+.revoffer-section .offer-card:after {
+    content: "";
+    left: 0;
+    z-index: -1;
+    width: 200%;
+    height: 200%;
+    right: -50%;
+    position: absolute;
+    top: -50%;
+    background-color: #00a5df;
+    border-radius: 50%;
+    transition: all 0.8s ease-out;
+    opacity: 0;
+    transform: translate3d(62%, -62%, 0);
+}
+
+.revoffer-section .offer-card:hover:after {
+    transition: all 0.8s ease-out;
+    opacity: 1;
+    border-radius: 40%;
+    transform: translate3d(-12.5%, 12.5%, 0);
+}
+/* end */
+/* revbussiness-start */
+.Revopps-bussiness-section .bussines-circle {
+    text-align: center;
+    padding: 10px;
+}
+.Revopps-bussiness-section {
+    background: #efefef9e;
+}
+.Revopps-bussiness-section .bussines-circle .buusiness-img {
+    width: 100%;
+    height: 104px;
+    max-width: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 100%;
+    position: relative;
+    background: radial-gradient(181.62% 198.2% at 127.35% 100%, #734AD8 19.93%, #0092F3 91.67%);
+}
+
+.Revopps-bussiness-section .bussines-circle .buusiness-img img {
+    max-width: 55px;
+}
+
+.bussiness-circle-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    position: relative;
+    background: radial-gradient(181.62% 198.2% at 127.35% 100%, #734ad8 19.93%, #0092f3 91.67%);
+    padding: 10px;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.Revopps-roi-section p{
+    margin-bottom: 15px;
+}
+.bussiness-circle-border:after {
+    position: absolute;
+    content: "";
+    height: calc(100% - 5px);
+    width: calc(100% - 5px);
+    background: #fff;
+    border-radius: 100%;
+    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+}
+/* end */
+
+/* talk-start */
+.revotalk-section {
+    background: #b0b7fc26;
+}
+.revotalk-section p {
+    margin-bottom: 16px;
+}
+/* end */
+/* .revo-result-section */
+.revo-result-section .result-main {
+    min-height: 100%;
+}
+
+.revo-result-section .result-main h3 {
+    font-size: 72px;
+    color: #F2055C;
+    line-height: 72px;
+    font-style: italic;
+}
+
+.revo-result-section .result-content {
+    padding: 20px;
+    background: #11EAFB;
+    margin-top: 40px;
+    min-height: 100%;
+    height: 100%;
+}
+
+.revo-result-section .result-content h4 {
+    color: #0B105B;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 130px;
+    margin: 0;
+}
+
+.manualvalue-section.revops-why-choose {
+    background: #efefef4a;
+}
+.manualvalue-section.revops-why-choose p {
+    margin-bottom: 16px;
+}
+.manualvalue-section.revops-why-choose .manualvalue-card {
+    border-color: #d2d2d2;
+    background: #fff;
+}
+@media(min-width:992px){
+    .manualvalue-section.revops-why-choose .manualvalue-card.first-choose-card {
+        min-height: auto;
+    }
+
+}
+@media(min-width:1199px){
+    ul.roi-list li {
+        font-size: 16px;
+      }
+}
+@media(max-width:1199px){
+ 
+    .revo-result-section .result-main h3 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+}
+@media(max-width:991px){
+    .revoffer-section .offer-card {
+        padding: 40px 20px;
+}
+.Revopps-bussiness-section .bussines-circle .buusiness-img {
+    height: 90px;
+    max-width: 90px;
+}
+.Revopps-bussiness-section .bussines-circle .buusiness-img img {
+    max-width: 50px;
+}
+.bussiness-circle-border{
+    height: 120px;
+    max-width: 120px;
+}
+.revo-result-section .result-main h3 {
+    font-size: 48px;
+    line-height: 48px;
+}
+.revo-result-section .result-content{
+    margin-top: 25px;
+}
+.Revopps-roi-section img {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+}
+@media(max-width:767px){
+    .revoffer-section .row .col-md-4:nth-child(2) {
+        margin-top: 0;
+    }
+    .Revopps-roi-section .heading-main h2, .Revopps-roi-section .heading-main p, 
+    .revoffer-section .offer-card , .revotalk-section , .revo-result-section .heading-main{
+        text-align: center;
+    }
+    .revoffer-section .offer-card .offer-img {
+        margin: 0 auto;
+        margin-bottom: 22px;
+    }
+    .row.revoffer-row{
+        margin-top: 10px;
+    }
+    .revoffer-section:after{
+        height: 100%;
+    }
+    .revo-result-section .result-content {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .revo-result-section .result-content h4{
+        min-height: auto;
+    }
+    .revo-result-section .col-md-8 .row .col-md-6.col-12:last-child .result-content {
+        margin-bottom: 0;
+    }
+}
+@media(max-width:576px){
+    ul.roi-list{
+        column-count: 1;
+    }
+    ul.roi-list li {
+        padding-left: 35px;
+    }
+}

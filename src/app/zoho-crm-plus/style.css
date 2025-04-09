@@ -1,0 +1,273 @@
+ul.roi-list {
+    column-count: 2;
+    display: block;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+ul.roi-list li {
+    position: relative;
+    z-index: 1;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+ul.roi-list li::before {
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url('/images/revoppsimage/points-1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.zohocrm-section h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.zohocrm-section .heading-main ul li p {
+    text-align: left;
+}
+
+.zohocrm-section p {
+    margin-bottom: 16px;
+}
+.zohocrm-section .row {
+    align-items: center;
+}
+/* zoho-process-start */
+.zohoprocess-section {
+    background: #f2fff680;
+}
+
+.zohoprocess-section li {
+    position: relative;
+    z-index: 1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+}
+
+.zohoprocess-section li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 32px;
+    height: 30px;
+    background-image: url('/images/zohocrmimages/check-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.process-list ul {
+    padding: 20px 0;
+}
+
+.zohoprocess-section .contact-btn a {
+    background-color: #20a0b1;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out 0s;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+    margin: 0px;
+    color: #fff;
+}
+
+.zohoprocess-section .contact-btn {
+    margin-top: 24px;
+}
+
+.benfit-list ul li {
+    padding-bottom: 15px;
+    list-style: inside;
+}
+.zohobenifit-section .row.zoho-row img {
+    height: 500px;
+    background: #009688;
+    border-radius: 10px;
+}
+/* end */
+/* zohoservices */
+.zohoservices-section {
+    background: #E5F0F9;
+}
+
+.zohoservices-section .services-img {
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+    background: #EAF7FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.zohoservices-section .services-img img {
+    max-width: 65px;
+}
+
+.zohoservices-section .services-card p {
+    margin: 0;
+}
+
+.zohoservices-section .services-card {
+    background: #fff;
+    box-shadow: #9990642e 0 0 20px;
+    padding: 30px 18px;
+    text-align: center;
+    transition: all .4s ease-out;
+}
+
+.zohoservices-section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.zohoservices-section .services-card:hover {
+    transform: translateY(-10px);
+    background: #00a0af;
+}
+
+.zohoservices-section .services-card:hover h3,
+.zohoservices-section .services-card:hover p {
+    color: #fff;
+}
+
+.zohoservices-section .services-card h3,
+.zohoservices-section .services-card p,
+.zohoservices-section .services-img {
+    transition: all .4s ease-out;
+}
+
+.zohoservices-section .services-card:hover .services-img {
+    background: #fff;
+}
+.zohochoose-section {
+    background: #E5F0F9;
+}
+
+.zohochoose-section img {
+    max-width: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+.zohochoose-section 
+ .choose-card {
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    border: 1px solid #C9E9FF;
+    min-height: 100%;
+    overflow: hidden;
+    transition: all .4s ease-out;
+}
+.zohochoose-section .choose-card:hover {
+    background: #fff0e5;
+    transform: scale(1.05);
+}
+/* end */
+
+.zohomodel-section .model-card {
+    padding: 30px;
+    background: #fff;
+    box-shadow: #00000021 0 0 20px;
+    border-radius: 10px;
+    min-height: 100%;
+    transition: all .4s ease-out;
+}
+
+.zohomodel-section .model-card img {border-radius: 20px;}
+
+.zohomodel-section .model-card h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.zohomodel-section .model-card:hover img {
+    transform: scale(1.05);
+}
+.model-img {
+    overflow: hidden;
+}
+.zohomodel-section .model-card img {
+    border-radius: 20px;
+    transition: all .4s ease-out;
+}
+.zohomodel-section .model-card p {
+    margin: 0;
+}
+@media(min-width:1199px) {
+    ul.roi-list li {
+        font-size: 16px;
+    }
+
+    .zohoservices-section .services-card p {
+        font-size: 16px;
+    }
+}
+
+@media(min-width:768px) {
+    .zohoprocess-section .row {
+        flex-direction: row-reverse;
+    }
+    .zohomodel-section .model-card img {
+        height: 380px;
+    }
+}
+@media(max-width:991px) {
+    .zohochoose-section .choose-card {
+        text-align: center;
+        padding: 30px;
+    }
+    .zohocrm-section .revopps-img img {
+        max-width: 650px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media(max-width:767px) {
+
+    .zohocrm-section .heading-main h2,
+    .zohocrm-section .heading-main p , .zohomodel-section .model-card {
+        text-align: center;
+    }
+    .zohochoose-section .choose-card:hover {
+        transform: translateY(-4px);
+    }
+}
+
+@media(max-width:576px) {
+    ul.roi-list {
+        column-count: 1;
+    }
+    .zohobenifit-section .row.zoho-row img {
+        height: auto;
+    }
+    ul.roi-list li {
+        padding-left: 35px;
+    }
+
+    .zohocrm-section p {
+        margin-bottom: 10px;
+    }
+}

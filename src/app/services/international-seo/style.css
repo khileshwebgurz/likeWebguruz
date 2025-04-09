@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+.internal-card {
+  text-align: center;
+}
+
+section.international-tabs .nav-link.active {
+  background: #168b9a;
+  color: #ffffff;
+  box-shadow: unset;
+  border-radius: 0;
+}
+section.international-tabs .package-phases.new-international-phase {
+  padding: 0;
+}
+section.international-tabs .nav-link {
+  font-weight: 500;
+  color: #383838;
+}
+section.international-tabs .tab-sidebar.internet-tab-column {
+  padding: 0;
+}
+section.international-tabs .nav.nav-pills {
+  background: #fff;
+  box-shadow: #00000029 0 0 10px;
+  padding: 20px;
+}
+section.international-tabs .row.align-items-center {
+  background: #f0a8a8;
+}
+section.international-tabs .tab-content {
+  box-shadow: unset;
+  background: transparent;
+  padding: 0 30px;
+
+}
+section.international-tabs .nav-link {
+  text-align: center;
+}
+section.international-tabs {
+  background: #cefaff24;
+}
+.Internalseo-section {
+  background: #f0f0f05e;
+}
+.packages-content {
+  text-align: center;
+}
+.international-stratergy:before {
+  content: "";
+  background: #ffffff;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #fff !important;
+}
+.Smallbussinesseo-sec.international-choice {
+  background-image: url(/images/hubspotimages/hubspot-banner-outside.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.Smallbussinesseo-sec.international-choice:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #22222205;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+}
+.international-stratergy .linecenter {
+  height: 760px;
+}
+
+@media (max-width: 991px) {
+  .international-stratergy span.nmmb {
+    margin: 0;
+    width: 64px;
+    height: 64px;
+  }
+  .international-stratergy .qstbox.left,
+  .international-stratergy .qstbox.right {
+    margin: 15px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .internal-card,
+  .packages-content {
+    text-align: left;
+  }
+  section.international-tabs h3 {
+    display: none;
+  }
+  .internet-tab-column {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  section.international-tabs .flex-column.nav.nav-pills {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  section.international-tabs .nav-link.active {
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .international-stratergy .qstbox.left,
+  .international-stratergy .qstbox.right {
+    padding-left: 85px;
+  }
+  #hbstdvlpmnt.international-stratergy {
+    padding: 50px 0;
+  }
+  section.international-tabs .tab-content{
+    padding-bottom: 30px;
+  }
+}
+
+@media(max-width:576px){
+  section.counter-main.international-counter label {
+    min-height: 100%;
+}
+
+section.counter-main.international-counter .col.col-xs-12:last-child {
+    margin-top: 25px;
+}
+}

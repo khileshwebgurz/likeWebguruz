@@ -1,0 +1,325 @@
+.logo-card, .team-sub-card {
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+.connect-card, .contact-card, .icon-content.forward, .logo-card, .team-sub-card, .team-sub-card h4, .team-sub-card::before {
+    transition: .3s ease-in-out;
+}
+.team-card {
+    background-color: #fafafa;
+}
+.py-8 {
+    padding: 70px 0;
+}
+button.explore-btn {
+    border-radius: 50px;
+}
+.explore-btn.no-color {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.team-sub-card {
+    border-top: 2px solid #168b9a;
+    padding: 50px 16px 16px;
+    background-color: #fff;
+    box-shadow: 0 0 24px rgb(0 0 0 / 8%);
+    max-width: 440px;
+    margin: auto;
+    position: relative;
+}
+.team-sub-card:hover {
+    box-shadow: none;
+}
+.team-sub-card h4 {
+    position: absolute;
+    top: -23px;
+    background-color: #168b9a;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 10px;
+    border-radius: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 85%}
+.team-sub-card:hover h4 {
+    box-shadow: 0 6px 0 #000;
+}
+.icon-content.forward {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border: 1px solid #eaf5ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.icon-content.forward:hover h5 {
+    color: #168b9a;
+}
+.icon-content.forward span.tag {
+    background-color: #20a0b1;
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    display: inline-block;
+}
+.icon-content.forward .content h5 {
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.icon-content.forward .icon img {
+    width: 100%}
+.icon-content.forward .icon {
+    width: 30%;
+    padding-right: 30px;
+}
+.icon-content.forward .content {
+    width: 70%}
+.contact-card img {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+}
+.contact-card {
+    border: 1px solid #168b9a;
+    border-radius: 8px;
+    position: relative;
+}
+.contact-card:hover {
+    box-shadow: 0 -5px 1px #168b9a inset;
+}
+.team-sub-card:hover::before {
+    opacity: 1;
+}
+.team-sub-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #168b9a;
+    top: 0;
+    border-top: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+
+.talent .btn-merge button, .talent .btn-merge a{
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #25c1d5;
+    max-width: 340px;
+    padding :12px 8px;
+    text-align: center;
+}
+.talent .btn-merge a.explore-btn.job-apply {
+    background-color: transparent;
+    color: #25c1d5;
+    transition: .3s ease-in-out;
+    text-align: center;
+}
+.talent .btn-merge a.explore-btn.job-apply:hover {
+    background-color: #25c1d5;
+    color: #fff;
+}
+.connect-card img {
+    width: 48px;
+    margin-bottom: 20px;
+}
+.connect-card {
+    background-color: #fbfbfb;
+    border-radius: 12px;
+    height: 100%}
+.connect-card:hover {
+    box-shadow: 0 -4px 0 #383838 inset;
+}
+.iframe-map iframe {
+    width: 100%;
+    min-height: 470px;
+}
+.contact-banner {
+    background-image: url(/images/contactimages/contactbannerbg.webp);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-banner h2 {
+    font-size: 54px;
+    font-weight: 400;
+}
+.contact-banner p {
+    margin: 12px 0 22px;
+}
+.addspartnr h3.color-wt {
+    color: #fff;
+}
+.logo-card img {
+    width: 100%;
+    max-width: 203px;
+    height: 102px;
+    object-fit: contain;
+    padding: 12px;
+}
+.logo-card {
+    border: 1px solid #f0f0f0;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.logo-card:hover {
+    box-shadow: 0 3px 4px #9191911c;
+}
+.talent .contact-card button {
+    border: none;
+    background: transparent;
+}
+
+/* 4-3-2025 team-section */
+section.team-card.team-card-new {
+    background-image: url(/images/contactimages/contact-us-bg-new.webp);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+section.team-card.team-card-new h4 {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    background: transparent;
+    color: #54595f;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    font-family: "Poppins", Sans-serif;
+}
+
+section.team-card.team-card-new .team-sub-card {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: unset;
+    max-width: 500px;
+}
+section.team-card.team-card-new .team-sub-card::before {
+    content: unset !important;
+}
+
+section.team-card.team-card-new .team-sub-card:hover h4 {
+    box-shadow: unset !important;
+}
+section.team-card.team-card-new .team-sub-card p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000000bf;
+    line-height: 38px;
+    font-weight: 500;
+    font-family: "Poppins", Sans-serif;
+}
+section.team-card.team-card-new .team-sub-card h3 {
+    color: #000;
+    margin-bottom: 10px;
+    font-family: "Poppins", Sans-serif;
+    line-height: 45px;
+}
+@media(max-width: 991px){
+    .iframe-map iframe {
+        min-height: 330px;
+    }
+    section.talent .talent-btn .btn-merge {
+        padding-right: 0px !important;
+        margin-right: 0px !important;
+    }
+    section.talent.talent-new .talent-cards .row {
+        margin: 0;
+        row-gap: 25px;
+    }
+}
+@media(max-width:767px) {
+    .contact-banner h2 {
+    font-size: 38px;
+    line-height: 38px;
+}
+.talent .talent-btn .btn-merge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.talent-cards .row >div {
+    width: auto;
+    flex: auto;
+    max-width: 100%;
+}
+.team-card {
+    padding-top: 80px !important;
+}
+.icon-content.forward .icon {
+    padding: 0 0 20px;
+    width: 100%}
+.icon-content.forward .content {
+    width: 100%}
+.team-sub-card {
+    margin: auto auto 30px;
+}
+.contact-card, .talent-btn {
+    margin-bottom: 20px;
+}
+.icon-content.forward {
+    flex-direction: column;
+    text-align: center;
+}
+.btn-merge.pe-4.me-4 {
+    margin: 0!important;
+    padding: 0!important;
+    text-align: center;
+}
+.connect-level .col-sm-4 {
+    width: 50%;
+    flex: auto;
+}
+.contact-logo .container>.row:nth-child(2)>div {
+    width: 50%}
+.contact-logo .container>.row:nth-child(2) {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section.team-card.team-card-new .team-sub-card{
+    max-width: 100%;
+}
+section.team-card.team-card-new .team-sub-card p {
+    font-size: 16px;
+    line-height: 30px;
+
+}
+section.team-card.team-card-new .team-sub-card h3 {
+    font-size: 18px;
+    line-height: 34px;
+}
+section.team-card.team-card-new h4 {
+    font-size: 28px;
+ line-height: 30px;
+}
+}@media(max-width:575px) {
+    .connect-level .col-sm-4 {
+    width: 100%;
+    flex: auto;
+}
+.connect-card {
+    height: auto;
+    margin-bottom: 22px;
+}
+.iframe-map iframe {
+    min-height: 230px;
+}
+.contact-logo .container>.row:nth-child(2)>div {
+    width: 100%}
+    .talent-cards .row >div {
+     width: 100%;
+     max-width: 100%;
+    }
+
+}

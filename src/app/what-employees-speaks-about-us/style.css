@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+.Empolyeabout-section {
+  background-image: url(/images/empolyeimages/empolybg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+}
+.Empolyeabout-section .empolye-img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.Empolyeabout-section .empolye-img img {
+  padding: 0 20px;
+}
+.comment-section {
+  display: flex;
+  padding: 54px 20px;
+  background-image: url(/images/empolyeimages/comment-img.webp);
+  background-repeat: no-repeat;
+  min-height: 325px;
+  background-position: bottom;
+  align-items: center;
+  justify-content: center;
+}
+.comment-details {
+  display: flex;
+  gap: 16px;
+  padding: 0 40px;
+}
+.comment-user-img {
+  width: 80px;
+}
+
+.comment-user-img img {
+  width: 80px;
+  height: auto;
+}
+
+.Empolyespeak-section img {
+  max-width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.Empolyespeak-section .speak-card {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  position: relative;
+  min-height: 100%;
+  padding-top: 45px;
+  transition: all 0.5s ease-in-out;
+}
+
+.Empolyespeak-section .speak-user {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+}
+.Empolyespeak-section .speak-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-color: #fff;
+}
+
+.Empolyeabout-quote-content {
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+  background: url(/images/empolyeimages/mid.webp);
+  background-size: 100%;
+  align-items: flex-start;
+  padding-bottom: 0%;
+}
+.Empolyeabout-quote-content img {
+  max-width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+.Empolyespeak-section h2,
+.Empolyespeak-section h5 {
+  text-transform: capitalize;
+}
+@media (max-width: 767px) {
+  .Empolyeaboutquote {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .empolye.content a.explore-btn {
+    font-size: 15px;
+  }
+  .Empolyeabout-quote-content {
+    gap: 15px;
+  }
+}

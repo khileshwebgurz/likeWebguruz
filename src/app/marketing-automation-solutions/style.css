@@ -1,0 +1,241 @@
+.marketing-box {
+    display: flex;
+    flex-direction: column;
+    background: #2d48ad;;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    min-height: 100%;
+    transition: all .4s ease-out;
+}
+
+.marketing-box img {
+    max-width: 100px;
+}
+.marketing-box .marketing-img {
+    margin-bottom: 20px;
+}
+.marketing-service {
+    position: relative;
+    background: #2d48ad2b;
+}
+.marketing-box p , .marketing-box h5 , .marketing-box h4 {
+    color: #fff;
+}
+.marketing-box:hover {
+    background: #2196F3;
+}
+.marketing-box h4 {
+    margin-bottom: 15px;
+}
+.marketing-box p {
+    margin: 0;
+}
+.row.marketing-row .box-1 .marketing-box {
+    justify-content: center;
+}
+.marketing-growth-scale .row:nth-child(2) {
+    margin-top: 60px;
+    row-gap: 80px;
+}
+.two-box .marketing-box {
+    min-height: 320px;
+}
+.row.marketing-row .two-box .marketing-box:nth-child(2) {
+    margin: 0;
+}
+.marketing-growth-scale .seo-card {
+    min-height: 100% !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+ul.marketing-brand-list {
+    display: block;
+    column-count: 2;
+}
+.marketing-brand .marketing-brand-img {
+    min-height: 100%;
+    height: 100%;
+}
+.marketing-brand-img img {
+    height: 100%;
+    object-fit: fill;
+}
+ul.marketing-brand-list li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    z-index: 1;
+    background-image: url(/images/marketingautomationimg/auto-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 21px;
+    background-position: left 12px;
+}
+ul.marketing-brand-list li:hover a{
+    text-decoration: underline;
+}
+ul.marketing-brand-list li a {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.marketing-cap {
+    background: #f2fafb9e;
+}
+
+.marketing-cap .maket-cap-box {
+    text-align: center;
+    padding: 10px;
+}
+
+.marketing-cap .maket-cap-box img {
+    max-width: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+.marketing-cap .maket-cap-box h4 {
+    margin: 15px 0;
+}
+
+.marketing-cap .maket-cap-box p {
+    margin: 0;
+}
+section.marketing-growth-working {
+    background: rgb(0,29,111);
+    background: linear-gradient(0deg, rgba(0,29,111,1) 0%, rgba(0,95,155,1) 100%);
+}
+
+section.marketing-growth-working img {
+    max-width: 100px;
+}
+
+.market-work-boxes {
+    text-align: center;
+    min-height: 100%;
+    padding: 20px;
+}
+
+.market-work-boxes .makret-work-content {
+    margin-top: 10px;
+}
+
+section.marketing-growth-working h2, section.marketing-growth-working h2 span , section.marketing-growth-working p {
+    color: #fff;
+}
+.talent-growth-content {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #00000026;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    transition: all .4s ease-out;
+}
+section.market-grow-talent .grow-talent-left img {
+    background: #00a0af;
+}
+section.market-grow-talent .row {
+    align-items: center;
+}
+.talent-growth-content p {
+    margin: 0;
+}
+
+.talent-growth-content:hover {
+    border-color: #00a0af;
+}
+section.market-grow-talent .talent-growth-content .talent-img {
+    width: 100%;
+    max-width: 50px;
+}
+section.marketing-growth-working p {
+    margin: 0;
+    margin-top: 25px;
+}
+.marketing-growth-banner img {
+    background: #00c1d33b;
+}
+@media(min-width: 768px) {
+    .marketing-brand .row {
+        flex-direction: row-reverse;
+
+    }
+}
+@media(max-width:1024px){
+    .two-box .marketing-box {
+        min-height: 310px;
+    }
+    .marketing-box p,  .marketing-box h4 {
+        margin: 0;
+    }
+    .marketing-box img {
+        max-width: 65px;
+    }
+}
+@media(max-width:991px){
+    .two-box .marketing-box {
+        min-height: auto;
+    }
+
+}
+@media(max-width:767px){
+    ul.marketing-brand-list {
+        margin-top: 25px;
+    }
+    .marketing-brand h2, .marketing-brand p {
+        text-align: center;
+    }
+    .marketing-service .marketing-box {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .marketing-service .box-1 {
+        margin-bottom: 0 !important;
+    }
+    section.marketing-growth-working .row .col-md-4.col-12 {
+        width: 33%;
+        text-align: center;
+        padding: 0 !important;
+    }
+    section.marketing-growth-working .row {
+        flex-direction: row;
+        margin: 0;
+        text-align: center;
+    }
+    .market-work-boxes {
+        text-align: center;
+        min-height: 100%;
+        padding: 0;
+    }
+    section.market-grow-talent .row.market-talent-row {
+        flex-direction: column-reverse;
+    }
+    section.market-grow-talent .row.market-talent-row .col-md-6 .talent-growth-content:last-child {
+        margin-bottom: 0;
+        border: 0;
+    }
+}
+
+
+@media(max-width:576px){
+    ul.marketing-brand-list {
+        column-count: 1;
+    }
+    .marketing-cap .maket-cap-box img {
+        max-width: 85px;
+    }
+    section.marketing-growth-working img {
+        max-width: 80px;
+    }
+    section.marketing-growth-working img {
+        max-width: 60px;
+    }
+    .marketing-service  .row.marketing-row  .marketing-box {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

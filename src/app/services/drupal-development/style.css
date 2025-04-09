@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+}
+/* drupalservices-section start */
+.drupalservices-section {
+  background: rgb(245, 247, 254);
+  background: linear-gradient(
+    0deg,
+    rgba(245, 247, 254, 1) 0%,
+    rgba(247, 252, 255, 1) 100%
+  );
+}
+.drupal-banner span.dot {
+    margin-bottom: 15px;
+    display: block;
+}
+.drupalservices-section img {
+  max-width: 35px;
+  transition: all 0.4s ease-in-out;
+}
+.drupalservices-section h4,
+.drupalservices-section p {
+  transition: all 0.4s ease-in-out;
+}
+.drupalservices-section .drupal-icon {
+  background: #349cdd;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.4s ease-in-out;
+
+  position: relative;
+  overflow: hidden;
+}
+.drupalservices-section .drupal-card:hover h4,
+.drupalservices-section .drupal-card:hover p {
+  color: #fff;
+}
+.drupalservices-section .drupal-card:hover .drupal-icon img {
+  filter: brightness(10) invert(1);
+}
+.drupalservices-section .drupal-card {
+  border-radius: 48px 8px;
+  border: 1px solid var(--neutral-n-700, #e2e2e2);
+  background: var(--extremes-white, #fff);
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 100%;
+  padding: 20px 24px 35px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  transition: all 0.4s ease-in-out;
+
+  position: relative;
+  z-index: 1;
+  min-height: 100%;
+}
+.drupalservices-section h4 {
+  font-size: 22px;
+}
+.drupalservices-section .drupal-card:hover .drupal-icon {
+  background: #fff;
+}
+.drupalservices-section .drupal-card:hover:after {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+.drupalservices-section .drupal-card:after {
+  content: "";
+  background: #349cdd;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: 48px 8px;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+/* end */
+.Drupalwedo-section .Drupalwedo-section .icon img {
+  max-width: 60px;
+}
+.dicovery-card {
+  padding: 15px;
+  background: #e7f0ff;
+  border-radius: 5px;
+  min-height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.dicovery-icon-count h3 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.dicovery-card:hover {
+  background: #dd7534;
+}
+
+.dicovery-card:hover p,
+.dicovery-card:hover h4,
+.dicovery-card:hover h3 {
+  color: #fff;
+}
+.Drupalwedo-section .heading-main h2 {
+  text-transform: capitalize;
+}
+.dicovery-card p,
+.dicovery-card h4,
+.dicovery-card h3 {
+  transition: all 0.4s ease-out;
+}
+.dicovery-icon-count {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.Drupalwedo-section .dicovery-card p {
+  font-size: 16px;
+}
+.Drupalwedo-section {
+  background-image: url(/images/drupaldevimages/disbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+}
+.Drupalwedo-section:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #131c32b0;
+  z-index: -1;
+}
+.Drupalwedo-section .heading-main h2,
+.Drupalwedo-section .heading-main p {
+  color: #fff;
+}
+
+/* our-process start */
+.drupalprocess-section .process-card {
+  padding: 30px 20px;
+  background: #fff;
+  box-shadow: #99906440 0 0 5px;
+  min-height: 100%;
+  transition: all 0.4s ease-out;
+}
+.drupalprocess-section .process-card h4 {
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.drupalprocess-section .process-card:hover {
+  box-shadow: #99906470 0 0 20px;
+}
+/* end */
+.laravel-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  box-shadow: 0 0 0.9375rem rgba(34, 34, 34, 0.1);
+}
+.laravel-tch-name {
+  flex: 0 0 25%;
+  background-color: #349cdd;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.laravel-tch-list {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+.laravel-tch-list span {
+  background-color: #f5e9ff;
+  padding: 5px 10px;
+  display: inline-block;
+  margin: 6px;
+  border-radius: 5px;
+}
+
+/* drupalagency-section-start */
+.drupalagency-section .agency-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 24px 5px rgb(0 0 0 / 10%);
+  min-height: 100%;
+  transition: all 0.4s ease-out;
+}
+.drupalagency-section .agency-card:hover {
+  transform: translateY(-10px);
+}
+.drupal-partner .hqualitinr.imgc {
+  align-items: center;
+}
+.prminentprt.drupal-partner .prmntmg img {
+  max-width: 85%;
+}
+.drupalagency-section .card-description {
+  padding: 0 25px;
+  margin-top: 30px;
+}
+.drupalagency-section {
+  background: #bcdbf373;
+}
+.drupalagency-section .agency-card .card-images img {
+    border-radius: 5px;
+    margin-top: -75px;
+    box-shadow: 0px 1px 24px 5px rgb(0 0 0 / 10%);
+    z-index: 1;
+    position: relative;
+    max-width: 100%;
+    padding: 0;
+    min-height: 180px;
+    object-fit: cover;
+    height: 180px;
+}
+.drupalagency-section .card-images {
+  text-align: center;
+  width: 100%;
+  padding: 0 25px;
+}
+.drupalagency-section .agency .col-lg-4 {
+  margin-bottom: 100px;
+}
+.drupalagency-section .agency-card p {
+  margin-bottom: 20px;
+}
+.Drupalwedo-section span.dot {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* end */
+@media (min-width: 1199px) {
+  .drupalservices-section h4 {
+    font-size: 24px;
+  }
+  .dicovery-icon-count h3 {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .drupalagency-section .agency .col-lg-4:nth-child(4) {
+    margin-bottom: 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  .drupalagency-section .agency .col-lg-4:nth-child(5),
+  .drupalagency-section .agency .col-lg-4:nth-child(6) {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+  .drupalagency-section .agency-card .card-images img {
+    max-width: 400px;
+  }
+}
+@media (max-width: 1025px) {
+    .drupalagency-section .agency-card .card-images img {
+        min-height: 150px;
+        height: 150px;
+    }
+
+}
+@media (max-width: 991px) {
+  .drupal-partner .hqualitinr.ctnt {
+    padding: 0;
+  }
+  .drupalagency-section .agency-card .card-images img {
+    min-height: 200px;
+    height: 200px;
+}
+}
+@media (max-width: 767px) {
+    .drupalagency-section .agency-card .card-images img {
+        min-height: auto;
+        height: auto;
+    }
+  .laravel-tech-stack {
+    display: block;
+  }
+  .laravel-tch-list {
+    text-align: center;
+  }
+  .drupalagency-section .agency .col-lg-4:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .drupalprocess-section .process-card {
+    text-align: center;
+  }
+  .dicovery-icon-count h3 {
+    font-size: 50px;
+  }
+  .dicovery-card img {
+    max-width: 65px;
+  }
+  .drupalservices-section .drupal-card {
+    text-align: center;
+    align-items: center;
+  }
+  .drupalagency-section .card-images,
+  .drupalagency-section .card-description {
+    padding: 0 20px;
+  }
+
+  .drupal-counter .row label {
+    margin: 0;
+    min-height: 100%;
+  }
+  .drupal-counter .row .col {
+    margin-bottom: 20px;
+  }
+}

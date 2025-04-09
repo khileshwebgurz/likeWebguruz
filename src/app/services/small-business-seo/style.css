@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.Smallbussineskey-section .small-bussines-card {
+    background: #fff;
+    box-shadow: #00000024 0 2px 18px 0;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.Smallbussineskey-section .small-bussines-card img {
+    max-width: 50px;
+    margin: 0 auto;
+}
+
+.Smallbussineskey-section .small-bussines-card h4 {
+    font-size: 24px;
+}
+.Smallbussineskey-section {
+    background: #efefefd1;
+}
+.Smallbussineskey-section .small-bussines-card {
+    background: #fff;
+    box-shadow: #00000024 0 2px 18px 0;
+    padding: 25px;
+    text-align: center;
+    min-height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.Smallbussineskey-section img {
+    max-width: 50px;
+    margin: 0 auto;
+}
+.img-text-card {
+    display: flex;
+    gap: 15px;
+}
+
+.small-bussines-card-two {
+    background: #fff;
+    box-shadow: #00000024 0 2px 18px 0;
+    padding: 25px;
+    position: relative;
+    z-index: 1;
+    min-height: 100%;
+    transition: all .4s ease-in-out;
+}
+.Smallbussinessgrowth-sec {
+    background: #168b9a1f;
+}
+
+.Smallbussinessgrowth-sec .growth-card {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #D2CFCF;
+    border-radius: 7px;
+    transition: all .4s ease-in-out;
+    min-height: 100%;
+}
+.Smallbussinessgrowth-sec .growth-card:hover {
+    box-shadow: rgb(100 100 111 / 38%) 0px 7px 29px 0px;
+}
+.small-bussines-card-two:hover {
+    transform: translateY(-10px);
+}
+.small-bussines-card-two img {
+    width: 45px;
+}
+.Smallbussineskey-section .small-bussines-card .small-img {
+    max-width: 80px;
+    margin: 20px auto;
+    height: 80px;
+    background: #767bb94f;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    transition: all .5s ease-out;
+}
+
+.Smallbussineskey-section .small-bussines-card:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background: #168B9A;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: all .5s ease-out;
+}
+.Smallbussineskey-section .small-bussines-card:hover:after {
+    background: #168b9a3b;
+    height: 100%;
+    z-index: -1;
+    border-radius: 0;
+}
+
+.Smallbussineskey-section .small-bussines-card:hover .small-img {
+    background: #fff;
+}
+
+.Smallbussinesseo-sec ul.small-seo-list {
+    padding-top: 20px;
+}
+
+.Smallbussinesseo-sec ul.small-seo-list img {
+   width: 35px;
+}
+
+.Smallbussinesseo-sec ul.small-seo-list li {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.Smallbussinesseo-sec ul.small-seo-list li span{
+    margin: 0;
+}
+@media (max-width:992px){
+    .Smallbussineskey-section .small-bussines-card h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media (max-width:767px){
+    .Smallbussinessgrowth-sec .growth-card {
+     text-align: center;
+    }
+}
+@media (max-width:479px){
+    .Smallbussinesseo-sec ul.small-seo-list img {
+        max-width: 50px;
+        width: 28px;
+    }
+}

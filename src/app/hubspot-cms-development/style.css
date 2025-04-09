@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+.feature-card {
+    background: #fff;
+    padding: 20px 31px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    min-height: 169px;
+    margin-bottom: 20px;
+}
+.customised-content-section.cms-dev-steps  .no-space .col-lg-4 {
+    margin-top: -33px;
+}
+.feature-card img {
+    max-width: 55px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.feature-section.py-5 {
+    background: #e5f0f9a6;
+}
+/* .why.choose-section-css-start */
+.why-left {
+    padding: 35px 22px;
+    background: #FFFBED;
+    border-bottom: 2px solid #FFC806;
+    margin-bottom: 10px;
+}
+.why-left h4 {
+    margin-bottom: 15px;
+}
+.why-left.two {
+    background: #FFF2F0;
+    border-color: #EC4326;
+}
+
+.why-left.third {
+    background: #FDF8FF;
+    border-color: #D09FE0;
+}
+
+.why-left.last {
+    background: #F1FBF2;
+    border-color: #7FD4B9;
+}
+.cms-dev-services .cmssctinr {
+    transition: all .5s ease-out;
+    overflow: hidden;
+}
+
+.cms-dev-services .cmssctinr:hover {
+    transform: scale(1.02);
+}
+.feature-section.py-5 .feature-card {
+    transition: all .5s ease-out;
+}
+
+.feature-section.py-5 .feature-card:hover {
+    box-shadow: #85bff0 0 0 10px 0;
+}
+@media (max-width:991px){
+
+section.comprhsvprt.cms-dev-services .cmssctinr {
+    flex: 48%;
+}
+
+section.comprhsvprt.cms-dev-services .cmssct {
+    gap: 20px;
+    row-gap: 0;
+}
+
+}
+@media (max-width:767px){
+    .row.feature {
+        flex-direction: row;
+    }
+    section.comprhsvprt.cms-dev-services .cmssct {
+        gap: 15px;
+    }
+    
+
+    .row.feature .col-lg-3 {
+        width: 50%;
+        padding: 0 10px;
+    }
+    
+    .row.feature .col-lg-3 h6 {
+        font-size: 16px;
+    }
+    .feature-card {
+        background: #fff;
+        padding: 20px 19px;
+    }
+    section.comprhsvprt.cms-dev-services .cmssct .cmssctinr {
+        flex-basis: 47%;
+    }
+    .cms-dev-banner.inner-page .banner-content-left.heading-main {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    section.drplscl1.cms-dev-todo img.img-fluid {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:575px){
+    section.comprhsvprt.cms-dev-services .cmssct .cmssctinr {
+        flex-basis: 100%;
+    }  
+    section.comprhsvprt.cms-dev-services .cmssct {
+        gap: 0px;
+    }
+}

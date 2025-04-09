@@ -1,0 +1,261 @@
+.agile-banner {
+  background-image: url(/images/agileimg/agile-banner.webp);
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.agile-banner::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #00000094;
+}
+.color-blue {
+  background-color: #26c7db45;
+  padding: 20px;
+  border-radius: 12px;
+}
+.agile-banner h1 {
+  font-size: 65px;
+  color: #fff;
+}
+body .card-agile {
+  border-radius: 38px;
+  padding: 25px 20px;
+}
+section.agile-expenditure-main {
+  background: #f7f7f7 !important;
+}
+.agile-expenditure-main::before {
+  content: unset;
+}
+.color-lt-orange {
+  background-color: #ffeef5;
+  padding: 20px;
+  border-radius: 12px;
+}
+.center-agile::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  border: 1px dashed #d9d9d9;
+  margin: auto;
+  width: 1px;
+}
+.center-agile {
+  position: relative;
+  width: 90px;
+}
+.center-agile::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background-color: #65edff;
+  margin: auto;
+  border-radius: 50px;
+  top: 0;
+}
+.agile-expenditure-main .icon-contnt img {
+  width: 100%;
+  max-width: 80px;
+  height: 80px;
+  margin: auto auto 20px;
+  display: flex;
+}
+.dev-speed-expedite {
+  justify-content: center;
+}
+.agile-content-right h2 {
+  padding: 20px 20px 20px 60px;
+  background-color: #26c6da;
+  border-radius: 94px 0px 0px 94px;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  font-size: 42px;
+  margin-bottom: 50px !important;
+}
+.agile-content-right p {
+  padding-left: 60px;
+}
+section.AgileExpedite-main h2,
+section.technology-operate.agile-tech h2 {
+  font-weight: 500;
+  font-size: 36px;
+}
+section.technology-operate.agile-tech h2::before,
+section.technology-operate.agile-tech h2::after {
+  content: unset;
+}
+.agile-content-right h2::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background: #26c6da;
+}
+.agile-product-main {
+  overflow: hidden;
+}
+.agile-image-left img {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.agile-expenditure-main .icon-contnt p {
+  margin: 0px;
+}
+.AgileExpedite-main .row:nth-child(odd) .center-agile::after {
+  background-color: #fd4d92;
+}
+section.agile-product-main {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #26c7db22 0%, #fff 100%) !important;
+}
+section.scalabilty-main .heading-main p {
+  max-width: 848px;
+  margin: 0 auto;
+}
+section.agile-expenditure-main p {
+  text-align: center;
+}
+
+section.agile-expenditure-main h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.design-heading ul li:hover {
+  color: rgb(253, 77, 146);
+}
+
+section.agile-expenditure-main .row.mb-4 p.pt-4,
+section.agile-expenditure-main .row.mb-4 p.pt-4 + p {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+section.scalabilty-main h2 {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 20px;
+}
+
+section.scalabilty-main h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  width: 323px;
+  height: 3px;
+  margin: 0 auto;
+}
+section.agile-expenditure-main .row.mb-4 p.pt-4 {
+  margin-bottom: 20px;
+}
+section.technology-operate.agile-tech li::before {
+  content: unset;
+}
+section.technology-operate.agile-tech li {
+  border-bottom: 1px solid #00000033;
+  padding-left: 15px;
+}
+section.technology-operate.agile-tech li span.image {
+  display: none;
+}
+section.technology-operate.agile-tech ul {
+  border: 1px solid #00000033;
+  border-bottom: 0;
+}
+@media (max-width: 1024px) {
+  .agile-content-right h2 {
+    padding: 20px 20px 20px 30px;
+    font-size: 24px;
+  }
+  section.scalabilty-main h2:after {
+    width: 220px;
+    height: 3px;
+
+}
+.agile-banner h1 {
+    font-size: 45px;
+    color: #fff;
+}
+section.AgileExpedite-main h2,
+section.technology-operate.agile-tech h2 {
+  font-weight: bold;
+  font-size: 26px;
+
+  line-height: 1.4;
+}
+section.agile-expenditure-main h2 {
+    font-weight: bold;
+    line-height: 1.4;
+    font-size: 26px;
+}
+section.AgileExpedite-main h2,
+section.technology-operate.agile-tech h2 br {
+  display: none;
+}
+}
+@media (max-width: 991px) {
+  .agile-banner {
+    background-attachment: scroll;
+  }
+
+
+}
+@media (max-width: 767px) {
+  .card-agile.empty {
+    display: none;
+    padding: 0;
+  }
+  .center-agile {
+    display: none;
+  }
+  .left-agile {
+    margin: 25px 0px 0px;
+  }
+  .agile-content-right p {
+    padding-left: 0;
+  }
+  section.scalabilty-main.agile-tech .row:nth-child(2) {
+    flex-direction: column-reverse !important;
+    margin-top: 0 !important;
+  }
+  .agile-banner h1 {
+    line-height: 1.3;
+    font-size: 28px;
+}
+
+
+  section.technology-operate.agile-tech ul {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  section.agile-expenditure-main h2 br {
+    display: none;
+}
+}
+

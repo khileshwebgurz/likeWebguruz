@@ -1,0 +1,456 @@
+* {
+  box-sizing: border-box;
+}
+.whmcsservices-sec {
+  background: #fefaf9;
+}
+/* Whmcs-development-sec-start-css */
+.Whmcs-development-sec .devbox {
+  background-color: #fefaf9;
+  padding: 24px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  min-height: 100%;
+}
+.Whmcs-development-sec .box-count span {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  color: transparent;
+  line-height: 50px;
+  text-transform: capitalize;
+  -webkit-text-stroke: 1px #000;
+}
+.Whmcs-development-sec .devbox h4 {
+  font-size: 24px;
+}
+.box-count {
+  margin-bottom: 15px;
+}
+.Whmcs-development-sec .devbox:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* bestdev-section-css start */
+.whmcsbest-section {
+  background: #f8f8f845;
+  position: relative;
+  background-image: url(/images/features-bg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.whmcsbest-section .best-box {
+  display: flex;
+  gap: 20px;
+}
+.whmcsbest-section .best-box h5 {
+  font-size: 20px;
+}
+.whmcsbest-section .best-box img {
+  width: 60px;
+}
+
+.Commerce-intigration .commerce-list li {
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  position: relative;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+.Commerce-intigration .commerce-list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  background: #20a0b1;
+  border-radius: 50px;
+}
+.Commerce-intigration {
+  background: #ebebeb9e;
+}
+/* pagination start */
+.cycle-inner-content {
+  padding: 20px;
+  max-width: 450px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+section.whmcs-cycle .swiper-pagination-clickable .swiper-pagination-bullet:before {
+  content: "";
+  position: absolute;
+  left: 34px;
+  top: 69px;
+  width: 2px;
+  height: 51%;
+  border-left: 1px dashed #949494;
+  z-index: -1;
+}
+section.whmcs-cycle .swiper-pagination-clickable .swiper-pagination-bullet:last-child:before {
+  content: unset;
+}
+.cycle-inner-content img {
+  max-width: 50px;
+}
+
+section.whmcs-cycle .cycle-content {
+  padding: 40px 0px;
+  position: relative;
+  z-index: 1;
+}
+section.whmcs-cycle .custom-left {
+  position: relative;
+}
+
+.custom-left
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    left: 0;
+    top: 66px;
+    text-align: left;
+    flex-direction: column;
+    bottom: unset;
+    display: flex;
+    row-gap: 35px;
+    z-index: 9;
+    justify-content: center;
+}
+
+.custom-left .swiper-pagination span.swiper-pagination-bullet:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 40px;
+  display: inline-block;
+  font: normal normal normal 14px / 1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 36px;
+  color: #645e5e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  transform: translateX(-50%);
+}
+
+.custom-left
+  .swiper-pagination
+  span.swiper-pagination-bullet:nth-child(1):after {
+    content: "\f0f6";
+
+}
+.custom-left
+  .swiper-pagination
+  span.swiper-pagination-bullet:nth-child(2):after {
+    content: "\f0eb";
+}
+.custom-left
+  .swiper-pagination
+  span.swiper-pagination-bullet:nth-child(3):after {
+    content: "\f121";
+}
+.custom-left
+  .swiper-pagination
+  span.swiper-pagination-bullet:nth-child(4):after {
+    content: "\f002";
+}
+.custom-left
+  .swiper-pagination
+  span.swiper-pagination-bullet:nth-child(5):after {
+    content: "\f135";
+}
+.custom-left
+  .swiper-pagination
+  span.swiper-pagination-bullet:nth-child(6):after {
+    content: "\f025";
+}
+section.whmcs-cycle span.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
+  color: #ffffff;
+}
+section.whmcs-cycle .swiper-pagination-clickable .swiper-pagination-bullet {
+  max-width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0 !important;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  opacity: .8;
+  background: #e3e3e3;
+}
+.whmcs-fields ul li img {
+  max-width: 98px;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+section.whmcs-cycle 
+ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #00a0af;
+}
+section.whmcs-cycle .cycle-inner-content h5 {
+  color: #00a0af;
+  margin: 10px 0;
+}
+.swiper-pagination-bullet.custom-whmcs-dot img {
+  width: 40px;
+}
+/* pagination end */
+section.whmcs-techno .nav-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: left;
+  gap: 20px;
+  padding: 15px 20px;
+  margin-bottom: 5px;
+}
+.whmcs-columns .flex-column.nav.nav-pills .nav-item .tabs-icon {
+  border-radius: 50px;
+  padding: 10px;
+  background: #dd3946;
+  width: 100%;
+  max-width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whmcs-columns .flex-column.nav.nav-pills .nav-item:nth-child(2) .tabs-icon {
+  background: #ff00b9;
+}
+
+.whmcs-columns .flex-column.nav.nav-pills .nav-item:nth-child(3) .tabs-icon {
+  background: #003a55;
+}
+
+.whmcs-columns .flex-column.nav.nav-pills .nav-item:nth-child(4) .tabs-icon {
+  background: #fc6331;
+}
+section.whmcs-techno .active.nav-item {
+    background: #f8f8f8;
+}
+section.whmcs-techno .nav-item a {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 0;
+  color: #383838;
+}
+section.whmcs-techno .nav-item .active {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  color: #383838;
+}
+section.whmcs-techno .nav-item img {
+  max-width: 40px;
+  padding: 0;
+}
+
+section.whmcs-techno {
+  background: #573e7d47;
+}
+section.whmcs-techno .col-md-12 .row {
+  padding: 20px 15px;
+  background: #fff;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.commerce-list {
+  margin-bottom: 0;
+  min-height: 100%;
+  text-align: left;
+}
+
+
+
+.Commerce-intigration.whmcs-specialization .col-md-4.col-12 {
+  margin-bottom: 30px;
+}
+.whmcs-columns {
+  padding: 0;
+}
+
+.whmcs-fields ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.whmcs-fields ul li {
+  width: 25%;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 0;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  border-bottom: 1px solid #dee2e6 !important;
+  border-right: 1px solid #dee2e6 !important;
+  flex-direction: column;
+  gap: 11px;
+}
+section.whmcs-techno .tab-content {
+  padding: 30px 20px;
+}
+.whmcs-fields ul li:nth-child(4),
+.whmcs-fields ul li:nth-child(8) {
+  border-right: 0 !important;
+}
+.whmcs-fields ul li:nth-child(5),
+.whmcs-fields ul li:nth-child(6),
+.whmcs-fields ul li:nth-child(7),
+.whmcs-fields ul li:nth-child(8) {
+  border-bottom: 0 !important;
+}
+.whmcs-fields ul li:hover {
+  background-color: #e9f6f7;
+  transition: all 0.3s ease;
+}
+.package-phases.whmcs-phases {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1199px) {
+  section.whmcs-cycle {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Commerce-intigration .commerce-list li {
+    font-size: 14px;
+  }
+  .custom-left
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    row-gap: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .custom-left .swiper-pagination span.swiper-pagination-bullet:after {
+    font-size: 23px;
+
+}
+section.whmcs-cycle .swiper-pagination-clickable .swiper-pagination-bullet {
+  max-width: 50px;
+  height: 50px;
+}
+section.whmcs-cycle .swiper-pagination-clickable .swiper-pagination-bullet:before {
+  left: 25px;
+  top: 51px;
+  width: 2px;
+  height: 45%;
+
+}
+.custom-left
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  left: 0;
+  top: 40px;
+}
+}
+@media (max-width: 767px) {
+  .Whmcs-development-sec .devbox {
+    text-align: center;
+  }
+  .Whmcs-development-sec .box-count span {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .whmcsbest-section .best-box img {
+    width: 45px;
+  }
+  .Commerce-intigration.whmcs-specialization .col-md-4.col-12 {
+    margin-bottom: 10px;
+  }
+  .cycle-inner-content {
+    position: relative;
+    box-shadow: #0000000d 0 2px 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  section.whmcs-cycle .cycle-inner-content h5 {
+    color: #00a0af;
+    margin: 10px 0;
+  }
+  section.whmcs-cycle .col-12 .row {
+    flex-direction: column-reverse;
+  }
+  .custom-left
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: relative;
+  z-index: 1;
+  flex-direction: row;
+  justify-content: center;
+  top: 0;
+  column-gap: 10px;
+}
+
+  section.whmcs-cycle .swiper-pagination-clickable .swiper-pagination-bullet:before {
+    content: unset;
+  }
+  section.whmcs-cycle .cycle-content {
+    padding: 0;
+}
+}
+
+@media (max-width: 576px) {
+  .why_hire-section.whmcs-webguruz {
+    text-align: center;
+  }
+  .custom-left .swiper-pagination span.swiper-pagination-bullet:after {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .whmcs-fields ul li {
+    width: 50%;
+    padding: 30px 20px;
+  }
+  .whmcs-fields ul li:nth-child(2),
+  .whmcs-fields ul li:nth-child(6) {
+    border-right: 0 !important;
+  }
+  .whmcs-fields ul li:nth-child(5),
+  .whmcs-fields ul li:nth-child(6) {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+  section.whmcs-cycle {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section.counter-main.whmcs-counter .container .row:last-child {
+    margin-top: 0px;
+    row-gap: 20px;
+  }
+  section.counter-main.whmcs-counter label {
+    margin: 0;
+    min-height: 100%;
+  }
+  section.whmcs-cycle .swiper-pagination-clickable .swiper-pagination-bullet {
+    max-width: 45px;
+    height: 45px;
+    flex-wrap: wrap;
+  }
+  .whmcs-fields ul li img {
+    max-width: 70px;
+}
+}
+@media (max-width: 400px) {
+  .custom-left .swiper-pagination span.swiper-pagination-bullet:after {
+    font-size: 21px;
+}
+section.whmcs-cycle .swiper-pagination-clickable .swiper-pagination-bullet {
+  max-width: 50px;
+  height: 37px;
+  width: 100%;
+}
+}

@@ -1,0 +1,383 @@
+* {
+  box-sizing: border-box;
+}
+/* foundation-pages-css */
+.foundation-servicses {
+  background-image: url(/images/foundationimages/education-donation.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.foundation-servicses:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff73;
+  z-index: -1;
+}
+.education-content h1 {
+  font-size: 34px;
+}
+.foundation-sports .container-fluid {
+  padding: 0;
+  overflow: hidden;
+}
+.foundation-sports .col-md-6.col-12 .container.sports {
+  margin: 0 auto;
+  max-width: 600px;
+}
+.foundation-sports {
+  background-image: url(/images/foundationimages/sponsoring.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+a.explore-btn.found-btn {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+  background: #fd4d92;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  padding: 9px 40px 9px 17px;
+  border-radius: 50px;
+  background-image: url(/images/arrow-right-btn.webp);
+  background-repeat: no-repeat;
+  background-size: 37px;
+  background-position: right 3px;
+}
+.foundation-sports.foundation-medical {
+  background: #fff;
+}
+.foundation-sports .col-md-6.col-12 {
+  padding: 0;
+}
+.foundation-sports.foundation-medical .col-md-6.col-12 .container.sports {
+  max-width: 100%;
+  padding-left: 40px;
+}
+.foundation-one {
+  background-image: url(/images/foundationimages/slide-img-1.webp);
+}
+.foundation-two {
+  background-image: url(/images/foundationimages/slide-img-2.webp);
+}
+.foundation-three {
+  background-image: url(/images/foundationimages/slide-img-3.webp);
+}
+.foundation-slider {
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.foundation-slider a.found-slider-btn {
+  padding: 10px 70px;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff !important;
+  border: 2px solid #6ec1e4;
+  display: inline-block;
+  transition: all 0.3s linear;
+  margin-top: 30px;
+}
+.foundation-slider:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.foundation-slider h1 {
+  margin-bottom: 20px;
+}
+
+a.found-slider-btn:hover {
+  background: #6ec1e4;
+}
+
+.New-foundation-slider span.swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+.New-foundation-slider
+  span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #6ec1e4;
+  opacity: 1 !important;
+}
+.foundation-slider h1,
+.foundation-slider p {
+  color: #fff;
+  font-weight: 300;
+}
+
+.foundation-slider h1 span {
+  color: #6ec1e4;
+  font-weight: 600;
+}
+.foundation-box .mission-icon-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.mission-img img {
+  max-width: 80px;
+  height: auto;
+}
+.foundation-box .mission-icon-text h4 a {
+  font-size: 24px;
+  color: #6ec1e6;
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding-bottom: 20px;
+}
+.foundation-box .mission-icon-text h4 a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 38px;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s;
+  bottom: 0;
+}
+.foundation-box-1:hover .mission-icon-text h4 a:after {
+  background: #6ec1e6 !important;
+}
+.foundation-box p {
+  color: #fff;
+}
+
+.foundation-box-1 {
+  background: #000;
+  padding: 30px;
+  min-height: 100%;
+}
+/* inner page start */
+*{
+  box-sizing: border-box;
+}
+/* foundation-initiatives-page-css-start */
+.initatives-section.banner-section {
+  background-image: url(/images/foundationimages/init-banner.webp);
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.initatives-section.banner-section  h1{
+  color: #26c6da;
+  font-weight: 700;
+}
+
+.initatives-section.banner-section p.text-white {
+  font-size: 17px;
+  margin: 0;
+}
+.tabs-section .tab-content {
+  padding: 30px 25px;
+  background: #f4f4f4;
+  margin-top: 15px;
+  box-shadow: unset;
+}
+
+.found-section-tabs .nav-link.active {
+  border-color: #26c6da !important;
+  color: #26c6da;
+}
+.found-section-tabs .nav-link {
+  border-bottom: 2px solid transparent !important;
+  border: 0;
+  color: #54595f;
+  transition: all .3s linear;
+  font-size: 16px;
+}
+.found-section-tabs .mail p a {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.found-section-tabs .aside a.explore-btn.found-btn:hover {
+  box-shadow: unset;
+}
+.found-section-tabs p {
+  font-size: 16px;
+  color: #7a7a7a;
+}
+.found-section-tabs .contant-info h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #54595f;
+}
+
+.tabs-section .tab-content .foundation-content.image-content h4 + div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  row-gap: 25px;
+}
+.tabs-section .tab-content .foundation-content.image-content h4 + div div {
+  max-width: 25%;
+  padding-right: 25px;
+}
+.tabs-section .tab-content .foundation-content.image-content h4 + div div img {
+  min-height: 100%;
+}
+.tabs-section .tab-content h4 {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.foundation-content.image-content p a , .foundation-content.image-content strong a , .found-section-tabs.py-5 .aside p a{
+  color: #6ec1e4;
+  font-size: 15px;
+}
+.found-section-tabs .mail p a path {
+  fill: #6ec1e4;
+}
+.found-section-tabs .mail p a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 18px !important;
+  color: #54595f !important;
+  text-transform: capitalize;
+}
+a.explore-btn.found-btn {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+  background: #fd4d92;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  padding: 9px 40px 9px 17px;
+  border-radius: 50px;
+  background-image: url(/images/arrow-right-btn.webp);
+  background-repeat: no-repeat;
+  background-size: 37px;
+  background-position: right 3px;
+}
+@media(min-width:1024px){
+  .initatives-section.banner-section {
+      min-height: 600px;
+  
+  }
+}
+@media(min-width:767px){
+  .initatives-section.banner-section .col-12.banner-content:before {
+      content: "";
+      position: absolute;
+      left: 16px;
+      top: -115px;
+      width: 100%;
+      height: 100%;
+      background-image: url(/images/bubbles.webp);
+      background-repeat: no-repeat;
+      z-index: -1;
+  }
+}
+@media(max-width:1024px) and (min-width:767px){
+  .initatives-section.banner-section {
+      min-height: 520px;
+  
+  }
+}
+
+@media(max-width:767px){
+.initatives-section.banner-section {
+  text-align: center;
+}
+.initatives-section  h1 {
+  font-weight: 700;
+  font-size: 28px;
+}
+.education-content h1 {
+  font-size: 24px;
+}
+}
+@media(max-width:575px){
+
+  .tabs-section .tab-content .foundation-content.image-content h4 + div div {
+  max-width: 33%;
+  padding-right: 8px;
+}
+}
+/* inner page end */
+
+
+
+
+@media (min-width: 1599px) {
+  .foundation-slider {
+    min-height: 952px;
+    display: block;
+  }
+
+}
+@media (min-width: 767px) {
+  .foundation-box {
+    margin-top: -395px;
+    position: relative;
+    z-index: 1;
+  }
+  .foundation-slider .container .row.slider-content {
+    max-width: 700px;
+    transform: translateY(50px);
+  }
+  .New-foundation-slider .swiper-pagination {
+    position: absolute;
+    top: 50% !important;
+  }
+
+}
+@media (max-width: 1599px) and (min-width:767px){
+  .foundation-slider {
+    min-height: 852px;
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .foundation-sports {
+    background-position: top;
+    background-size: cover;
+  }
+  .foundation-sports.foundation-medical .row {
+    flex-direction: column-reverse;
+  }
+  .foundation-sports .col-md-6.col-12 .container.sports {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .foundation-servicses {
+    min-height: 320px;
+  }
+
+}

@@ -1,0 +1,454 @@
+* {
+  box-sizing: border-box;
+}
+.webflow-services .webflow-service-inner {
+  border: 1px solid #e2e2e2;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+section.webflow-services {
+  background-color: #fafbfc;
+  box-shadow: 0 0 #00000070;
+}
+.webflow-services .service-close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 100%;
+  justify-content: center;
+  cursor: pointer;
+  transform: rotate(135deg);
+  z-index: 1;
+  transition: all 0.4s ease;
+}
+.webflow-service-inner.active .service-close-icon {
+  transform: rotate(90deg);
+  background: #fff;
+  transition: all 0.4s ease;
+  border-color: #fff;
+}
+
+.webflow-services .service-close-icon img {
+  width: 20px;
+}
+
+.webflow-services .webflow-service-icon {
+  width: 70px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.webflow-services .webflow-service-heading h3 {
+  min-height: 55px;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+.webflow-inner-content {
+  width: 100%;
+  background: #146ef5;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.webflow-inner-content h3 {
+  font-size: 25px;
+  margin: 0 0 30px;
+  color: #fff;
+  line-height: 1.2;
+}
+.webflow-inner-content p {
+  color: #fff;
+}
+.webflow-dev-company {
+  background: #99999908;
+  background-image: url(/images/bg-dots.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.webflow-dev-company .process-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  border: 1px solid #cbcbcb;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  min-height: 100%;
+}
+.webflow-dev-company .process-box:hover {
+  border-color: transparent;
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(96, 165, 250, 0.3);
+}
+.webflow-dev-company .process-box img {
+  max-width: 45px;
+}
+
+.webflow-dev-company .process-box p {
+  margin: 0;
+}
+.webflow-benefits-section .row.chooseing img {
+  width: 55px;
+}
+
+.webflow-benefits-section .row.chooseing .feature-text.left-icon {
+  display: flex;
+  gap: 15px;
+}
+.webflow-benefits-section .row.chooseing .feature-text.left-icon h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+.webflow-benefits-section .col-lg-7::-webkit-scrollbar {
+  width: 6px;
+  height: 85px;
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+.webflow-benefits-section .col-lg-7::-webkit-scrollbar-track {
+  background: rgba(110, 109, 134, 0.15);
+  border-radius: 5px;
+}
+
+.webflow-benefits-section .col-lg-7::-webkit-scrollbar-thumb {
+  background: #00bcd4;
+  border-radius: 10px;
+}
+
+.webflow-benefits-section .col-lg-7::-webkit-scrollbar-thumb:hover {
+  background: #3f51b5a8;
+}
+
+.webflow-benefits-section .col-lg-7 {
+  max-height: 696px;
+  overflow: auto;
+}
+.webflow-solutions {
+  background: #ebf8f9a8;
+}
+
+.webflow-solutions img {
+  max-width: 35px;
+}
+
+.webflow-solutions .img-one {
+  background: #fff;
+  max-width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  box-shadow: 0 0 30px #7988974d;
+  width: 100%;
+}
+
+.webflow-solutions .eEcomsolution-main {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  gap: 13px;
+}
+
+.webflow-solutions .const-text h5 {
+  margin: 0;
+  line-height: 26px;
+  font-size: 18px;
+}
+.webflow-solutions .col-lg-4 {
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #dee2e6;
+  margin-bottom: 0 !important;
+  transition: all 0.4s ease-out;
+}
+.webflow-solutions .col-lg-4:hover {
+  box-shadow: 0 45px 60px 0 rgba(34, 34, 34, 0.1);
+}
+.webflow-solutions .col-lg-4:nth-child(4),
+.webflow-solutions .col-lg-4:nth-child(7),
+.webflow-solutions .col-lg-4:nth-child(10),
+.webflow-solutions .col-lg-4:nth-child(13) {
+  border-right: 0 !important;
+}
+.webflow-solutions .col-lg-4:nth-child(11),
+.webflow-solutions .col-lg-4:nth-child(12),
+.webflow-solutions .col-lg-4:nth-child(13) {
+  border-bottom: 0;
+}
+.webflowprocess-section .process-tabs ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 100%;
+  counter-reset: section;
+}
+
+.webflowprocess-section .process-tabs ul li {
+  height: 100%;
+  width: 20%;
+  margin: 10px 10px 10px 0;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.webflowprocess-section .process-tabs ul li:before {
+  top: 15px;
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  z-index: -1;
+  left: 132px;
+}
+.webflowprocess-section .process-tabs ul li span:before {
+  content: "";
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #414141;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: flex !important;
+  margin: 0 auto !important;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  counter-increment: section;
+  content: counter(section);
+}
+.webflowprocess-section .process-tabs ul li span {
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 25px;
+  -webkit-box-orient: vertical;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  flex-direction: column;
+}
+.webflowprocess-section
+  .process-tabs
+  ul
+  li.process-clickable.active
+  span:after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: url(/images/webflowimage/webflow-check.webp), #20a0b1;
+  border-radius: 50px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.process-tabs-decription {
+  box-shadow: 3px 4px 30px #aeaeae40;
+  padding: 25px 30px !important;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+}
+.process-tabs-decription p {
+  margin: 0;
+}
+.webflowprocess-section .process-tabs ul li.process-clickable.active:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 12.5px 21.7px;
+  border-color: transparent transparent #20a0b1;
+  transform: rotate(60deg);
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+  bottom: 0;
+}
+.webflowprocess-section .process-tabs ul li:last-child:before {
+  content: unset;
+}
+.row.webflow-process {
+  margin: 0;
+}
+/* .process-tabs-decription {
+  display: none;
+}
+
+.process-tabs-decription.one-tabs {
+  display: block;
+} */
+@media (max-width: 1399px) {
+  .webflowprocess-section .process-tabs ul li:before {
+    left: 110px;
+  }
+}
+
+@media (max-width: 991px) {
+  .webflow-dev-company .row.row-our-process {
+    flex-direction: column-reverse;
+    row-gap: 25px;
+  }
+  .webflow-dev-company .row.row-our-process .process-img img {
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+  }
+  .webflowprocess-section .process-tabs ul li:after {
+    content: unset !important;
+  }
+
+  .webflowprocess-section .process-tabs ul li:last-child:before {
+    content: unset;
+  }
+
+  .row.webflow-process {
+    margin: 0;
+    align-items: center;
+  }
+
+  .webflowprocess-section .process-tabs ul li:before {
+    content: unset !important;
+  }
+
+  .webflowprocess-section .process-tabs ul li span {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .webflowprocess-section .process-tabs ul li.process-clickable.active {
+    margin: 0;
+    padding: 10px;
+    background: #20a0b1;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .webflowprocess-section .process-tabs ul li {
+    width: 100%;
+  }
+  .webflowprocess-section
+    .process-tabs
+    ul
+    li.process-clickable.active
+    .tabs-title {
+    color: #fff;
+  }
+  .webflowprocess-section .process-tabs ul li .tabs-title {
+    font-size: 16px;
+  }
+
+  .process-tabs {
+    max-width: 38% !important;
+    width: 38% !important;
+  }
+  .webflowprocess-section .process-tabs ul li.process-clickable span:after,
+  .webflowprocess-section .process-tabs ul li span:before {
+    content: unset !important;
+  }
+  .webflowprocess-section .process-tabs ul {
+    flex-direction: column;
+    gap: 0;
+  }
+  .process-tabs-decription {
+    width: 100%;
+  }
+  .process-tabs-description {
+    width: 62%;
+  }
+  .webflow-solutions .col-lg-4:nth-child(4),
+  .webflow-solutions .col-lg-4:nth-child(10) {
+    border-right: 1px solid #dee2e6 !important;
+  }
+
+  .webflow-solutions .col-lg-4:nth-child(11) {
+    border-bottom: 1px solid #dee2e6;
+  }
+  .webflow-solutions .col-lg-4:nth-child(3),
+  .webflow-solutions .col-lg-4:nth-child(5),
+  .webflow-solutions .col-lg-4:nth-child(9),
+  .webflow-solutions .col-lg-4:nth-child(11) {
+    border-right: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .webflow-benefits-section .col-lg-7 {
+    max-height: 100%;
+    overflow: hidden;
+  }
+  .webflow-benefits-section .heading-main {
+    text-align: center;
+  }
+  .process-tabs {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .process-tabs-description {
+    margin-top: 30px;
+  }
+  .webflow-solutions .col-lg-4 {
+    border-right: 0 !important;
+  }
+  .webflow-solutions .eEcomsolution-main {
+    padding: 15px 20px;
+  }
+  .webflow-solutions .col-lg-4:nth-child(12) {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+}
+@media (max-width: 576px) {
+  .webflow-dev-company h2 {
+    text-align: center;
+  }
+  .webflow-dev-company .process-box img {
+    max-width: 35px;
+  }
+  section.counter-main.webflow-counter label {
+    min-height: 100%;
+    margin: 0;
+  }
+  section.counter-main.webflow-counter .container .row:nth-child(2) {
+    row-gap: 20px;
+  }
+}

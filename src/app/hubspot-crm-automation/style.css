@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+
+.Technical-SEO-Services .seo-work-content , .hubweplain-section .hub-plain-img-text{
+    text-align: center;
+    padding: 35px 25px;
+    background: #fff;
+    border: 1px solid #DBDBDB;
+    min-height: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.Technical-SEO-Services .seo-work-content img , .hubweplain-section .hub-plain-img-text img , .small-img-icon{
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+.Technical-SEO-Services .seo-work-content:hover img {
+    transition: all 0.65s;
+    transform: rotateY(360deg);
+}
+.Technical-SEO-Services .seo-work-content h5 {
+    margin-top: 10px;
+}
+
+.Technical-SEO-Services {
+    background: #e5f0f9b5;
+}
+
+.Technical-SEO-Services .seo-work-content:hover {
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-color: #fff;
+}
+.Technical-SEO-Services .row.seo-work .col-md-3 {
+    margin-bottom: 25px;
+}
+.hubweplain-section .hub-plain-img-text {
+    box-shadow: #12121245 0px 4px 21px 0;
+    position: relative;
+    min-height: 100%;
+}
+.arrow-center-img {
+    padding: 35px 0;
+}
+.arrow-center-img {
+    padding: 35px 0;
+}
+
+.hubweplain-section .hub-plain-img-text:before {
+    background-position: top center;
+    position: absolute;
+    content: '';
+    background-image: url(https://www.trooinbound.com/wp-content/uploads/2022/08/Group-358.svg);
+    max-width: 30px;
+    width: 100%;
+    height: 70px;
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -23%;
+    z-index: -1;
+    background-size: cover;
+}
+.hubweplain-section .row.new-hub-plain.new-hub-plain-two .hub-plain-img-text::before {
+    top: -23%;
+    transform: rotate(180deg);
+    bottom: unset;
+}
+.hubweplain-section .hub-plain-img-text:after {
+    position: absolute;
+    content: '1';
+    background-color: #41c0c1;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -80px;
+    padding: 4px 0 0;
+    border-radius: 50px;
+    color: #fff;
+    outline: dashed;
+    outline-offset: 4px;
+    outline-color: #41c0c1;
+    text-align: center;
+}
+
+
+.hubweplain-section .row.new-hub-plain .col-md-4:nth-child(2) .hub-plain-img-text:after {
+    content: "2";
+}
+
+.hubweplain-section .row.new-hub-plain .col-md-4:nth-child(3) .hub-plain-img-text:after {
+    content: "3";
+}
+.hubweplain-section  .row.new-hub-plain.new-hub-plain-two .col-md-4:nth-child(1) .hub-plain-img-text:after {
+    content: "4";
+}
+
+.hubweplain-section  .row.new-hub-plain.new-hub-plain-two .col-md-4:nth-child(2) .hub-plain-img-text:after {
+    content: "5";
+}
+.hubweplain-section  .row.new-hub-plain.new-hub-plain-two .col-md-4:nth-child(3) .hub-plain-img-text:after {
+    content: "6";
+}
+.hubweplain-section .hub-plain-img-text:hover::after {
+    background-color: #168b9a;
+    outline-color: #168b9a;
+    transition: all .4s ease-in-out;
+}
+.hubweplain-section .row.new-hub-plain.new-hub-plain-two .hub-plain-img-text::after {
+    top: -80px;
+    bottom: unset;
+}
+section.teamservice.crm-automate-process .teamquality .teamqualityinr {
+    transition: all .5s ease-in-out;
+    border: 1px solid #d2d2d2;
+    box-shadow: unset;
+}
+section.teamservice.crm-automate-process .teamquality .teamqualityinr:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #fff;
+}
+.teamquality .teamqualityinr:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.HubPopularwork{
+    background-image: url(/images/newhubcrmautoimages/bggr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.HubPopularwork .work-card {
+    border: 1px solid #EBEBEB;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+    min-height: 100%;
+}
+
+.HubPopularwork  .circle-icon-hub {
+    max-width: 70px;
+    background: #ffedb8;
+    padding: 10px;
+    border-radius: 50px;
+    height: 70px;
+}
+.hubweplain-section .hub-plain-img-text:hover {
+    background: #ddf9ff;
+    border: 1px solid #ddf9ff;
+}
+.HubPopularwork .work-card:hover {
+    transform: scale(1.03);
+}
+.HubPopularwork .work-card  .link-btn a.try-it {
+    color: #168b9a;
+}
+
+.Hubbenfit-section .benifit-card {
+    border: 1px solid #EBEBEB;
+    background: #ffffff85;
+    box-shadow: #00000030 0 -2px 21px;
+    min-height: 100%;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.Hubbenfit-section .benifit-card img{
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.Hubbenfit-section .benifit-card .card-content-main {
+    padding: 20px;
+}
+
+.Hubbenfit-section .benifit-card .card-content-main h3 , .Hubbenfit-section .benifit-card .card-content-main h4 {
+    color: #25C1D5;
+    font-weight: 500;
+}
+
+.Hubbenfit-section .benifit-card .card-content-main h4 {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.Hubbenfit-section .benifit-card:hover img {
+    transform: scale(1.08);
+}.HubPopularwork .work-card .link-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.HubPopularwork .work-card .link-btn img {
+    max-width: 20px;
+    margin-left: 15px;
+}
+@media(min-width:992px) {
+    .Hubbenfit-section .benifit-card img {
+        height: 168px;
+        object-fit: cover;
+    }
+}
+@media (max-width:991px) and (min-width:576px) {
+
+    .Hubbenfit-section .benifit-card img{
+        min-height: 292px;
+        object-fit: cover;
+    }
+}
+@media (max-width:767px) and (min-width:576px) {
+    .Technical-SEO-Services .row.seo-work ,   .Hubbenfit-section .row  {
+        flex-direction: row;
+    }
+
+    .Technical-SEO-Services .row.seo-work .col-lg-3 ,    .Hubbenfit-section .row .col-lg-3  {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+
+}
+@media (max-width:1199px)
+{
+    .hubweplain-section .hub-plain-img-text h4 {
+        font-size: 22px;
+    }
+    .hubweplain-section .hub-plain-img-text p {
+        line-height: 1.5;
+    }
+}
+@media (max-width:991px)
+
+{
+    .hubweplain-section .row.new-hub-plain.new-hub-plain-two .hub-plain-img-text::after {
+        top: -68px;
+        bottom: unset;
+    }
+    .hubweplain-section .row.new-hub-plain.new-hub-plain-two .hub-plain-img-text::before {
+        top: -20%;
+    }
+    .hubweplain-section .hub-plain-img-text:after {
+        bottom: -66px;
+        width: 30px;
+        height: 30px;
+      
+    }
+    .Technical-SEO-Services .seo-work-content h5 {
+        font-size: 18px;
+    }
+    .hubweplain-section .hub-plain-img-text:before {
+        bottom: -20%;
+    }
+    .HubPopularwork .work-card h4 {
+        font-size: 22px;
+    }
+    .Technical-SEO-Services .seo-work-content, .hubweplain-section .hub-plain-img-text {
+        padding: 35px 15px;
+       
+    }
+}
+@media (max-width:767px){
+    .arrow-center-img {
+        padding: 35px 0;
+        display: none;
+    }
+    .hubweplain-section .col-md-4.col-12 {
+        margin-bottom: 25px;
+    }
+    .hubweplain-section .hub-plain-img-text:before, .hubweplain-section .hub-plain-img-text:after {
+     display: none;
+    }
+    .HubPopularwork .work-card {
+    
+        text-align: center;
+    }
+    .Hubbenfit-section .benifit-card .card-content-main h4 {
+        font-size: 40px;
+
+    }
+    .HubPopularwork .work-card .link-btn {
+
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+.HubPopularwork  .circle-icon-hub {
+margin: 0 auto;
+}
+}

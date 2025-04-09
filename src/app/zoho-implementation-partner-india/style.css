@@ -1,0 +1,218 @@
+.Zohooffer-section img {
+    max-width: 250px;
+    width: auto;
+    padding-right: 25px;
+}
+
+.Zohooffer-section .offer-main {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 0px #eee;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin-left: 30px;
+    border: 1px solid #eee;
+    transition: all .4s ease-out;
+}
+
+.Zohooffer-section .offer-main p {
+    color: #222;
+    margin: 0;
+}
+.Zohooffer-section .offer-main:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.Zohooffer-section .offer-content h3 {
+    color: #00a0af;
+}
+
+.Zohooffer-section .services-offer-left {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.services-offer-right {
+    max-height: 635px;
+    overflow-y: auto;
+}
+
+.services-offer-right::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 11px;
+    background-color: #F5F5F5;
+}
+
+.services-offer-right::-webkit-scrollbar {
+    width: 0;
+    background-color: #F5F5F5;
+}
+
+/* zohoservices-solutions-start */
+.individual-specialization {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0 0 18px #cecece;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 25px;
+    min-height: 100%;
+    background: #fff;
+    z-index: 1;
+}
+
+.individual-specialization .specialization-details {
+    max-width: 71%;
+    min-height: 200px;
+}
+
+.individual-specialization img {
+    max-width: 100px;
+}
+
+.individual-specialization:before {
+    content: "";
+    position: absolute;
+    width: 290px;
+    height: 325px;
+    border-radius: 50%;
+    top: -105px;
+    right: -130px;
+    background: #eaf3fe;
+    z-index: -1;
+    transition: all .3s linear;
+}
+
+.individual-specialization.reverse:before {
+    left: -130px;
+}
+
+.specialization-cards {
+    min-height: 100%;
+}
+
+.individual-specialization .specialization-details p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.individual-specialization:hover:before {
+    width: 1000px;
+    height: 600px;
+    transition: all .3s linear;
+}
+
+.individual-specialization .specialization-details h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00a0af;
+}
+
+.Zohoservice-solution-section.py-5 {
+    background: rgb(221, 229, 249);
+    background: linear-gradient(89deg, rgb(221 229 249 / 83%) 0%, rgb(195 219 251 / 14%) 100%);
+}
+
+/* end */
+.webguruzprocesswork-sec.zoho-implement-choose {
+    background: #fff;
+}
+@media(min-width: 1199px) {
+    .Zohooffer-section .offer-main p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+}
+@media (max-width: 1600px) {
+
+    .individual-specialization .specialization-details {
+        min-height: 230px;
+    }
+
+}
+@media (max-width: 1399px) {
+    .individual-specialization .specialization-details p {
+        min-height: 255px;
+    }
+
+}
+@media (max-width: 1199px) {
+    .individual-specialization:before {
+        width: 278px;
+        height: 333px;
+    }
+
+}
+@media (max-width: 1024px) {
+    .individual-specialization .specialization-details p {
+        min-height: 310px;
+    }
+}
+@media (max-width: 991px) {
+    .Zohooffer-section .services-offer-left {
+        text-align: center;
+        padding-top: 0;
+    }
+    .services-offer-right {
+        max-height: 100%;
+        overflow-y: auto;
+    }
+    .individual-specialization:hover:before {
+        width: 1234px;
+    }
+    .individual-specialization .specialization-details {
+        max-width: 80%;
+    }
+    .individual-specialization .specialization-details p, .individual-specialization .specialization-details {
+        min-height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .Zohooffer-section .offer-main {
+        margin-left: 0;
+    }
+    .zoho-implement-choose .row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .Zohooffer-section .offer-main {
+        flex-direction: column-reverse;
+        margin-left: 0;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .Zohooffer-section img {
+        padding-right: 0;
+    }
+
+    .Zohooffer-section .offer-content {
+        margin-bottom: 20px;
+    }
+    .individual-specialization.reverse {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: left;
+        align-items: start;
+        text-align: left;
+    }
+    .individual-specialization .specialization-details {
+        max-width: 100%;
+    }
+    .individual-specialization {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        text-align: right;
+    }
+}

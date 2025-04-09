@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+.Certifiedagency-section{
+    background-image: url(/images/newhubcrmautoimages/bggr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.Certifiedagency-section .certified-card {
+    background: #F9F9F9;
+    border: 1px solid #26C6DA;
+    min-height: 100%;
+    padding: 30px 25px;
+    transition: all .5s ease-in-out;
+}
+.Certifiedagency-section .certified-card:hover
+{
+    transform: translateY(-10px);
+}
+.new-app-services .lftbg {
+    background: #168b9a;
+}
+
+.Certifiedagency-section .certified-card h2 {
+    
+    font-weight: 500;
+}
+.Certifiedagency-section .certified-card h2 span {
+    color: #168B9A;
+    
+}
+.small-icon-img{
+    max-width: 55px;
+}
+.Hubprocessfollw-section .fllow-step {
+    background: #F5F5F5;
+    padding: 20px;
+    display: flex;
+    gap: 19px;
+    box-shadow: #00000026 0 4px 21px 0;
+    transition: all .5s ease-in-out;
+}
+.Hubprocessfollw-section .fllow-step:hover {
+    transform: translateY(-10px);
+}
+.Hubprocessfollw-section .fllow-img {
+    width: 90px;
+}
+.Hubprocessfollw-section .follow-arrrow-img img {
+    max-width: 100px;
+}
+.Hubprocessfollw-section .follow-arrrow-img.text-left.visibility-hidden {
+    visibility: hidden;
+}
+.follow-arrrow-img.text-center.mobile-image img {
+    max-width: 20px;
+    margin-bottom: 25px;
+}
+.Hubprocessfollw-section img.rotate-img-arrow {
+    transform: rotate(90deg);
+}   
+/* Hubwhyus-start */
+.why-us-card {
+    padding: 20px;
+    transition: all .5s ease-in-out;
+    background: #fff;
+    border-radius: 10px;
+}
+.why-us-card.text-center:hover {
+    box-shadow: rgb(102 102 102 / 20%) 0px 7px 29px 0px;
+}
+.Hubwhyus {
+    background: #E5F0F9;
+}
+@media(max-width:992px){
+    .Certifiedagency-section .certified-card h4 {
+        font-size: 20px;
+    }
+}
+@media (max-width:767px) and (min-width:576px){
+    .Certifiedagency-section .row {
+        flex-direction: row;
+    }
+    
+    .Certifiedagency-section .row .col-md-3 {
+        width: 50%;
+        flex: 0 0 auto;
+    }
+}
+@media (max-width:767px) 
+{
+    .Hubprocessfollw-section .fllow-img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .Hubprocessfollw-section .fllow-step {
+        display: block;
+        text-align: center;
+    }
+    .onboarding-section.hubapp-onboarding-main img {
+        max-width: 100%;
+    }
+}

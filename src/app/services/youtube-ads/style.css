@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+}
+.Youtubeservices-section {
+    background: #26c6da21;
+}
+
+.Youtubeservices-section .youtube-card {
+    /* background: #fff; */
+    padding: 20px;
+    transition: all .4s ease-in-out;
+    border: 1px solid #AFB6E5;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 100%;
+}
+.Youtubetype-section .youtube-type-card {
+    min-height: 100%;
+}
+
+.Youtubeservices-section .youtube-card:hover {
+    background: #fff;
+    border-color: transparent;
+}
+.Youtubetype-section img{
+    max-width: 25px;
+}
+.Youtubetype-section .youtube-type-card .img-text {
+    display: flex;
+    align-items: self-start;
+    margin-bottom: 10px;
+    column-gap: 6px;
+}
+
+.Youtubetype-section .youtube-type-card .img-text h5 {
+    margin: 0;
+    font-size: 20px;
+}
+.Youtubeourteam-section img{
+    max-width: 50px;
+}
+.Youtubeourteam-section {
+    background-image: url(/images/bg-dots.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.Youtubeourteam-section .our-team-box {
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0 4px 13px 1px #d3d3d3;
+    border-radius: 10px;
+    min-height: 100%;
+    text-align: center;
+    transition: all .4s ease-in-out;
+}
+.Youtubeourteam-section .our-team-box:hover {
+    transform: translateY(-10px);
+}
+.Youtubeourteam-section .our-team-box .team-icon {
+    max-width: 90px;
+    height: 90px;
+    background: #fc5e3d4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.Youtubeourteam-section .our-team-box h4{
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.Youtubeourteam-section .row.row-our-team .col-md-6:nth-child(2) .team-icon {
+    background: #7fe39a4d;
+}
+
+.Youtubeourteam-section .row.row-our-team .col-md-6:nth-child(3) .team-icon {
+    background: #fedc9880;
+}
+
+.Youtubeourteam-section .row.row-our-team .col-md-6:nth-child(4) .team-icon {
+    background: #8952a954;
+}
+
+.Youtubeourteam-section .row.row-our-team .col-md-6:nth-child(5) .team-icon {
+    background: #81c3fb6e;
+}
+
+.Youtubeourteam-section .row.row-our-team .col-md-6:nth-child(6) .team-icon {
+    background: #fca52778;
+}
+
+
+/* slider-section-css start*/
+section.youtube-ads-slider .youtube-inner {
+    position: relative;
+    padding-top: 35px;
+}
+  .custom-prev,
+  .custom-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+  }
+  section.youtube-ads-slider .youtube-inner .swiper-button-next:after, section.youtube-ads-slider .youtube-inner .swiper-button-prev:after{
+    display: none;
+  }
+  .custom-prev {
+    left: 10px;
+  }
+  
+  .custom-next {
+    right: 10px;
+  }
+  
+  .custom-prev svg,
+  .custom-next svg {
+    font-size: 16px; /* Adjust icon size */
+    color: #fff; /* Icon color */
+  }
+  
+  section.youtube-ads-slider {
+    background: #bdc3ec26;
+}
+
+section.youtube-ads-slider .swiper-button-prev.custom-prev {
+    left: unset;
+    right: 26px;
+    top: 0;
+    background: transparent;
+    transform: rotate(180deg);
+}
+
+section.youtube-ads-slider .swiper-button-next.custom-next {
+    top: 0;
+    right: 6%;
+    background: transparent;
+    transform: rotate(-181deg);
+}
+
+
+section.youtube-ads-slider  svg path {
+    fill: #212529;
+}
+
+section.youtube-ads-slider .youtube-slides {
+    padding: 30px;
+    background: #fff;
+    border-radius: 9px;
+    box-shadow: 0 7px 14.88px 1.12px rgba(0,0,0,.1);
+    padding-top: 35px;
+    transition: all .5s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+section.youtube-ads-slider svg {
+    transition: all .4s ease-in-out;
+}
+.swiper-slide {
+    min-height: 100%;
+}
+
+section.youtube-ads-slider .youtube-slides p {
+    height: 100%;
+    min-height: 200px;
+    margin: 0;
+}
+
+section.youtube-ads-slider .youtube-slides h4 {
+    font-size: 22px;
+}
+section.youtube-ads-slider svg:hover path {
+    fill: #20a0b1;
+    opacity: .7;
+}
+section.youtube-ads-slider .youtube-slides:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: #ffc10717;
+    top: 0;
+    z-index: -1;
+    transition: all .4s linear;
+}
+
+section.youtube-ads-slider .youtube-slides:hover:after {
+    width: 100%;
+}
+.youtube-slides .youtube-img img{
+    max-width: 70px;
+}
+.youtube-slides .youtube-img{
+    text-align: end;
+    margin-bottom: 25px;
+}
+section.service-banner.youtube-ads-banner ul li {
+    position: relative;
+    z-index: 1;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+section.service-banner.youtube-ads-banner ul li:before {
+    content: url(/images/drupalimg/arrow.webp);
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+@media(min-width:1199px){
+    .Youtubetype-section .youtube-type-card .img-text
+    {
+        align-items: center;
+    }
+    section.youtube-ads-slider .youtube-slides h4 {
+        font-size: 24px;
+    }
+}
+@media(min-width:768px){
+    .Youtubeservices-section .youtube-card{
+        text-align: left;
+    }
+    .Youtubetype-section img{
+        max-width: 30px;
+    }
+}
+@media(max-width:1199px){
+    section.youtube-ads-slider .swiper-button-next.custom-next {
+        right: 7%;
+    }
+
+}
+@media(max-width:935px){
+    section.youtube-ads-slider .youtube-slides p {
+        min-height: 257px;
+
+    }
+    section.youtube-ads-slider .swiper-button-next.custom-next {
+        right: 8%;
+    }
+}
+@media(max-width:767px){
+    section.youtube-ads-slider .youtube-slides p {
+        min-height: auto;
+
+    }
+    section.youtube-ads-slider .swiper-button-next.custom-next {
+        right: 60px;
+        margin-right: 20px;
+    }
+    section.counter-main.youtube-ads-counter label {
+        min-height: 100%;
+    }
+    
+    section.counter-main.youtube-ads-counter .row:nth-child(2) .col.col-xs-12:nth-child(1) , 
+    section.counter-main.youtube-ads-counter .row:nth-child(2) .col.col-xs-12:nth-child(2) {
+        margin-bottom: 20px;
+    }
+    section.service-banner.youtube-ads-banner ul {
+        max-width: 468px;
+        margin: 0 auto;
+    }
+}

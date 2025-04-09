@@ -1,0 +1,183 @@
+.marketo-model {
+    background: #dedfe03d;
+}
+ .marketo-icon img {
+    max-width: 55px;
+}
+.marketo-left {
+    position: sticky;
+    top: 100px;
+}
+.marketo-section .marketo-icon {
+    margin-bottom: 15px;
+}
+
+.marketo-section h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.marketo-section p {
+    margin: 0;
+}
+
+.marketo-section .marketo-icon-text {
+    margin-bottom: 30px;
+}
+.marketoservice-section 
+ .marketo-icon-text {
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100%;
+}
+.marketo-model .clickable-points{
+    background: transparent;
+}
+.salesforce-planning.marketo-model .planning-category ul li {
+    background: #e9e9e9;
+}
+.marketo-model .saleforce-sidepanel {
+    position: sticky;
+    top: 68px;
+}
+.marketoservice-section .marketo-icon-text h4 {
+    margin: 0;
+}
+.marketoservice-section 
+ .marketo-icon-text {
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100%;
+    transition: all .4s ease-out;
+}
+
+.marketoservice-section .marketo-icon-text h4 {
+    margin: 0;
+    font-size:20px;
+}
+.marketoservice-section .marketo-icon-text:hover {
+    background: #00a0af;
+}
+.marketoservice-section .marketo-icon-text h4 , .marketoservice-section .marketo-icon-text img{
+    transition: all .4s ease-out;
+}
+.marketoservice-section .marketo-icon-text:hover h4 {
+    color: #fff;
+}
+.marketoservice-section .marketo-icon-text:hover img {
+    filter: brightness(2.5);
+}
+/* end */
+/* marketo-experince-start */
+/* .marketo-experince {
+    background: #F2F4F8;
+} */
+
+.marketo-experince .marketo-experince-card {
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-out;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    min-height: 100%;
+}
+
+.marketo-experince .marketo-experince-card .card-description {
+    padding: 30px;
+}
+
+.marketo-experince .marketo-experince-card .card-description li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+.marketo-experince .marketo-experince-card .card-description ul {
+    padding-left: 15px;
+}
+
+.marketo-experince .marketo-experince-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.marketo-experince .marketo-experince-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.marketo-experince h4 {
+    margin-bottom: 17px;
+}
+/* end */
+/* marketo-automation */
+
+.marketo-automation .marketo-box {
+    padding: 10px;
+    min-height: 100%;
+}
+
+.marketo-automation .marketo-box img {
+    max-width: 60px;
+}
+
+.marketo-automation .marketo-box h5 {
+    margin: 18px 0;
+}
+
+.marketo-automation .marketo-box p {
+    margin: 0;
+}
+.marketohelp {
+    background: #f7f9fa;
+}
+/* end */
+.marketo-experince .marketo-experince-card .card-img img {
+    min-height: 280px;
+}
+@media(max-width:1399px){
+    .marketo-experince .marketo-experince-card .card-img img {
+        min-height: 245px;
+    }
+}
+@media(max-width:1024px){
+    .marketo-experince .marketo-experince-card .card-img img {
+        min-height: 215px;
+    }
+
+}
+@media(max-width:991px){
+    .marketo-experince h4 {
+        font-size: 22px;
+    }
+    .marketo-experince .marketo-experince-card .card-img img {
+        min-height: 165px;
+    }
+
+}
+@media(max-width:767px){
+    .marketo-section .row.marketo-row .col-md-6 {
+        text-align: center;
+    }
+    .marketo-experince .marketo-experince-card .card-img img {
+        min-height: auto;
+    }
+}
+@media(min-width:576px){
+    .marketo-section  .row.marketo-row {
+        flex-direction: row;
+    }
+    
+    .marketo-section  .row.marketo-row .col-md-6 {
+        width: 50%;
+    }
+}

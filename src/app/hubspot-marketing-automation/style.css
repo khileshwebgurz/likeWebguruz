@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+.automation-section {
+    background: #26c6da1f;
+}
+
+.automation-section .autoimg {
+    width: 90px;
+    height: auto;
+    display: inline-block;
+}
+
+.automation-section .autoimg img {
+    max-width: 55px;
+    height: auto;
+}
+.local-service.technical-service.new-automate-services {
+    background: #FCF7F0;
+}
+
+.automation-card {
+    display: flex;
+    gap: 15px;
+    padding: 25px 22px;
+    background: #fff;
+    min-height: 100%;
+    transition: all .5s ease-out;
+}
+.automation-card:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.automation-section.newhubprocess-section {
+    background: transparent;
+}
+
+.newprocess-card {
+    padding: 21px;
+    border: 1px solid #EBEBEB;
+    min-height: 100%;
+    transition: all .5s ease-out;
+    transform: translateX(0);
+}
+.newprocess-card:hover {
+    transform: translateY(-10px);
+}
+.automation-section.newhubprocess-section .autoimg {
+    margin-bottom: 15px;
+}
+
+.automation-section.newhubprocess-section.new-why-choose-section {
+    background: #e5f0f857;
+}
+
+.newprocess-card.new-why-card {
+    background: #fff;
+    border: 1px solid #9B9B9B;
+    padding: 30px 25px;
+}
+.automation-section.newhubprocess-section .newprocess-card {
+    position: relative;
+    z-index: 1;
+}
+
+.automation-section.newhubprocess-section .newprocess-card:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    z-index: -1;
+    top: 0;
+    background: rgb(42,22,154);
+    background: linear-gradient(90deg, rgba(42,22,154,0.87718837535014) 0%, rgba(32,160,177,0.8435749299719888) 69%);
+    transition: width .5s linear;
+}
+
+.automation-section.newhubprocess-section .newprocess-card:hover:after {
+    width: 100%;
+}
+.newprocess-card.new-why-card:after {
+    content: unset !important;
+}
+.automation-section.newhubprocess-section.new-why-choose-section .newprocess-card.new-why-card:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-color: #fff;
+    transform: unset;
+}
+
+.automation-section.newhubprocess-section.new-why-choose-section .newprocess-card.new-why-card {
+    transition: all .5s ease-out;
+}
+@media screen and (max-width: 767px) and (min-width: 575px) {
+    .row.automation-row {
+        flex-direction: row;
+    }
+    
+    .row.automation-row .col-md-4 {
+        width: 50%;
+    }
+}
+
+@media(max-width:575px){
+    .newprocess-card.new-why-card {
+        text-align: center;
+    }
+}

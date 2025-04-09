@@ -1,0 +1,112 @@
+.seocopywrite-service {
+    background: #dbdbdb2e;
+}
+
+.seocopywrite-service .img-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.seocopywrite-service .img-text h4 {
+    margin: 0;
+}
+.seocopywrite-service .img-text .img {
+    width: 100%;
+    max-width: 50px;
+}
+.Seocopyeditor .seocopy-box {
+    background: #F7F7F7;
+    padding: 20px;
+    min-height: 100%;
+}
+.seocopy-box p {
+    margin: 0;
+}
+.seocopy-experince {
+    background: #f8f9faab;
+}
+
+.seocopy-experince .seo-card {
+    box-shadow: unset;
+    border: 0;
+    min-height: 100%;
+    margin: 0;
+    padding: 15px;
+}
+.seocopy-experince .seo-card p{
+    margin-bottom: 0;
+}
+.seocopy-experince .seo-card img {
+    height: auto;
+    max-width: 60px;
+}
+
+.seocopy-experince .seo-card h5 {
+    margin-bottom: 15px;
+}
+.seocopy-effect-section .seo-card {
+    min-height: 100%;
+    padding: 30px 20px;
+    margin: 0;
+    border-radius: 15px;
+}
+.seocopy-effect-section .seo-card img {
+    height: 100%;
+    max-width: 55px;
+}
+
+.seocopy-benifit {
+    background: #f0f8f5bd;
+}
+.seocopy-benifit .seo-card:hover {
+    background: #2196f330;
+}
+.seocopy-benifit .seo-card {
+    background: #fff;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all .4s ease-out;
+}
+.seocopywork-section ul li {
+    padding-left: 33px;
+    background-image: url(/images/seocopywriteimg/seoarrow.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.seocopywork-section ul li p {
+    margin: 0;
+}
+@media(max-width:767px){
+    .seocopy-experince .seo-card {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .seocopy-effect-section .seo-card{
+        text-align: center;
+    }
+    .seocopywork-section .row {
+        flex-direction: column-reverse;
+    }
+    .seocopywite-rank-section h5 {
+        font-size: 18px;
+        margin: 0;
+    }
+}
+@media(max-width:576px){
+    .seocopywrite-service .img-text {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .seocopywrite-service  .seocopy-box {
+        text-align: center;
+    }
+}

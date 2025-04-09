@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+.row.align-items-center.onboard.board-two {
+    margin-bottom: 0;
+}
+
+.onboarding-section {
+    background: #fcf7f096;
+}
+section.customised-content-section.hubspot-onboard-process .no-space  .col-lg-4 {
+    margin-top: -40px;
+}
+.onboard {
+    margin-bottom: 50px;
+}
+.hub-onboarding-phases .row.organic-content-seo-process p {
+    margin: 10px 0 !important;
+}
+.hubspot-onboarding-steps .linecenter {
+    height: 100%;
+}
+.why_hire-section.onboarding-reasons .top-img.two-choose {
+    margin-bottom: 0;
+    transform: translateY(20px);
+}
+.why_hire-section.onboarding-reasons .col-sm-6.col-12 {
+    margin-bottom: 20px;
+}
+.why_hire-section.onboarding-reasons .top-img {
+    min-height: 100%;
+}
+.hub-onboarding-phases .row.organic-content-seo-process li {
+    padding-right: 0;
+    padding-left: 25px;
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+.hub-onboarding-phases .row.organic-content-seo-process {
+    align-items: center;
+}
+.hub-onboarding-phases .row.organic-content-seo-process li:before {
+    content: url(/images/drupalimg/arrow.webp);
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.onboarding-section img {
+    max-width: 100%;
+    width: 100%;
+    max-width: 504px;
+    margin: 0 auto;
+}
+
+
+.onboard li {
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    padding-left: 25px;
+}
+
+.onboard li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: #168b9a;
+    border-radius: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.onboard ul {
+    padding-left: 10px;
+}
+
+
+
+
+@media (max-width: 991px) {
+
+.hubspot-onboarding-steps .qstbox.right , .hubspot-onboarding-steps .qstbox.left {margin-bottom: 20px;margin-top: 0;}
+
+.hubspot-onboarding-steps .qstbox.right span.nmmb {
+    margin-top: 0;
+}
+
+.hubspot-onboarding-steps .qstbox span.nmmb {
+    margin: 0;
+}
+}
+@media (max-width: 767px) {
+    .row.align-items-center.onboard.board-two {
+        flex-direction: column-reverse;
+    }
+    section#hbstdvlpmnt.hubspot-onboarding-steps {
+        padding: 40px 0;
+    }
+    .onboard {
+        margin-bottom: 0px;
+    }
+    .hubspot-onboard-process .col-lg-4 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:576px){
+    .why_hire-section.onboarding-reasons .top-img.two-choose {
+        margin-bottom: 20px;
+        transform: unset;
+    }
+    .why_hire-section.onboarding-reasons .col-sm-6.col-12 {
+        margin-bottom: 0;
+    }
+}

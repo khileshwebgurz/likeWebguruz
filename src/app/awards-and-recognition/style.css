@@ -1,0 +1,276 @@
+.awards-recog {
+    background-image: url(/images/agileimg/agile-banner.webp);
+    min-height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    z-index: 1;
+  }
+  .awards-recog:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #001e367d;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+  .awards-recog::before{
+      display: none;
+  }
+  .awards-recog h1 strong {
+      display: block;
+  }
+  section.long-history-main .row {
+    align-items: center;
+  }
+  section.long-history-main .history-image-icon img {
+    width: 100%;
+    margin: auto;
+}
+.awards-recog h1 {
+  font-size: 65px;
+  color: #fff;
+}
+section.long-history-main h2 {
+  font-weight: 600;
+}
+section.long-history-main h2 {
+  font-weight: 600;
+  font-size: 36px;
+}
+.history-image-icon {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.history-id-1 {
+  justify-content: center;
+}
+section.long-history-main.item-4 .history-image-icon.history-id-4 {
+  justify-content: left;
+  align-items: center;
+}
+section.long-history-main.item-1 .history-image-main-content {
+  width: 50%;
+}
+.history-id-1 .history-image-main.history-four.history-four-1 {
+  border-radius: 0;
+  padding: 50px;
+}
+.awards-recog + section.long-history-main .history-image-icon:after {
+  content: "";
+  position: absolute;
+  width: 486px;
+  height: 500px;
+  background: #ACACAC;
+  border-radius: 13px;
+  transform: translateY(-50%);
+  z-index: -1;
+  opacity: 0.1;
+  top: 50%;
+  left: 331px;
+}
+.history-image-icon {
+  position: relative;
+  z-index: 1;
+}
+.col-sm-6.col-xs-12.history-image-icon.history-id-2 {
+  background: url(https://i.ibb.co/rtr0CmH/download.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section.long-history-main.item-3 .row , section.long-history-main.item-4 .row.reverse {
+  position: relative;
+  z-index: 1;
+}
+
+section.long-history-main.item-3 .row:after , section.long-history-main.item-4 .row.reverse:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background: #26C7DB;
+  top: 10%;
+  z-index: -1;
+  left: 0%;
+  opacity: 0.13;
+  max-width: 1050px;
+  border-radius: 10px;
+}
+section.long-history-main.item-1 {
+  background: url(https://i.ibb.co/j6J36Hv/Rectangle-82.png);
+  background-position: 0px 50%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+  padding-top: 130px !important;
+}
+section.long-history-main.item-1:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  background: url(https://i.ibb.co/BjkKxGS/circle-img.png);
+  width: 220px;
+  height: 441px;
+  top: 454px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.long-history-main.item-4 .row.reverse:after {
+  background: #ACACAC;
+  left: unset;
+  right: 0;
+}
+.history-image-main {
+  padding: 35px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 16px 33px 0px rgba(0, 0, 0, 0.25);
+  max-width: 296px;
+  margin: auto auto 20px auto;
+  border-radius: 12px;
+}
+.history-image-main-content {
+  padding: 6px;
+
+}
+.awards-recog h1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 409px;
+  height: 4px;
+  background: #ffffff;
+  bottom: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+
+.awards-recog h1.mb-4 {
+  z-index: 1;
+  position: relative;
+  padding-bottom: 30px;
+}
+.history-image-icon >div:nth-child(2n) {
+  position: relative;
+  top: -30px;
+}
+.history-image-icon.history-id-3 .history-image-main-content:nth-child(1) , .history-image-icon.history-id-2 .history-image-main-content:nth-child(1){
+  top: 53px;
+  position: relative;
+}
+.awards-recog span {
+  z-index: 1;
+}
+section.long-history-main.item-4 .history-image-icon.history-id-4 .history-image-main-content {
+  top: 0;
+}
+
+section.long-history-main.item-4 .history-image-icon.history-id-4 .history-image-main-content:nth-child(2) {
+  top: 97px;
+  left: 30px;
+}
+body .awards-recog span::before {
+  background-image: linear-gradient(45deg, #d9e6e8, #ffffff30);
+}
+
+
+@media (max-width: 1200px) {
+  section.long-history-main.item-3 .row:after, section.long-history-main.item-4 .row.reverse:after {
+    left: 1%;
+    max-width: 768px;
+}
+section.long-history-main.item-4 .row.reverse:after {
+  left: unset;
+  right: 1%;
+}
+section.long-history-main.item-1:after {
+  width: 150px;
+  height: 400px;
+
+}
+.awards-recog h1:after{
+
+  width: 250px;
+}
+}
+@media (max-width: 991px) {
+  section.long-history-main.item-3 .row:after, section.long-history-main.item-4 .row.reverse:after {
+
+    max-width: 575px;
+}
+.awards-recog + section.long-history-main .history-image-icon:after {
+  left: 0;
+}
+section.long-history-main.item-1:after {
+content: unset;
+
+}
+.history-image-main-content {
+  padding: 6px;
+  width: 50%;
+}
+}
+  @media (max-width: 767px) {
+    .awards-recog {
+        background-position: center right;
+    }
+    .btn-deliver-wrap-set {
+        margin-top: 5px;
+    }
+
+  section.long-history-main .row {
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+section.long-history-main.item-1 {
+  background: unset;
+  padding-top: 32px !important;
+}
+section.long-history-main.item-3 .row:after, section.long-history-main.item-4 .row.reverse:after , 
+.awards-recog + section.long-history-main .history-image-icon:after {
+content: unset;
+}
+section.long-history-main .history-image-icon {
+  justify-content: center;
+}
+.awards-recog h1 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.1;
+  padding-bottom: 19px !important;
+}
+section.long-history-main h2 {
+  font-size: 26px;
+}
+
+}
+@media (max-width: 575px) {
+  .history-image-main {
+    padding: 30px;
+    max-width: 450px;
+}
+section.long-history-main.item-1 .history-image-main-content {
+  width: 100%;
+}
+section.long-history-main .history-image-icon img {
+  width: 100%;
+  margin: auto;
+  max-width: 149px;
+}
+.history-image-main-content {
+  width: 100%;
+  top: 0 !important;
+}
+}

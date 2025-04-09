@@ -1,0 +1,313 @@
+* {
+  box-sizing: border-box;
+}
+.ecommerce-consulting-services {
+  background-color: #fff;
+}
+.Econsultingservices {
+  background: #f3f3f3;
+}
+
+.Econsultingservices img {
+  width: 45px;
+}
+.magento-dev-details.ecommerce-consulting-details {
+  background: #fdf3f0;
+}
+.Econsultingservices .eservices-main {
+  background-color: #fff;
+  border-left: 3px solid #ff5b00;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 19px;
+  padding-right: 30px;
+  font-weight: 700;
+  min-height: 100%;
+  transition: all 0.4s ease-in-out;
+  gap: 20px;
+}
+.Econsultingservices .img-one {
+  width: 100%;
+  max-width: 60px;
+  height: 60px;
+  background: #a1a6a61c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+body .ecom-consulting-techno {
+  background: #eeeffd;
+}
+
+body .ecom-consulting-techno .techmolgy-box {
+  background: #fff;
+}
+.Econsultingservices .eservices-main:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Technologystack-section.ecom-consulting-techno .row {
+  max-width: 100%;
+}
+.Econsultingservices .services-one p {
+  margin: 0;
+  font-weight: 600;
+}
+.Econsultingservices .services-one {
+  min-height: 100%;
+  height: 100%;
+}
+
+.Ecomsolution-section {
+  background: #ebf8f9a8;
+}
+
+.Ecomsolution-section img {
+  max-width: 35px;
+}
+
+.Ecomsolution-section .img-one {
+  background: #fff;
+  max-width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  box-shadow: 0 0 30px #7988974d;
+  width: 100%;
+}
+
+.eEcomsolution-main {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.Ecomsolution-section .const-text {
+  padding: 0 25px;
+}
+.Ecomsolution-section .const-text h5 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 26px;
+}
+.Ecombussines-section .bussines-card {
+  transition: all 0.4s ease;
+  padding: 30px 45px;
+  box-shadow: 0 0 25px #aeaeae33;
+  border: 1px solid #00aeef;
+  border-radius: 5px;
+  min-height: 100%;
+}
+
+.Ecombussines-section .bussines-card span.count {
+  color: #0e63cb;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
+}
+.Ecombussines-section .bussines-card li {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 14px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.Ecomchoosing-sec .choose-icon {
+  background: #ff9c853d;
+  max-width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 100%;
+}
+.Ecomchoosing-sec .choosing-text-img img {
+  width: 100%;
+  margin-right: 0;
+  max-width: 35px;
+}
+.Ecombussines-section .bussines-card h5 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.Ecombussines-section ul.bussines-list {
+  padding-left: 25px;
+}
+.Ecombussines-section .bussines-card li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  outline: 1px solid #00444e;
+  left: -20px;
+  top: 10px;
+  border: 2px solid #fff;
+  background-color: #00444e;
+}
+.Ecombussines-section .bussines-card.border-purple {
+  border-color: #e08bfc;
+}
+
+.Ecombussines-section .bussines-card.border-orange {
+  border-color: #ff6167;
+}
+
+.Ecombussines-section .bussines-card.border-orange span.count {
+  color: #ff6167;
+}
+
+.Ecombussines-section .bussines-card.border-purple span.count {
+  color: #e08bfc;
+}
+
+.Ecombussines-section .bussines-card.border-green {
+  border-color: #00e396;
+}
+
+.Ecombussines-section .bussines-card.border-green span.count {
+  color: #00c1ce;
+}
+
+.Ecombussines-section .bussines-card.border-yellow {
+  border-color: #ffb84e;
+}
+
+.Ecombussines-section .bussines-card.border-yellow span.count {
+  color: #ffb84e;
+}
+.Ecombussines-section .bussines-card:hover {
+  border-color: transparent !important;
+}
+.Ecomprocess-sec .process-card {
+  padding: 40px 0;
+  border-bottom: 1px solid #d23c55;
+  padding-top: 30px;
+}
+.Ecomprocess-sec .row .col-12:nth-child(6) .process-card,
+.Ecomprocess-sec .row .col-12:nth-child(7) .process-card {
+  border: 0;
+}
+.Ecomprocess-sec {
+  background: url(/images/ecommerceconstimg/dots-back.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Ecomprocess-sec .process-card span {
+  color: #d23c55;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.Ecomprocess-sec .process-card h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.Ecomprocess-sec .process-card p {
+  font-size: 16px;
+}
+.Ecomchoosing-sec .choosing-text-img {
+  display: flex;
+  align-items: self-start;
+  gap: 20px;
+}
+.ecommerce-consulting-services .hquality {
+  width: 100%;
+}
+.Ecomchoosing-sec .choosing-text {
+  border-bottom: 2px dashed rgba(87, 82, 162, 1);
+  margin-bottom: 20px;
+}
+.Ecomchoosing-sec .choosing-text-img p {
+  font-size: 16px;
+}
+.Ecomchoosing-sec .choosing-text-img h4 {
+  font-size: 24px;
+}
+.Ecomchoosing-sec .choosing-text-img p {
+  padding-bottom: 15px;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .Econsultingservices .eservices-main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .Ecomchoosing-sec .choose-img img {
+    max-width: 580px;
+    display: flex;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .Ecombussines-section .bussines-card {
+    padding: 30px 20px;
+  }
+  .Ecombussines-section .bussines-card h5 {
+    align-items: flex-start;
+  }
+  .Ecombussines-section .heading-main {
+    text-align: center;
+  }
+
+
+  .Ecomchoosing-sec .choosing-text-img h4 {
+    font-size: 20px;
+  }
+  .Ecomprocess-sec .process-card {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .Ecomprocess-sec .row .col-12:nth-child(6) .process-card {
+    border-bottom: 1px solid #d23c55;
+  }
+  .Ecomprocess-sec .process-card h5 {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Ecomchoosing-sec .choose-img img {
+    max-width: 100%;
+  }
+  section.counter-main.ecommerce-consulting-counter label {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  section.counter-main.ecommerce-consulting-counter .col.col-xs-12:nth-child(1),
+  section.counter-main.ecommerce-consulting-counter
+    .col.col-xs-12:nth-child(2) {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .Ecomchoosing-sec .choosing-text {
+    width: 80%;
+}
+  }
+@media (max-width: 391px) {
+.Technologystack-section .techmolgy-box li {
+  width: 100%;
+}
+}

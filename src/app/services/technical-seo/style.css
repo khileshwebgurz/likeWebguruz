@@ -1,0 +1,170 @@
+.customised-content-section .awareness-inner h3 {
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 16px;
+}
+.customised-content-section .awareness-inner {
+    transition: all .5s ease-in-out;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.customised-content-section .awareness-inner .icon-awareness {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    -webkit-box-shadow: 0px 14px 51px -22px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0px 14px 51px -22px rgba(0, 0, 0, .75);
+    box-shadow: 0px 14px 51px -28px rgba(0, 0, 0, .35);
+    margin-top: 15px;
+    transition: all .4s;
+}
+.customised-content-section .awareness-inner .icon-awareness svg path {
+    fill: #168b9a;
+}
+.customised-content-section .col-lg-4 {
+    margin-top: 50px;
+}
+.customised-content-section .awareness-inner .icon-awareness::after {
+    position: absolute;
+    width: 94%;
+    height: 94%;
+    border: 3px solid #e4fcff;
+    border-radius: 50%;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.customised-content-section .awareness-inner:hover {
+    transform: translateY(10px);
+}
+.customised-content-section .no-space .col-lg-4 .awareness-inner:hover{
+    transform: translateY(-10px);
+}
+.customised-content-section .awareness-inner:hover h3 {
+    color: #168b9a;
+}
+.customised-content-section .awareness-inner:hover .icon-awareness svg path {
+    fill: #fff;
+}
+.customised-content-section .awareness-inner:hover .icon-awareness {
+    box-shadow: none;
+    background-color: #168b9a;
+}
+.customised-content-section .no-space .col-lg-4 {
+    margin-top: -74px;
+}
+.customised-content-section .wave-shape {
+    position: absolute;
+    top: 356px;
+    width: 1013px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.service-banner .button-merge button {
+    margin: 8px 8px 0px 0px;
+}
+/* mediaquary start 24-10-2024*/
+
+
+@media (max-width: 1199px) {
+
+.customised-content-section .wave-shape {
+    display: none;
+}
+}
+@media (max-width: 991px) {
+
+    .customised-content-section .awareness-inner h3 {
+        font-size: 18px;
+
+    }
+    section.adress-main .col.col-sm-3.col-xs-12 {
+        width: 50%;
+        margin-bottom: 24px;
+    }
+}
+@media (max-width: 900px) {
+    section.adress-main .col.col-sm-3.col-xs-12 {
+        width: 50%;
+        margin-bottom: 24px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    section.counter-main.technical-counter .col.col-xs-12 label {
+        min-height: 190px;
+    }
+    .counter-main label span {
+        font-size: 40px;
+        margin: 0px;
+    }
+    .customised-content-section .no-space .col-lg-4 {
+        margin-top: 40px !important;
+    }
+    .customised-content-section .col-lg-4 {
+        margin-top: 40px;
+    }
+    section.customised-content-section .row.relative .awareness-inner>div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .service-banner .heading-main {
+        margin-bottom: 30px;
+    }
+    section.adress-main .col.col-sm-3.col-xs-12 {
+        width: 100% !important;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 480px) {
+    .indstrsrv .indstrsrvinr h3 {
+        font-size: 20px;
+    }
+    .faq-content .accordionNew .according-heading {
+        font-size: 18px;
+    }
+    .contact-main .contact-info-sub .icon svg {
+        width: 18px;
+        height: 18px;
+        padding: 0 !important;
+    }
+    .contact-info-sub .icon {
+        width: 35px;
+        height: 35px;
+    }
+}  
+
+@media (max-width: 390px) {
+    section.counter-main.technical-counter .col.col-xs-12 label {
+        min-height: 203px;
+    }
+    .counter-main label p {
+        line-height: 23px;
+    }
+    .heading-main h2, .heading-main h2 span {
+        font-size: 25px;
+        line-height: 35px;
+  
+    }
+    div#webdevForm input.hs-button.primary.large {
+        width: 100%;
+    }
+    .contact-info-sub {
+        display: inline-block;
+        width: 100%;
+        padding: 7px 3px 11px 50px;
+    }
+}

@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+.logo-brand img {
+    max-width: 250px;
+    object-fit: cover;
+    height: auto;
+}
+.offer-card img {
+    max-width: 55px;
+    height: auto;
+}
+
+.offer-card {
+    margin-bottom: 60px;
+    border: 1px solid #ededed;
+    /* max-width: 270px; */
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    box-shadow: #0000001f 0 4px 4px 0;
+    border-radius: 10px;
+    min-height: 207px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in-out 0s;
+}
+
+.offer-card img {
+    max-width: 35px;
+    height: auto;
+}
+.icon-img {
+    position: absolute;
+    top: -33px;
+    left: 0;
+    right: 0;
+    width: 65px;
+    margin: 0 auto;
+    height: 65px;
+    border: 1px solid #168B9A;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background: #ffff;
+}
+/* .partner-content------------ */
+.partner-content.text-center {
+    padding: 40px;
+    background: rgba(38, 198, 218, 0.17);
+    border-radius: 10px;
+    box-shadow: #00000030 0 4px 4px 0;
+}
+
+.offer-card:hover {
+    box-shadow: -6px 6px #168b9a;
+}
+.card-1 {
+    background: #fff;
+    box-shadow: #00000026 0px 4px 15px 0;
+    transition: all .5s ease-in-out;
+   
+}
+.card-1:hover {
+    transform: translateY(-10px);
+}
+.card-1 .card-text {
+    padding: 20px;
+    min-height: 230px;
+    text-align: center;
+    /* margin-top: 60px; */
+    padding-top: 60px;
+}
+.card-1 h6 {
+    color: #008D9C;
+    margin-bottom: 15px;
+}
+.card-1 img {
+    width: 50px;
+    position: absolute;
+    left: -10px;
+    top: -15px;
+
+}
+
+.card-1 {
+    position: relative;
+}
+
+.card-1 .card-text h6 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-1 h4 {
+    font-size: 40px;
+}
+
+.card-1 p {
+    font-size: 16px;
+}
+.partner-content.text-center p {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.Partner-brand {
+    padding: 20px;
+    border: 1px solid #F0F0F0;
+}
+.trusted-partner img {
+    max-width: 200px;
+    height: 45px;
+    object-fit: contain;
+}
+@media (min-width: 767px) {
+    .offer-card {
+        max-width: -webkit-fill-available;
+    }
+    .counter-main.service-counter.hubspot-counting.consulting-page {
+        margin-bottom: 20px;
+    }
+    .counter-main.service-counter.hubspot-counting.consulting-page label {
+        height: 100%;
+    }
+}
+@media (max-width: 1600px) {
+
+.card-1 .card-text {
+    min-height: 255px;
+}
+}
+@media (max-width: 1440px) {
+
+    .card-1 .card-text {
+        min-height: 260px;
+    }
+}
+@media (max-width: 1199px) {
+    .offer-card-text h5 {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+@media (max-width: 991px) {
+
+    .card-1 .card-text {
+        min-height: 230px;
+    }
+}
+@media (max-width: 767px) {
+    .row.two ,   .row.Offer , .row.benifit-card ,.row.Partner {
+        flex-direction: row;
+    }
+    .row.benifit-card{
+        padding-right: 0px !important;
+    }
+    .row.two .col-md-3 ,  .row.Offer .col-lg-3,  .row.benifit-card  .col-lg-3 , .row.Partner .col-md-3{
+        width: 50%;
+    }
+
+    .card-1 .card-text {
+        min-height: 250px;
+    }
+    .counter-main.service-counter.hubspot-counting.consulting-page label {
+        height: 100%;
+    }
+    .counter-main.service-counter.hubspot-counting.consulting-page .col.col-xs-12 {
+        margin-bottom: 20px;
+    }
+    .card-content.consult-cards.d-flex.align-items-center {
+        flex-direction: column;
+    }
+    .offer-card-text {
+        transform: translateY(10px);
+    }
+    .servicesoffer .offer-card-text h5 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+       .row.Offer ,   .row.benifit-card ,.row.Partner   {
+        flex-direction: column;
+    }
+    .benifit-section .card-1 img {
+        width: 40px;
+        left: -12px;
+    
+    }
+    .offer-card {
+        margin-bottom: 50px;
+        min-height: 180px;
+    }
+  .row.Offer .col-lg-3, .row.benifit-card  .col-lg-3 , .row.Partner .col-md-3{
+        width: 100%;
+    }
+    .row.Offer.pt-5.text-center {
+        justify-content: center;
+        padding-right: 0;
+    }
+    .row.Offer.pt-3.pt-md-5.text-center {
+        padding-right: 0;
+    }
+    .partner-content.text-center {
+        padding: 40px 20px;
+    }
+    .card-1 .card-text {
+        min-height: auto;
+        padding-top: 20px;
+    }
+    .counter-main.service-counter.hubspot-counting.consulting-page label {
+        height: auto;
+    }
+    .counter-main.service-counter.hubspot-counting.consulting-page  .col.col-xs-12 {
+        margin-bottom: 0px;
+        width: 100%;
+    }
+}

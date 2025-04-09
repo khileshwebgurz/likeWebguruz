@@ -1,0 +1,434 @@
+* {
+  box-sizing: border-box;
+}
+.caree-opportunity-section {
+  width: 100%;
+  display: block;
+}
+.caree-opportunity-section img {
+  max-width: 64px;
+  margin: 0 auto;
+  display: block;
+}
+.caree-opportunity-section h5 {
+  margin: 20px 0 8px 0;
+}
+.heading-main h2 span {
+  color: #168b9a;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+}
+.grid-wrap-career {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+.card-career-wrap {
+  width: 100%;
+  display: block;
+  border: 1px solid #ebebeb;
+  padding: 20px;
+  transition: 0.5s;
+}
+.card-career-wrap:hover {
+  box-shadow: 0px 0px 10px 0px #0000001f;
+}
+
+.benifits-wrap-02 {
+  width: 100%;
+  display: block;
+  padding: 50px 0;
+  background: #fffbed;
+}
+
+.benefits-internship-list {
+  max-width: 924px;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 14px;
+  column-gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+}
+.benefits-internship-listing {
+  width: 100%;
+  display: flex;
+  background: #fff;
+  padding: 20px 18px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 15px;
+  transition: 0.5s;
+}
+.benefits-internship-listing:hover {
+  box-shadow: 0px 0px 10px 0px #0000001f;
+}
+
+.benefits-internship-listing img {
+  width: 30px;
+  display: block;
+}
+
+.custom-career-opp-section {
+  width: 100%;
+  display: block;
+  background: #fff;
+}
+.custom-career-opp-section.new-custom-career-page .new-career-content {
+  padding: 20px;
+}
+.provideceptional-head {
+  color: #008b98;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+}
+.listing-industrial-certified {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  row-gap: 10px;
+}
+.Experienced-section {
+  background-image: url(/images/internproimg/intern-exp-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+.listing-industrial-certified li {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: self-start;
+  column-gap: 10px;
+}
+.hubdev-certified.new-intern-program li img {
+  margin-right: 10px;
+}
+.listing-industrial-certified li img {
+  width: 26px;
+}
+.img-Careeropp {
+  width: 100%;
+  display: block;
+}
+.spacer-black-nolines {
+  border: none;
+  margin: 40px 0;
+}
+.counter-wrap-career-op {
+  width: 100%;
+  display: block;
+  border-style: solid;
+  padding: 30px;
+  text-align: center;
+  border-radius: 24px;
+  border-color: #25c1d5;
+  border-width: 1px 1px 6px 1px;
+  position: relative;
+}
+.color-counter-caree {
+  font-size: 60px;
+  color: #25c1d5;
+  display: block;
+  margin: 0 0 10px;
+}
+
+.counter-wrap-career-op {
+  width: 100%;
+  display: block;
+  border-style: solid;
+  padding: 30px;
+  text-align: center;
+  border-radius: 24px;
+  border-color: #25c1d5;
+  border-width: 1px 1px 6px 1px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 2;
+}
+.counter-wrap-career-op:hover .color-counter-caree {
+  color: #fff;
+}
+.counter-wrap-career-op::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1%;
+  background: #25c1d5;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+  z-index: -1;
+}
+.counter-wrap-career-op:hover::before {
+  height: 100%;
+  transition: 0.5s;
+}
+.Experienced-section .row.experience .experince-img img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+.Experienced-section .row.experience .experince-card {
+  padding: 15px 25px;
+}
+.Experienced-section .row.experience .experince-card h3 {
+  color: #168b9a;
+}
+.Experienced-section .row.experience .experince-card h3 a {
+  font-size: 24px;
+  color: #168b9a;
+  font-weight: 600;
+}
+.Experienced-section .row.experience .experince-card p {
+  margin-bottom: 5px;
+}
+
+.custom-career-opp-section.new-custom-career-page .new-career-content p {
+  margin-bottom: 20px;
+}
+.trenee-name-review-quote img.quote-img-right {
+  max-width: 30px;
+}
+
+.trenee-name-review-quote .quote-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.intern-fav-point ul li img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.trenee-review-star {
+  width: 136px;
+}
+.new-intern-program {
+  background-color: #f2f3fb;
+}
+.trenne-review-section {
+  background-image: url(/images/internproimg/intern-last.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  padding: 40px 0;
+}
+
+ul.treene-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.trenee-review-content h2 {
+  color: #25c1d5;
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.trenee-review-section {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+.trenee-review-content li,
+.trenee-review-content span {
+  color: #fff;
+}
+ul.treene-list li {
+  width: 50%;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+}
+ul.treene-list li img {
+  max-width: 19px;
+  margin-right: 8px;
+}
+section.ppcbannerservice.intern-program-form h1.color-wt {
+  font-size: 45px;
+}
+.webguruz-help-points {
+  padding: 20px 20px;
+}
+
+.web-training-menu {
+  background: #fff;
+  /* box-shadow: #0000001c 0 4px 40px; */
+  min-height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section.webguruz-internship-program {
+  background: #f4f4f4;
+}
+
+section.webguruz-internship-program .col-lg-4 {
+  margin-bottom: 25px;
+}
+
+section.webguruz-internship-program .image-linking img {
+  
+  transition: all 0.4s ease-in-out;
+}
+
+.webguruz-help-points .training-buttons {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.webguruz-help-points .training-buttons a {
+  background: #20a0b1;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+.webguruz-help-points .training-buttons a:hover {
+  scale: 0.9;
+}
+
+.web-training-menu .image-linking {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.web-training-menu:hover img {
+  transform: scale(1.08);
+}
+
+section.webguruz-internship-program h3 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+section.webguruz-internship-program li {
+  font-size: 15px;
+  position: relative;
+  padding-left: 27px;
+  padding-bottom: 15px;
+}
+
+section.webguruz-internship-program ul.wgz-confined-list {
+  padding-top: 15px;
+}
+section.webguruz-internship-program h3 span {
+  margin: 0;
+  font-weight: 500;
+  color: #00bcd4;
+  font-size: 22px;
+}
+section.webguruz-internship-program li:before {
+  content: url(/images/drupalimg/arrow.webp);
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+@media (min-width: 768px) {
+  .Experienced-section {
+    padding: 80px 0;
+  }
+  .trenee-review-section {
+    max-width: 559px;
+  }
+  .trenne-review-section .row {
+    position: relative;
+    z-index: 1;
+  }
+  .trenne-review-section .row:before {
+    content: "";
+    position: absolute;
+    left: -14px;
+    top: -53px;
+    background-image: url(/images/internproimg/intern-quote.webp);
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .trenne-review-section {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .trenne-review-section .row:before {
+    left: 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .Experienced-section .row.experience .experince-card {
+    padding: 17px 5px;
+  }
+  section.ppcbannerservice.intern-program-form h1.color-wt {
+    font-size: 35px;
+  }
+  .Experienced-section .row.experience .experince-card h3 a {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .grid-wrap-career {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .benefits-internship-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .img-Careeropp {
+    margin: 30px 0 0px 0;
+  }
+  .custom-career-opp-section.py-5.new-custom-career-page .row {
+    flex-direction: column-reverse;
+  }
+  .custom-career-opp-section.py-5.new-custom-career-page .new-career-content {
+    padding: 0;
+  }
+  .trenne-review-section .row {
+    flex-direction: column-reverse;
+  }
+  .trenee-review-content {
+    margin-bottom: 25px;
+  }
+  .new-intern-program .row.technology-card .intern-fav-point.col-md-6:last-child {
+    margin: 0 !important;
+}
+}
+
+@media only screen and (max-width: 620px) {
+  .grid-wrap-career {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .benefits-internship-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .listing-industrial-certified li {
+    column-gap: 5px;
+  }
+  .listing-industrial-certified li img {
+    width: 24px;
+  }
+  ul.treene-list li img {
+    max-width: 17px;
+    margin-right: 5px;
+  }
+}

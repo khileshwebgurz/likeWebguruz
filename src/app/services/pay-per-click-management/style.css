@@ -1,0 +1,322 @@
+.ppcbanner.service-banner .heading-main h2 {
+    max-width: unset;
+}
+
+.service-banner .heading-main h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.service-banner .heading-main h1 span {
+    font-size: 44px;
+    margin-top: 0px;
+}
+.heading-main h2 span {
+    color: #168B9A;
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+}
+.ppcbannerservice {
+    background-image: url(/images/ppcimages/scalebanner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.heading-main h3.color-wt span {
+    color: #fff;
+    font-weight: 600;
+}
+.heading-main h3.color-wt {
+    color: #fff;
+}
+ul.ppctab-main li {
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    margin: 0px 8px 8px 0px;
+    transition: 0.3s ease-in-out 0s;
+    cursor: pointer;
+}
+ul.ppctab-main li:hover {
+    background-color: #25c1d5;
+    border-color: #25c1d5;
+}
+ul.ppctab-main {
+    flex-wrap: wrap;
+}
+.logoimage-main img {
+    width: 100%;
+    max-width: 140px;
+    margin: 0px 14px 0px 0px;
+}
+.adverticingcard img {
+    width: 100%;
+    max-width: 58px;
+    margin-bottom: 20px;
+}
+.adverticingcard {
+    box-shadow: 0px 2px 15px 1px rgb(0 0 0 / 8%);
+    height: 100%;
+    padding: 30px 20px;
+    transition: 0.3s ease-in-out 0s;
+    border: 1px solid transparent;
+}
+.adverticingcard:hover{
+    box-shadow: none;
+    border: 1px solid #e5e5e5;
+}
+.processppc {
+    background-image: url(/images/ppcimages/processbanner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.ppc-card {
+    border: 1px solid #D9D9D9;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: 0.3s ease-in-out 0s;
+}
+.ppc-card:hover p {
+    color: #fff;
+}
+.ppc-card:hover .image {
+    background-color: #fff;
+}
+.ppc-card:hover {
+    background-color: #26c6da;
+}
+
+.ppc-card .image {
+    width: 80px;
+    height: 80px;
+    background-color: #f4feff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: auto auto 30px auto;
+}
+.ppc-card p {
+    margin: 0px;
+}
+.card-process {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 28px 15px;
+    border-radius: 12px;
+    margin-bottom: 120px;
+    position: relative;
+}
+.card-process span.step1 {
+    position: absolute;
+    bottom: -118px;
+    color: #fff;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.process-card-main {
+    padding-top: 50px;
+}
+.card-process::after {
+    content: "";
+    position: absolute;
+    bottom: -81px;
+    width: 30px;
+    height: 30px;
+    background-color: #E5F0F9;
+    z-index: 1;
+    border-radius: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.3s ease-in-out 0s;
+}
+.process-card-main >div:first-child .card-process::after {
+    bottom: -93px;
+    background-color: #00ADB3;
+}
+.process-card-main >div:nth-child(3) .card-process::after{
+    background-color: #EDF8F9;
+}
+.process-card-main >div:nth-child(4) .card-process::after{
+    background-color: #26c6da;
+}
+.processppc .row .col-sm-3:nth-child(even) .card-process {
+    background-color: #E5F0F9;
+} 
+.processppc::before {
+    content: "";
+    position: absolute;
+    background-image: url(/images/ppcimages/our_prcs_rockt.svg);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 327px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.card-process::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-width: 20px 18px 0px 18px;
+    border-style: solid;
+    border-color: #ffffff transparent transparent transparent;
+}
+.processppc .row .col-sm-3:nth-child(even) .card-process::before {
+    border-color: #e5f0f9 transparent transparent transparent;
+}
+.process-card-main >div:first-child, .process-card-main >div:nth-child(3) {
+    position: relative;
+    bottom: -20px;
+}
+.process-card-main >div:last-child {                                         
+    position: relative;
+    top: 0;
+}
+.ppc-card img {
+    width: 54px;
+}
+
+
+.ppc-slider {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.card-process:hover::after {
+    transform: scale(1.30);
+}
+.ppc-slider .slick-arrow::before, .ppc-slider .slick-arrow::after {
+    display: none;
+}
+.ppc-slider .container {
+    max-width: 100%;
+    padding: 0px;
+}
+.ppc-slider .container .row {
+    margin: 0px;
+}
+.ppc-cater .slick-arrow, .ppc-cater .slick-arrow:hover {
+    position: absolute;
+    bottom: -95px;
+    top: auto;
+    right: 133px;
+    left: auto;
+    width: 53px;
+    height: 53px;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ppc-cater .slick-arrow img {
+    width: 20px;
+}
+.ppc-cater .slick-arrow.slick-next {
+    right: 60px;
+}
+.ppc-slider .slick-slider {
+    padding-right: 0px;
+}
+.featured-blog::before{
+    display: none;
+}
+.ppc-cater {
+    padding-bottom: 100px;
+}
+.process-card-main >div:nth-child(3) {
+    bottom: -99px;
+}
+.card-process {
+    margin-bottom: 146px;
+}
+.processppc .row .col-sm-3:nth-child(2) .card-process {
+    bottom: -56px;
+}
+.processppc .row .col-sm-3:nth-child(4) .card-process {
+    bottom: 22px;
+}
+
+/* media query start */
+@media(max-width: 1400px){
+    .process-card-main >div:first-child {
+        bottom: -33px;
+    }
+    .processppc .row .col-sm-3:nth-child(2) .card-process {
+        bottom: -79px;
+    }
+    .processppc .row .col-sm-3:nth-child(4) .card-process {
+        bottom: 2px;
+    }
+}
+@media(max-width :1199px){
+    .processppc::before{
+        display: none;
+    }
+    .processppc .row .col-sm-3 .card-process {
+        bottom: 0 !important;
+    }
+}
+@media(max-width: 767px)
+{
+    .ppc-cater .heading-main {
+        padding-bottom: 30px;
+    }
+    .ppc-slider{
+        flex-direction: column;
+    }
+    .service-banner .heading-main h1, .service-banner .heading-main h1 span {
+        font-size: 34px;
+    }
+    .ppcbannerservice .logoimage-main {
+        padding-bottom: 40px;
+    }
+
+    .card-process::after, .processppc::before{
+        display: none;
+    }
+    .card-process {
+        margin: 0px;
+    }
+    .process-card-main >div {
+        position: static !important;
+        margin-bottom: 92px;
+    }
+    .card-process span.step1 {
+        bottom: -53px;
+    }
+    .ppc-cater .row {
+        flex-direction: column;
+    }
+    .ppc-cater .row >div{
+        flex: auto;
+        width: 100%;
+    }
+    .ppc-cater .ppc-slider .row >div {
+        padding: 0px;
+    }
+    .ppc-card img {
+        width: 26px;
+      }
+      .ppcservicecontent img {
+        max-width: 101px;
+        margin: 0px 9px 0px 0px;
+    }
+}
+
+
+
+

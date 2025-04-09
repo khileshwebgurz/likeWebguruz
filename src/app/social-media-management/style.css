@@ -1,0 +1,207 @@
+.Social-agency {
+  background: #fcd4c340;
+}
+.Soicalsolution {
+  background: #26c6da14;
+}
+
+.Soicalsolution .img-text {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Soicalsolution .seocopy-box {
+  padding: 20px;
+  background: #ffffff;
+  min-height: 100%;
+  transition: all 0.4s ease-out;
+  position: relative;
+  z-index: 1;
+}
+
+.Soicalsolution .img-text h4,
+.Soicalsolution .seocopy-box p {
+  margin: 0;
+}
+.Soicalsolution .seocopy-box:hover {
+  box-shadow: #0000003d 0 0 20px;
+}
+.soocial-media-card {
+  padding: 10px;
+}
+
+.socialmedia-platform .soocial-media-card img {
+  max-width: 60px;
+  margin-bottom: 20px;
+}
+
+.soocial-media-card h5,
+.soocial-media-card p {
+  margin-bottom: 20px;
+}
+
+.soocial-media-card a {
+  text-decoration: underline;
+}
+.Soicalsolution .seocopy-box ul {
+  padding-left: 30px;
+  list-style: disc;
+}
+
+.Soicalsolution .seocopy-box ul li {
+  padding-top: 12px;
+}
+.social-media-power {
+  background-image: url(/images/amazeimages/amazonbg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.social-media-power img,
+.Amazonprocess-sec img,
+.Amazonagency-section img {
+  max-width: 60px;
+  margin-bottom: 20px;
+}
+
+.social-media-power .power-card {
+  padding: 30px 25px;
+  background: #fff;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  z-index: 1;
+  min-height: 100%;
+  border: 1px solid #eee;
+}
+.social-media-power:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #f6f6f675;
+  z-index: -1;
+}
+.social-media-power .power-card li {
+  padding-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+  z-index: 1;
+}
+.social-media-power .power-card li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  background: #168b9a;
+  border-radius: 50px;
+}
+.social-media-power .power-card ul {
+  padding-top: 15px;
+}
+.social-media-power h4 {
+  font-size: 24px;
+}
+.social-media-power .power-card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 5px;
+  background: #20a0b1;
+  bottom: 0;
+  transition: all 0.4s linear;
+}
+.social-media-power .power-card:hover:after {
+  width: 100%;
+}
+.social-media-power .power-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-color: transparent;
+}
+.social-media-management-firm .row {
+  align-items: center;
+}
+.social-media-benefits .motion-search-card {
+  background: #fff;
+  padding: 31px 31px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  min-height: 169px;
+  margin-bottom: 20px;
+}
+.social-media-benefits .motion-search-card img {
+  max-width: 55px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.social-media-benefits {
+  background: #e5f0f9a6;
+}
+.social-media-benefits .motion-search-card {
+  transition: all 0.5s ease-out;
+}
+
+.social-media-benefits .motion-search-card:hover {
+  box-shadow: #85bff0 0 0 10px 0;
+}
+.Soicalsolution.social-management-choose {
+  background-color: #fff;
+}
+.smm-services-section {
+  background: #f2f6f8;
+}
+.smm-services-section img {
+  width: 55px;
+  margin-bottom: 20px;
+}
+.smm-services-section .smm-service-card {
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+.smm-services-section .smm-service-card .smm-service-content {
+  min-height: 235px;
+}
+.smm-services-section h5 {
+  font-size: 20px;
+}
+.Soicalsolution .img-text .img img {
+  max-width: 55px;
+}
+@media (min-width: 768px) {
+  .smm-services-section .smm-service-card {
+    text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  .social-media-benefits .motion-search-card {
+    background: #fff;
+    padding: 20px 19px;
+  }
+  .social-media-benefits .row.feature {
+    flex-direction: row;
+  }
+  .social-media-benefits .row.feature .col-md-4 {
+    width: 50%;
+    padding: 0 10px;
+  }
+
+  .social-media-benefits .row.feature .col-md-4 h6 {
+    font-size: 16px;
+  }
+  .soocial-media-card h5,
+.soocial-media-card p {
+  margin-bottom: 15px;
+}
+}

@@ -1,0 +1,360 @@
+.mondayresult .row {
+  padding: 65px;
+  background: #008d9c;
+  border-radius: 30px;
+}
+
+.mondayresult h2 {
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.mondayresult p {
+  margin: 0;
+  color: #fff;
+}
+
+/* monday-offer-start */
+
+.mondayoffer {
+  background: #afb6e53b;
+}
+
+.mondayoffer .mondayoffer-box {
+  padding: 20px;
+  background: #fff;
+  min-height: 100%;
+}
+
+.mondayoffer .mondayoffer-box img {
+  max-width: 70px;
+}
+
+.mondayoffer .mondayoffer-box h3 {
+  margin: 16px 0;
+}
+
+.mondayoffer .mondayoffer-box p {
+  margin: 0;
+}
+.mondayoffer .col-lg-3 {
+  padding: 0;
+  border-left: 2px solid #7070ff;
+}
+
+.mondayoffer .col-lg-3:nth-child(2) {
+  border-left: 0;
+}
+
+/* end */
+/* mondayworkflow-start */
+.mondayworkflow img {
+  max-width: 54px;
+}
+
+.mondayworkflow .workflow-card {
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.4s ease-out;
+  min-height: 100%;
+}
+
+.mondayworkflow .workflow-card h3 {
+  margin: 15px 0;
+}
+
+.mondayworkflow .workflow-card p {
+  margin: 0;
+  font-size: 16px;
+}
+.mondayworkflow .workflow-card:hover {
+  transform: translateY(-8px);
+  box-shadow: #000000d4 0 0 10px;
+}
+/* end */
+.mondayapproach {
+  background: #f8f9fa;
+}
+
+.mondayapproach .mondayoffer-box {
+  text-align: center;
+  padding: 30px 20px;
+  background: #ffffff;
+  min-height: 100%;
+  transition: all 0.4s ease-out;
+  box-shadow: #00000026 0 5px 20px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.mondayapproach .mondayoffer-box img {
+  max-width: 50px;
+}
+
+.mondayapproach .mondayoffer-box h3 {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.mondayapproach .mondayoffer-box .mondayoffer-img {
+  max-width: 85px;
+  height: 85px;
+  width: 100%;
+  margin: 0 auto;
+  background: #f5f3f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.mondayapproach .mondayoffer-box p {
+  margin: 0;
+  font-size: 16px;
+}
+.mondayapproach .mondayoffer-box:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 10px;
+  background: #00a0af;
+  z-index: -1;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.mondayapproach .mondayoffer-box:hover:after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 0;
+  transition: all 0.5s ease-out;
+}
+.mondayapproach .mondayoffer-box h3,
+.mondayapproach .mondayoffer-box p {
+  transition: all 0.5s ease-out;
+}
+.mondayapproach .mondayoffer-box:hover h3,
+.mondayapproach .mondayoffer-box:hover p {
+  color: #fff;
+}
+
+.mainInfoNew {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.mainInfoNew .boxnewleft,
+.mainInfoNew .boxnewright {
+  width: 50%;
+}
+
+.timeline-left-content ul {
+  padding: 0;
+  text-align: end;
+}
+.timeline-right-content ul {
+  padding: 0;
+  text-align: start;
+}
+.timeline-left-content ul li {
+  margin: 16px 0;
+  justify-content: end;
+}
+.mainInfoNew ul li {
+  list-style: none;
+  font-size: 16px;
+  color: #022741;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  line-height: 26px;
+}
+.timeline-right-content ul li {
+  max-width: 90%;
+  margin: 7px 0;
+  justify-content: start;
+}
+.timeline-left-content ul li p {
+  padding-right: 10px;
+}
+.timeline-left-content ul li span {
+  height: 2px;
+  width: 27%;
+  background: #ff5b3e;
+  margin-bottom: 14px;
+  display: inline-block;
+  position: relative;
+}
+.timeline-left-content ul li:nth-child(1) span {
+  width: 10%;
+}
+.timeline-left-content ul li span:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #ff5b3e;
+  border-radius: 50px;
+  left: 0;
+  top: -5px;
+}
+.timeline-right-content ul li span {
+  height: 2px;
+  width: 26%;
+  background: #00a0af;
+  display: inline-block;
+  margin-top: -17px;
+  position: relative;
+}
+
+.timeline-right-content ul li:nth-child(1) span {
+  width: 24%;
+}
+.timeline-right-content ul li span:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #00a0af;
+  border-radius: 50px;
+  right: 0;
+  top: -4px;
+}
+.boxcenterline {
+  margin: 0 auto;
+  background: #d1d1d1;
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 10px;
+}
+.mainInfoNew p {
+  font-size: 15px;
+}
+
+.mainInfoNew .boxnewright li p {
+  padding-left: 10px;
+}
+
+@media (max-width: 1600px) {
+  .mainInfoNew p {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mondayresult h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .mondayresult .row,
+  .mondayoffer .row {
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .mondayoffer .col-lg-3:nth-child(2),
+  .mondayoffer .col-lg-3:nth-child(4) {
+    border-left: 0;
+  }
+  .mondayoffer .col-lg-3 {
+    border-bottom: 2px solid #7070ff;
+  }
+  .mondayoffer .col-lg-3:nth-child(4),
+  .mondayoffer .col-lg-3:nth-child(5) {
+    border-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .mondayresult h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .mondayresult .row {
+    padding: 50px 30px;
+  }
+  .mondayoffer .col-lg-3 {
+    border-left: 0;
+  }
+  .mondayoffer .col-lg-3:nth-child(4) {
+    border-bottom: 2px solid #7070ff;
+  }
+  .webguruzprocesswork-sec.monday-choose .row {
+    flex-direction: column;
+}
+}
+@media (max-width: 576px) {
+  .mondayresult .col-md-12,
+  .mondayoffer .col-lg-3 {
+    padding: 0 !important;
+  }
+  .mondayoffer .mondayoffer-box , .mondayworkflow {
+    text-align: center;
+  }
+  .mainInfoNew ul li span {
+    background: transparent;
+    margin-bottom: 0px;
+    display: inline-block;
+    position: relative;
+    width: auto !important;
+    height: auto;
+  }
+  .mainInfoNew ul li {
+    justify-content: left !important;
+  }
+  .timeline-left-content ul li p {
+    padding-right: 0;
+  }
+  .timeline-right-content ul li {
+    max-width: 100%;
+  }
+  .boxcenterline {
+    margin-left: 0;
+  }
+  .mainInfoNew p {
+    padding-left: 30px !important;
+  }
+  .mainInfoNew .boxnewleft,
+  .mainInfoNew .boxnewright {
+    width: 100%;
+  }
+  .boxcenterline {
+    margin-left: 0;
+    z-index: -1;
+    left: 3px;
+  }
+  .timeline-right-content ul li span:before {
+    right: -10px;
+    top: 0px;
+  }
+  .mainInfoNew .boxnewleft li {
+    flex-direction: row-reverse;
+  }
+  .mainInfoNew .boxnewleft li span {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+}

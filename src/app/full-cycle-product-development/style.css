@@ -1,0 +1,190 @@
+
+/* banner-section-css */
+.full-cycle-banner h1 , .full-cycle-banner h1 span {
+  font-size: 36px;
+  color: #000000;
+}
+.full-cycle-banner {
+  background-color: #b1b1b11a;
+  position: relative;
+  z-index: 1;
+}
+
+.full-cycle-banner h1 span {
+  font-weight: bold;
+}
+.card-heading-content .cycle-full-icon{
+  overflow: hidden;
+}
+.card-heading-content:hover .cycle-full-icon {
+    transform: scale(1.1);
+    transition-duration:0.3s;
+    overflow: hidden;
+}
+@media(min-width:1199px){
+  .full-cycle-banner p , .cycle-apart-lisiting li , section.full-cycle-development .row .col-12:nth-child(1) p ,
+  .cycle-focus p , section.set-apart p{
+    line-height: 32px;
+}
+}
+@media(min-width:768px){
+  .full-cycle-banner::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 27%;
+    top: 0;
+    bottom: 0;
+    background-image: url(/images/fullcycleimage/cycle-pattern.webp);
+    z-index: -1;
+  }
+}
+/* end */
+
+/* section.full-cycle-development start */
+section.full-cycle-development h2, .cycle-focus h2, section.set-apart h2 {
+  color: #000;
+  margin-bottom: 35px !important;
+}
+section.set-apart h2{
+font-weight: bold;
+}
+.full-cycle-development .icon-heading-content p{
+font-size: 15px;
+}
+section.full-cycle-development .card-heading-content.content-two {
+  margin: 90px 0px 0px 0px;
+}
+.cycle-focus {
+  background-color: #dfdfdf;
+}
+.full-cycle-development .icon-heading-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    column-gap: 10px;
+}
+.cycle-full-icon img{
+    max-width: 30px;
+}
+.cycle-full-icon {
+    max-width: 75px;
+    height: 75px;
+    background: #fc5e3d4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0 auto 20px;
+}
+
+.full-cycle-development  .cycle-full-icon.icon-color-1 {
+  background: #abe1c7;
+}
+.full-cycle-development  .cycle-full-icon.icon-color-2 {
+  background: #fdf0ba
+}
+
+.full-cycle-development  .cycle-full-icon.icon-color-4 {
+  background: #8aedf7;
+}
+.full-cycle-development  .cycle-full-icon.icon-color-5 {
+  background: #e7e7e7;
+}
+/* end */
+ 
+/* section.web-hierarchy start */
+section.web-hierarchy {
+  position: relative;
+  padding: 100px 0 !important;
+}
+
+section.web-hierarchy:before , section.web-hierarchy:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background: #0000004d;
+  bottom: 0;
+}
+
+section.web-hierarchy:before {
+  top: 62px;
+  right: 0;
+  left: unset;
+}
+/* end */
+/* section.set-apart start */
+section.set-apart ul.cycle-apart-lisiting {
+  padding-left: 20px;
+}
+.cycle-apart-lisiting li {
+  padding-bottom: calc(45px / 2);
+  position: relative;
+  color: #898787;
+}
+.cycle-apart-lisiting li:after {
+  position: absolute;
+  content: "";
+  width: 8px !important;
+  height: 8px;
+  border-radius: 50%;
+  background: #000;
+  left: -20px !important;
+  top: 10px;
+}
+/* end */
+@media(max-width:991px){
+  .full-cycle-development .icon-heading-content {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+.full-cycle-development .icon-heading-content .card-heading-content {
+    max-width: 32%;
+}
+
+section.full-cycle-development .card-heading-content.content-two {
+    margin: 0;
+}
+}
+
+@media(max-width:767px){
+  .full-cycle-banner {
+    text-align: center;
+}
+.full-cycle-banner h1 , .full-cycle-banner h1 span {
+  font-size: 24px;
+}
+.full-cycle-development .icon-heading-content .card-heading-content {
+  max-width: 100%;
+}
+.full-cycle-development .icon-heading-content {
+  row-gap: 25px;
+  justify-content: center;
+}
+section.cycle-focus .row {
+  flex-direction: column-reverse;
+  padding-bottom: 42px;
+  text-align: center;
+}
+section.web-hierarchy {
+  padding-bottom: 45px !important;
+  padding-top: 80px !important;
+}
+section.web-hierarchy:before {
+  top: 43px;
+}
+section.full-cycle-development h2, .cycle-focus h2, section.set-apart h2 {
+  line-height: 1.4;
+  margin-bottom: 22px !important;
+}
+.cycle-apart-lisiting li:last-child {
+  padding: 0;
+}
+
+
+}

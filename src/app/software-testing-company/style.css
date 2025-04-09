@@ -1,0 +1,227 @@
+.softwere-testing p {
+  margin-bottom: 15px;
+}
+.softwere-testing.softewere-quality {
+  background: #f2f2f2;
+}
+.softwere-services-section .softwere-img-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  row-gap: 10px;
+  margin-bottom: 20px;
+}
+.softwere-img-text .list-img img {
+  max-width: 60px;
+}
+.softwere-services-section p {
+  margin: 0;
+}
+.softwere-services-section h4 {
+  font-size: 24px;
+  margin: 0;
+}
+.softwere-services-section .services-img img {
+  max-width: 389px;
+  display: block;
+  margin: 0 auto;
+}
+.software-test-types .our-joomla-card {
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+  box-shadow: #0000001c 0 0 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+  transition: all 0.4s ease-out;
+position: relative;
+z-index: 1;
+overflow: hidden;
+}
+.software-test-types .our-joomla-card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 4px;
+  background: #00a0af;
+  bottom: 0;
+  transition: all .4s ease-out;
+  border-radius: 50px;
+}
+
+.software-test-types .our-joomla-card:hover:after {
+  width: 100%;
+}
+.software-test-types .our-joomla-card:hover p {
+  color: #00a0af;
+}
+.software-test-types {
+  position: relative;
+  background-image: url(/images/features-bg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #f9f9f940;
+}
+.software-test-types .our-joomla-card img {
+  max-width: 60px;
+  margin-bottom: 25px;
+}
+.software-test-types .our-joomla-card:hover {
+  background: #f1f2f2;
+}
+.software-test-types .our-joomla-card p {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+}
+.testing-perform .row {
+  row-gap: 25px;
+  justify-content: center;
+}
+.testing-perform .card-title-main {
+  text-align: center;
+}
+.testing-perform .rmm-card {
+  padding: 50px 35px;
+  min-height: 100%;
+  background: #fff;
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.testing-perform .rmm-card:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+.testing-perform .row.rmm {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.testing-perform .rmm-services-list ul {
+  padding-left: 25px;
+  margin-top: 25px;
+}
+
+.testing-perform .rmm-services-list ul li {
+  width: 100%;
+  position: relative;
+  padding-bottom: 10px;
+}
+.testing-perform .rmm-services-list ul li:after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  background: #6ec1e4;
+  border-radius: 50px;
+}
+.testing-perform .rmm-card h3 {
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.testing-perform .rmm-card p {
+  color: #000;
+  font-weight: 500;
+}
+.software-choose-web {
+  background: #f8f8f8;
+}
+
+.software-choose-web .our-smart-list ul {
+  column-gap: 45px;
+  column-count: 3;
+  display: block;
+}
+
+.software-choose-web .our-smart-list ul li {
+  text-align: left;
+  font-size: 16px;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  position: relative;
+  font-weight: 500;
+  width: 100%;
+  display: inline-block;
+  page-break-inside: avoid;
+}
+
+.software-choose-web .our-smart-list ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 26px;
+  height: 26px;
+  border-radius: 5px;
+  background: #00a0af;
+  background-image: url(/images/squarespaceimg/squarecheck.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: center center;
+}
+
+@media (min-width: 1199px) {
+  .testing-perform .rmm-card h3 {
+    font-size: 30px;
+    line-height: 1.4em;
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .software-test-types .col-lg {
+    width: 20% !important;
+    flex: 0 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  .softwere-testing.softewere-quality .row {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+  .softwere-services-section h4 {
+    font-size: 22px;
+  }
+  .software-choose-web .our-smart-list ul {
+    column-count: 2;
+  }
+}
+@media (max-width: 767px) {
+  .softwere-testing , .softwere-services-section .heading-main {
+    text-align: center;
+  }
+  .software-test-types .row > .col-lg {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .software-test-types .row {
+    flex-direction: row;
+  }
+  .testing-perform .rmm-card {
+    padding: 40px 30px;
+  }
+  .software-choose-web .our-smart-list ul {
+    column-count: 1;
+  }
+  .softwere-services-section .softwere-img-text{
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .software-test-types .row > .col-lg {
+    flex: auto;
+    width: 100%;
+  }
+  .software-test-types .row {
+    flex-direction: column;
+  }
+}

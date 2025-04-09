@@ -1,0 +1,288 @@
+* {
+	box-sizing: border-box;
+}
+
+.mspbanner-section {
+	background: url(/images/mspimages/msp-banner.webp);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 550px;
+}
+
+.mspbanner-section h1 {
+	color: #fff;
+}
+.shopify-development-process.msp-desk .box-imgs img{
+    background: #dc3545;
+}
+.shopify-development-process.msp-desk .box-inner-img:after {
+    content: "";
+    position: absolute;
+    left: 22px;
+    width: 4px;
+    height: 100%;
+    border-right: 1px dashed;
+    z-index: -1;
+    top: 50px;
+}
+.mspbanner-section h1,
+.mspbanner-section h1 span {
+	font-size: 40px;
+}
+
+.mspbanner-section h1 span {
+	color: #26c6da;
+	font-weight: 700;
+}
+
+.mspspecial-section .row {
+	padding: 60px 50px 50px;
+	background: #F6F6F6;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.mspspecial-section .row h2 {
+	color: #000;
+	font-weight: 500;
+}
+
+/* .mspdemand-section start */
+.mspdemand-section {
+    background-image: url(/images/mspimages/dots.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    background-color: #fffbed38;
+    padding: 70px 0 !important;
+}
+.mspdemand-section h2 {
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #000;
+}
+.mspwork-section h2{
+    font-weight: 500; 
+    color: #000;
+}
+/* end */
+.mspmind-section .mspmind-box img {
+    max-width: 55px;
+    margin-bottom: 20px;
+}
+
+.mspmind-section .mspmind-box  .box-content {
+    padding-top: 20px;
+    border-top: 1px solid #844896;
+}
+.mspmind-section h4 {
+    color: #000;
+}
+.mspmind-box {
+    padding: 25px;
+}
+.Whychoosemagento .right-content {
+    padding-left: 30px;
+}
+.msptalent-services .row {
+    row-gap: 25px;
+    justify-content: center;
+}
+.card-title-main{
+    text-align: center;
+}
+
+.msptalent-services {
+    position: relative;
+    z-index: 1;
+}
+.msptalent-services:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 40%;
+    background: #26c6da17;
+}
+.msptalent-services .rmm-card {
+    padding: 50px 35px;
+    min-height: 100%;
+    background: #fff;
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.15);
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+.msptalent-services .rmm-card:hover{
+    transform: scale(1.02);
+    transition: all .3s ease-in-out;
+} 
+.msptalent-services .row.rmm {
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.msptalent-services  ul , .msp-services ul{
+    padding-left: 25px;
+    margin-top: 25px;
+}
+
+.msptalent-services  ul li , .msp-services ul li {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-bottom: 10px;
+}
+.msptalent-services .rmm-services-list ul li:after , .msp-services ul li:after{
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    background: #6ec1e4;
+    border-radius: 50px;
+}
+.msptalent-services .rmm-card h3 {
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.rmm-services .rmm-card p {
+    color: #000;
+    font-weight: 500;
+}
+.msp-services {
+    background-image: url(/images/mspimages/support.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.msp-services .services-card {
+    padding: 40px 30px;
+    background: #fff;
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    min-height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.msp-services .services-card:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    background: #fff8e9;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.msp-services .services-card:hover:after {
+    height: 100%;
+}
+.rmm-services-list {
+    text-align: left;
+}
+.msp-services h2, .msp-services h2 + p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.msp-services .services-card h3 {
+    margin-bottom: 15px;
+}
+.msp-services a.get-btn {
+    background-color: #fd4d92;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-image: url(/images/arrow-right-btn.webp);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 95% 5px;
+    padding: 11px 47px 10px 21px;
+    box-shadow: 8px 8px 18px 0px rgba(254, 76, 28, 0.3);
+}
+.msp-services a.get-btn:before {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.2;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+}
+
+.msp-services a.get-btn:hover:before {
+    left: 120%;
+}
+@media(min-width:768px) {
+	.mspbanner-section .heading-banner {
+		transform: translateY(-70px);
+	}
+
+	.mspbanner-section {
+		align-items: end;
+	}
+}
+
+@media(max-width:767px) {
+	.mspbanner-section {
+		min-height: 320px;
+	}
+    .Whychoosemagento .right-content {
+        padding-left: 12px;
+    }
+	.mspbanner-section h1,
+	.mspbanner-section h1 span {
+		font-size: 30px;
+	}
+    .msptalent-services:after{
+        height: 50%;
+    }
+    .mspdemand-section h2 {
+        margin-bottom: 15px;
+    }
+    .mspdemand-section{
+        text-align: center;
+    }
+    .shopify-development-process .box-imgs {
+
+        align-items: center ;
+      }
+      .msptalent-services .rmm-card {
+        padding: 40px 25px;
+    }
+}
+
+@media(max-width:576px) {
+	.mspspecial-section .row {
+		padding: 50px 10px 40px;
+	}
+    .mspmind-box {
+        text-align: center;
+    }
+}

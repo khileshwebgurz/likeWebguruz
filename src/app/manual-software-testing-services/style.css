@@ -1,0 +1,426 @@
+.manualservice-section {
+  position: relative;
+  z-index: 1;
+}
+
+.manualservice-section:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-image: url(/images/manualsoftimages/Team.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  max-height: 287px;
+}
+
+.manualservice-section h2 {
+  color: #fff;
+}
+
+.manualservice-section .manual-card {
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(51, 51, 51, 0.25);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  transition: all 0.4s ease-out;
+}
+
+.manualservice-section .manual-card h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #00a0af;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.manualservice-section .manual-card:hover {
+  transform: translateY(-10px);
+}
+
+.manualservice-section .manual-card p {
+  margin: 0;
+}
+
+/* manual-choose-start */
+.manualchoose-section {
+  background: #f2f2f2bf;
+}
+
+.manualchoose-section .accordion-icon-text {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.manualchoose-section h4 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.accordion-icon-text p {
+  font-size: 16px;
+}
+
+.manualchoose-section .accordion-icon-text .accordion-icon {
+  width: 100%;
+  max-width: 24px;
+}
+
+.choose-accordion li {
+  cursor: pointer;
+}
+.accordion-content {
+  overflow: hidden;
+}
+.accordion-title h4 {
+  transition: color 0.3s;
+}
+.manualchoose-section p.description {
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  /* box-shadow: 0 15px 40px 0 rgba(51, 51, 51, 0.15); */
+  margin: 0 0 15px 40px;
+  font-size: 16px;
+  transition: all 0.4s ease-out;
+}
+
+.manualvalue-section .manualvalue-card {
+  padding: 20px;
+  border: 1px solid #383838;
+  border-radius: 4px;
+  min-height: 100%;
+  transition: all 0.4s ease-out;
+  position: relative;
+  z-index: 1;
+}
+
+.manualvalue-section .manualvalue-card h4 {
+  margin-bottom: 15px;
+}
+
+.manualvalue-section .manualvalue-card p {
+  margin: 0;
+}
+
+.manualvalue-section .manualvalue-card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #00a0af;
+  z-index: -1;
+  border-color: transparent;
+  transition: all 0.4s ease-out;
+  height: 10%;
+  opacity: 0;
+}
+
+.manualvalue-section .manualvalue-card:hover:after {
+  height: 100%;
+  opacity: 1;
+}
+
+.manualvalue-section .manualvalue-card:hover h4,
+.manualvalue-section .manualvalue-card:hover p {
+  color: #fff;
+}
+
+.manualvalue-section .manualvalue-card h4,
+.manualvalue-section .manualvalue-card p {
+  transition: all 0.4s ease-out;
+}
+
+.manualvalue-section .manualvalue-card:hover {
+  transform: scale(1.05);
+  border: 1px solid #00a0af;
+}
+
+/* end */
+
+/* partner-start */
+.manualpartner {
+  background: #00a0af0d;
+}
+
+.manualpartner .partner-list li {
+  position: relative;
+  z-index: 1;
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-position: left;
+  background: url(/images/manualsoftimages/choose-check.svg) no-repeat 0 10px;
+}
+
+.manualpartner .row {
+  align-items: center;
+}
+
+.manualapporache-section {
+  background: #3f51b50d;
+}
+
+/* approach-start */
+.approach-list li .count {
+  color: #235066;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 10px;
+  opacity: 0.34;
+  display: inline-block;
+}
+.manualapporache-section .heading-main p {
+  margin: 0;
+}
+.approach-list li h4 {
+  font-size: 22px;
+  line-height: 27px;
+}
+.approach-list li p {
+  color: #434343;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.approach-list li:first-child {
+  border-left: 0;
+  border-top: 0;
+  grid-area: one;
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+}
+
+.approach-list ul li + li {
+  margin-top: -1px;
+}
+
+.approach-list li:nth-child(2) {
+  border-left: 0;
+  grid-area: two;
+  grid-column: 1 / span 3;
+  grid-row: 4 / span 6;
+}
+
+.manualapporache-section {
+  background: #3f51b50d;
+}
+
+.approach-list li:nth-child(3) {
+  grid-area: three;
+  grid-column: 4 / span 3;
+  grid-row: 1 / span 3;
+}
+
+.approach-list li:nth-child(4) {
+  grid-area: four;
+  grid-column: 4 / span 3;
+  grid-row: 4 / span 6;
+}
+
+.approach-list li:nth-child(5) {
+  grid-area: five;
+  grid-column: 7 / span 3;
+  grid-row: 1 / span 2;
+}
+
+.approach-list li:nth-child(6) {
+  grid-area: six;
+  grid-column: 7 / span 3;
+  grid-row: 3 / span 2;
+}
+
+.approach-list li:nth-child(7) {
+  grid-area: seven;
+  grid-column: 7 / span 3;
+  grid-row: 5 / span 2;
+}
+
+.approach-list li:nth-child(8) {
+  grid-area: eight;
+  grid-column: 10 / span 3;
+  grid-row: 1 / span 3;
+}
+
+.approach-list li:nth-child(9) {
+  grid-area: nine;
+  grid-column: 10 / span 3;
+  grid-row: 4 / span 3;
+}
+
+.approach-list li:nth-child(10) {
+  grid-area: ten;
+  grid-column: 13 / span 3;
+  grid-row: 1 / span 6;
+}
+
+.approach-list li {
+  border-left: 1px solid #ccd7df;
+  border-top: 1px solid #ccd7df;
+  padding: 20px 20px 25px 25px;
+}
+
+.approach-list {
+  background: #fff 0 0 no-repeat padding-box;
+  border-radius: 13px;
+  box-shadow: 0px 3px 20px #8da5ba4d;
+  overflow: hidden;
+  position: relative;
+  z-index: 4;
+}
+
+.approach-list ul {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+/* end */
+/* .manualproces-section start */
+.manualproces-section .manual-card:hover {
+  transform: translateX(10px);
+}
+.manualproces-section .manual-card h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.manualservice-section .manual-card .team-img {
+  margin-bottom: 15px;
+}
+
+.manualservice-section .manual-card .team-img img {
+  max-width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+.manualproces-section a.apply-btn {
+  border-radius: 35px;
+  background-color: #00a0af;
+  box-shadow: 0 2px 8px 0 rgba(51, 51, 51, 0.25);
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: auto;
+  transition: all 0.4s ease-out;
+}
+.manualservice-section.manualproces-section p {
+  text-align: center;
+  margin-top: 10px;
+  min-height: 120px;
+  height: 100%;
+}
+.manualproces-section .hire-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .manualchoose-section .heading-main {
+    padding-left: 40px;
+  }
+}
+
+/* end */
+
+@media (max-width: 1199px) {
+  .manualservice-section.manualproces-section p {
+    min-height: 100px;
+}
+
+}
+@media (max-width: 991px) {
+  .manualchoose-section p.description {
+    margin: 0 0 25px 0px;
+  }
+  .manualproces-section .manual-card h3 {
+    min-height: 49px;
+    font-size: 20px;
+}
+.manualservice-section.manualproces-section p {
+  min-height: 143px;
+}
+.manualservice-section .manual-card{
+  padding: 25px 15px;
+}
+  .approach-list li {
+    width: 33.33%;
+  }
+
+  .approach-list li:nth-child(2),
+  .approach-list li:nth-child(3) {
+    border-left: 1px solid #ccd7df;
+  }
+
+  .approach-list ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .approach-list li:nth-child(10) {
+    width: 100%;
+    border-top: 1px solid #ccd7df;
+  }
+}
+
+@media (max-width: 767px) {
+  .manualservice-section .manual-card,
+  .manualchoose-section .row h2,
+  .manualvalue-section,
+  .manualpartner h2 {
+    text-align: center;
+  }
+  .manualproces-section .manual-card h3 , .manualservice-section.manualproces-section p{
+    min-height: auto;
+  }
+  .manualservice-section:after {
+    max-height: 100%;
+  }
+
+  .approach-list li {
+    width: 50% !important;
+  }
+
+  .manualchoose-section .row {
+    flex-direction: column-reverse;
+  }
+
+  .approach-list li:nth-child(3),
+  .approach-list li:nth-child(5),
+  .approach-list li:nth-child(7),
+  .approach-list li:nth-child(9) {
+    border-left: 0;
+  }
+
+  .manualproces-section .manual-card:hover {
+    transform: translateX(0px);
+  }
+}
+
+@media (max-width: 576px) {
+  .approach-list li {
+    width: 100% !important;
+    border-left: 0 !important;
+    text-align: center;
+  }
+}

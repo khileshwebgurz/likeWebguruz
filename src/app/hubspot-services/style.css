@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+.our-hubspot-services.hubspot-present-services.whyhrs{
+  background-image: url(/images/one-more.webp);
+  background-position: center;
+}
+/* hubspotserviceses */
+.hubspot-present-services .services-box {
+  display: flex;
+  gap: 20px;
+  padding: 25px 20px;
+  border-bottom: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  min-height: 100%;
+}
+
+.hubspot-present-services .services-box a.read-more {
+  text-transform: capitalize;
+  color: #168b9a;
+}
+.hubspot-present-services .services-img {
+  width: 100px;
+}
+.hubspot-present-services .services-box img {
+  max-width: 60px;
+}
+.box-4 .services-box,
+.box-5 .services-box,
+.box-6 .services-box {
+  border-bottom: 0;
+}
+.box-3 .services-box,
+.box-6 .services-box {
+  border-right: 0;
+}
+.row.hub-services .col-lg-4 {
+  padding: 0;
+}
+
+/* .process-section css start */
+
+.hub-Services-process .process-main-one {
+  padding: 21px;
+  border: 1px solid #ebebeb;
+  box-shadow: #f5f5f5 0 2px 6px 0;
+  transition: all 0.5s ease-out;
+
+  min-height: 100%;
+}
+
+.hub-Services-process .row.servicess-process-main .col-lg-4 {
+  margin-bottom: 20px;
+}
+.process-main-one img {
+  max-width: 55px;
+  margin-bottom: 20px;
+}
+section.customised-content-section.hub-services-steps .col-lg-4 {
+    z-index: 9;
+}
+
+.process-main-one:hover {
+  transform: translateY(-10px);
+}
+section.customised-content-section.hub-services-steps {
+    background: #F4F6F6;
+}
+section.customised-content-section.hub-services-steps .icon-awareness {
+    background: #ffff;
+}
+section.customised-content-section.hub-services-steps img.wave-shape {
+    z-index: 9;
+}
+@media screen and (max-device-width: 767px) and (min-device-width: 576px) {
+  .row.servicess-process-main {
+    flex-direction: row;
+  }
+
+  .row.servicess-process-main .col-lg-4 {
+    width: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .hubspot-present-services .box-3 .services-box {
+    border-right: 1px solid #dcdcdc;
+  }
+
+  .hubspot-present-services .box-4 .services-box {
+    border-bottom: 1px solid #dcdcdc;
+  }
+  .hubspot-present-services .box-2 .services-box,
+  .hubspot-present-services .box-4 .services-box {
+    border-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .hubspot-present-services .box-3 .services-box {
+    border-right: 0;
+  }
+  .hubspot-present-services .services-box {
+    border-right: 0;
+    min-height: auto;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  .row.servicess-process-main h4 {
+    font-size: 20px;
+  }
+  .hubspot-present-services .services-img {
+    width: auto;
+}
+.hub-services-banner .heading-main {
+    margin-top: 0;
+}
+}
+@media (max-width: 576px) {
+    .hub-Services-process .row.servicess-process-main .col-lg-4:last-child {
+        margin: 0;
+    }
+    .hub-Services-process .process-main-one {
+        text-align: center;
+    }
+}

@@ -1,0 +1,208 @@
+
+  *{
+    box-sizing: border-box;
+}
+.Ourgooglead-section {
+    background: #26c6da14;
+}
+
+.Ourgooglead-section .google-card {
+    background: #ffffff;
+    min-height: 100%;
+    border: 1px solid rgba(212, 224, 237, .7);
+    border-radius: 5px;
+    padding: 30px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.Ourgooglead-section .google-card:hover {
+    border: 1px solid #20a0b1;
+    box-shadow: 0 16px 40px rgba(176, 202, 228, .2);
+    border-radius: 5px;
+}
+section#google-ad-form.google-ads-form li {
+    color: #fff;
+    padding-bottom: 12px;
+    list-style: disc;
+}
+
+section#google-ad-form.google-ads-form ul {
+    padding-left: 20px;
+}
+.Ourgooglead-section h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.Ourgoogleprocess-section img {
+    max-width: 215px;
+    display: flex;
+    margin: 0 auto;
+}
+.Ourgoogleprocess-section .row.Ourgoogleprocess {
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    margin: 0;
+}
+.Ourgoogleprocess-section .row.Ourgoogleprocess>div {
+    padding: 0;
+}
+.Ourgoogleprocess-section .process-icon {
+    background: #fff;
+    border-radius: 10px;
+    min-height: 100%;
+}
+
+.Ourgoogleprocess-section .row.Ourgoogleprocess p {
+    margin: 0;
+}
+
+.Ourgoogleprocess-section .row.Ourgoogleprocess .col-md-9.col-12 .process-text {
+    padding: 20px;
+    min-height: 100%;
+}
+.Ourgoogleprocess-section .row.Ourgoogleprocess.one .process-text {
+    background: #dd524730;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Ourgoogleprocess-section .row.Ourgoogleprocess.two .process-text {
+    background: #F5F9FC;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.Ourgooglewho img {
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Ourgooglewho .row.google-row {
+    align-items: center;
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-image: url(/images/googleadsimg/whobg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.Ourgooglewho .row.google-row ul li {
+    display: block;
+    width: 50%;
+    padding-left: 30px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 15px;
+}
+.Ourgooglewho .row.google-row ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 22px;
+    height: 22px;
+    background-image: url(/images/googleadsimg/gcheck.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Ourgooglewho .row.google-row ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.Ourgooglewho .row.google-row h2 ,.Ourgooglewho .row.google-row p, .Ourgooglewho .row.google-row li {
+    color: #fff;
+}
+
+.Ourgooglewho .row.google-row h2 {
+    font-weight: 600;
+}
+.google-ads-team {
+    background: #F6FAFD;
+}
+
+.google-ads-team .top-img {
+    background: #fff;
+    min-height: 100%;
+    margin-bottom: 0;
+}
+.google-ads-team .col-sm-6.col-12 {
+    margin-bottom: 20px;
+}
+.google-ads-team .top-img.yellow {
+    background: rgb(255, 251, 237);
+}
+
+@media(max-width:991px){
+
+    .Ourgoogleprocess-section .row.Ourgoogleprocess{
+        align-items: center;
+    }
+    }
+@media(max-width:767px){
+    .Ourgoogleprocess-section  .row.Ourgoogleprocess.two {
+        flex-direction: column-reverse;
+    }
+    .Ourgoogleprocess-section .process-icon {
+        padding: 20px;
+    }
+    .Ourgooglead-section .google-card , .Ourgoogleprocess-section .row.Ourgoogleprocess {
+        text-align: center;
+    }
+    body .Ourgoogleprocess-section .row.Ourgoogleprocess .process-text {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .Ourgoogleprocess-section .row.Ourgoogleprocess.one .process-text {
+        border-top-right-radius: 0;
+       
+    }
+    .Ourgoogleprocess-section .row.Ourgoogleprocess.two .process-text {
+        border-top-left-radius: 0px;
+    }
+    .Ourgooglewho .google-text {
+        padding-top: 30px;
+    }
+    .Ourgooglewho .row.google-row h2, .Ourgooglewho .row.google-row p {
+        text-align: center;
+    }
+    .Ourgooglewho .row.google-row ul {
+        padding-top: 30px;
+    }
+    .Ourgoogleprocess-section img {
+        max-width: 140px;
+    }
+    .google-ads-team .top-img.two-choose {
+        transform: translateY(6px);
+    }
+    .google-ads-team .top-img.yellow.reporting {
+        margin-top: 0;
+    }
+}
+@media(max-width:576px){
+    .Ourgooglewho .col-md-8.col-12 {
+        padding: 0 !important;
+    }
+    .Ourgooglewho .row.google-row{
+        padding: 30px 20px;
+    }
+    .google-ads-team {
+        text-align: center;
+    }
+    .google-ads-team .top-img.two-choose {
+        transform: translateY(0px);
+    }
+    section.counter-main.google-ads-counter label {
+        min-height: 100%;
+        margin: 0;
+    }
+    
+    
+      section.counter-main.google-ads-counter  .col.col-xs-12:nth-child(1),
+      section.counter-main.google-ads-counter .col.col-xs-12:nth-child(2) {
+        margin-bottom: 25px;
+      }
+}

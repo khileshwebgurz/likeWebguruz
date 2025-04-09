@@ -1,0 +1,308 @@
+.infographic-words .row {
+  align-items: center;
+}
+.infographic-motion-animate {
+  background: linear-gradient(
+    0deg,
+    rgba(245, 247, 254, 1) 0%,
+    rgba(247, 252, 255, 1) 100%
+  );
+}
+.infographic-motion-animate .row {
+  align-items: center;
+}
+.infographic-discovery .offer-card img {
+  max-width: 55px;
+  height: auto;
+}
+
+.infographic-discovery .offer-card {
+  margin-bottom: 60px;
+  border: 1px solid #ededed;
+  /* max-width: 270px; */
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  box-shadow: #0000001f 0 4px 4px 0;
+  border-radius: 10px;
+  min-height: 207px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out 0s;
+}
+
+.infographic-discovery .offer-card img {
+  max-width: 35px;
+  height: auto;
+}
+.infographic-discovery .icon-img {
+  position: absolute;
+  top: -33px;
+  left: 0;
+  right: 0;
+  width: 65px;
+  margin: 0 auto;
+  height: 65px;
+  border: 1px solid #168b9a;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background: #ffff;
+}
+.infographic-discovery .offer-card:hover {
+  box-shadow: -6px 6px #168b9a;
+}
+
+.infographic-motion-services .row{
+    align-items: center;
+}
+.infographic-motion-animate li {
+  margin-bottom: 12px;
+}
+
+.infographic-motion-animate ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+.infographic-business {
+  background: transparent;
+}
+/* motion-graphic-company start */
+.motion-graphic-company {
+  background: #ffffffba;
+  background-image: url(/images/features-bg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.motion-platform img{
+  max-width: 50px;
+}
+.motion-graphic-company .motion-platform {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.motion-platform p {
+  margin: 0;
+}
+.infographic-search-end .motion-search-card {
+  background: #fff;
+  padding: 20px 31px;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  min-height: 169px;
+  margin-bottom: 20px;
+}
+.infographic-search-end .motion-search-card img {
+  max-width: 55px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.infographic-search-end {
+  background: #e5f0f9a6;
+}
+.infographic-search-end h6 {
+  margin: 0;
+}
+.infographic-search-end .motion-search-card {
+  transition: all .5s ease-out;
+}
+
+.infographic-search-end .motion-search-card:hover {
+  box-shadow: #85bff0 0 0 10px 0;
+}
+/* slider aroow css start */
+.swiper-navigation-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  pointer-events: none;
+}
+.infographic-motion-delivery .mySwiper {
+  padding-bottom: 40px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.nav-arrow {
+  color: #333;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.nav-arrow:hover {
+  color: #ffffff;
+  background-color: rgb(0 160 175);
+  transform: scale(1.1);
+}
+.infographic-motion-delivery .motion-graphic-slides {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 20px 15px 20px;
+  text-align: center;
+  min-height: 100%;
+  background: #fff;
+}
+.infographic-motion-delivery .motion-graphic-slides p {
+  margin: 0;
+  font-size: 16px;
+}
+.infographic-motion-delivery {
+  background: #f7f9f8;
+}
+.infographic-motion-delivery .motion-graphic-img img {
+  max-width: 75px;
+}
+.infographic-motion-delivery .motion-graphic-slides h4 {
+  margin: 15px 0;
+  font-size: 1.3rem;
+}
+
+.infographic-motion-delivery .motion-graphic-slides::after {
+  content: unset !important;
+}
+
+.infographic-motion-delivery .swiper-button-prev:after , .infographic-motion-delivery .swiper-button-next:after {
+  content: unset;
+}
+
+.infographic-motion-delivery .swiper-button-prev {
+  left: 45%;
+  background: transparent;
+  transform: translateX(-50%);
+}
+/* .infographic-motion-delivery .swiper-button-prev ,
+.infographic-motion-delivery .swiper-button-next {
+  transform: translateY(-50%);
+} */
+.infographic-motion-delivery .swiper-button-next {
+  right: 45%;
+  transform: translateX(-50%);
+}
+.infographic-motion-delivery svg {
+  background: #d1e7e9;
+  border-radius: 2px;
+  height: 20px !important;
+  color: #00a0af;
+}
+.yout-content {
+  height: 100%;
+  display: block;
+  min-height: 205px;
+}
+/* slider aroow css end */
+.infographic-search-end {
+  background: transparent;
+}
+.infographic-motion-services {
+  background: #e5f0f9a6;
+}
+@media (max-width: 1399px) {
+.infographic-motion-delivery .motion-graphic-slides p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+}
+@media (max-width: 1199px) {
+    .infographic-discovery .offer-card-text h5 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+@media (min-width: 767px) {
+    .infographic-discovery .offer-card {
+    max-width: -webkit-fill-available;
+  }
+}
+@media (max-width: 991px) {
+  .infographic-motion-delivery .swiper-button-next {
+    right: 43%;
+}
+.infographic-motion-delivery .swiper-button-prev{
+  left: 43%;
+}
+}
+@media (max-width: 767px) {
+    .infographic-discovery .offer-card-text {
+    transform: translateY(10px);
+  }
+  .infographic-discovery .infographic-discovery .offer-card-text h5 {
+    font-size: 20px;
+  }
+  .infographic-search-end .motion-search-card {
+    background: #fff;
+    padding: 20px 19px;
+}
+.infographic-search-end .row.feature {
+  flex-direction: row;
+}
+.infographic-search-end .row.feature .col-md-4 {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.infographic-search-end .row.feature .col-md-4 h6 {
+  font-size: 16px;
+}
+.yout-content {
+  min-height: auto;
+}
+.infographic-words .row , .infographic-motion-services .row{
+  flex-direction: column-reverse;
+}
+}
+@media (max-width: 576px) {
+    .infographic-discovery .offer-card {
+    margin-bottom: 50px;
+    min-height: 180px;
+  }
+  .infographic-discovery .row.Offer  {
+    flex-direction: column;
+}
+.infographic-discovery .row.Offer .col-md-4{
+    width: 100%;
+}
+.infographic-discovery .row.Offer.pt-5.text-center {
+    justify-content: center;
+    padding-right: 0;
+}
+.infographic-discovery .row.Offer.pt-3.pt-md-5.text-center {
+    padding-right: 0;
+}
+.motion-graphic-company .motion-platform {
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+.infographic-motion-delivery .swiper-button-next {
+  right:40%;
+}
+.infographic-motion-delivery .swiper-button-prev{
+left:40%;
+}
+}
+@media (max-width: 479px) {
+  .infographic-motion-delivery .swiper-button-next {
+    right:38%;
+  }
+  .infographic-motion-delivery .swiper-button-prev{
+  left:38%;
+  }
+}

@@ -1,0 +1,240 @@
+.pardot-services-right,
+.pardot-services-right img {
+  height: 100%;
+}
+.content-marketing-explore {
+  background: linear-gradient(
+    0deg,
+    rgba(245, 247, 254, 1) 0%,
+    rgba(247, 252, 255, 1) 100%
+  );
+}
+.content-marketing-explore .row {
+  align-items: center;
+}
+.content-market-solution img {
+  max-width: 35px;
+  transition: all 0.4s ease-in-out;
+}
+.content-market-solution h4,
+.content-market-solution p {
+  transition: all 0.4s ease-in-out;
+}
+.content-market-solution .content-market-icon {
+  background: #349cdd;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.4s ease-in-out;
+
+  position: relative;
+  overflow: hidden;
+}
+.content-market-solution .content-market-card:hover h4,
+.content-market-solution .content-market-card:hover p {
+  color: #fff;
+}
+.content-market-solution .content-market-card:hover .content-market-icon img {
+  filter: brightness(10) invert(1);
+}
+.content-market-solution .content-market-card {
+  border-radius: 48px 8px;
+  border: 1px solid var(--neutral-n-700, #e2e2e2);
+  background: var(--extremes-white, #fff);
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 100%;
+  padding: 20px 24px 35px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  transition: all 0.4s ease-in-out;
+
+  position: relative;
+  z-index: 1;
+  min-height: 100%;
+}
+.content-market-solution h4 {
+  font-size: 22px;
+}
+.content-market-solution .content-market-card:hover .content-market-icon {
+  background: #fff;
+}
+.content-market-solution .content-market-card:hover:after {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+.content-market-solution .content-market-card:after {
+  content: "";
+  background: #349cdd;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: 48px 8px;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.content-market-impact {
+  background: linear-gradient(45deg, #f5f7fe, #f7fcff);
+}
+.content-market-impact img {
+  max-width: 55px;
+}
+
+.content-market-impact .work-card:hover {
+  background: #fffbedba;
+}
+.content-market-impact .work-card:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg,
+    transparent,
+    transparent 30%,
+    rgb(254 252 238)
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease-out;
+  opacity: 0;
+}
+
+.content-market-impact .work-card:hover:before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+.content-market-impact .work-card {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  min-height: 100%;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.content-market-impact .work-card .work-card-img {
+  background: #168b9a;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+.content-market-impact .work-card p {
+  margin: 0;
+}
+.content-market-consult .store-one {
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 15px;
+  height: 100%;
+  min-height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.content-market-consult .store-one:hover {
+  background: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-color: transparent;
+}
+
+.content-market-consult h4 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.marketing-revenue .market-revenue-icon {
+  max-width: 60px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.marketing-revenue {
+  background-image: url(/images/bg-dots.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-msrketing-steps {
+  background: transparent;
+}
+
+.content-msrketing-steps:before {
+  content: unset !important;
+}
+.marketing-revenue h5 {
+  color: #168b9a;
+}
+.marketing-revenue .market-revenue-card {
+  padding: 10px;
+  text-align: center;
+}
+.content-market-services ul.icon-list li {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+.content-market-services {
+  background: #e5f0f954;
+}
+.content-market-services ul.icon-list li span {
+  margin: 0;
+}
+.content-market-services ul.icon-list li span {
+  margin: 0;
+  width: 100%;
+  max-width: 22px;
+}
+.content-market-services ul.icon-list {
+  padding-top: 30px;
+}
+.content-market-services .heading-main {
+  padding-left: 20px;
+}
+
+@media (min-width: 1199px) {
+  .content-market-solution h4 {
+    font-size: 24px;
+  }
+  .content-market-services ul.icon-list li {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .marketing-revenue .market-revenue-card {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-market-impact .work-card {
+    text-align: center;
+  }
+  .content-market-consult .store-one {
+    text-align: center;
+  }
+  .content-marketing-presence .row {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 576px) {
+  .content-market-solution .content-market-card {
+    text-align: center;
+    align-items: center;
+  }
+  .content-market-services .row h2,
+  .content-market-services .row h5 {
+    text-align: center;
+  }
+}

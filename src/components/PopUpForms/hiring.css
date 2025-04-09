@@ -1,0 +1,43 @@
+.scale-modal {
+    animation: scaleIn 0.25s linear forwards;
+  }
+  
+  .scale-modal:not(.show) {
+    animation: scaleOut 0.25s linear forwards;
+  }
+  
+  @keyframes scaleIn {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes scaleOut {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+  
+  /* Center the modal vertically */
+ .home-hiring .modal-dialog {
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+  
+  /* Ensure modal content scales properly */
+  .modal-content {
+    transform-origin: center;
+  }

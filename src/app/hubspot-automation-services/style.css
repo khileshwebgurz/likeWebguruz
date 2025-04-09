@@ -1,0 +1,61 @@
+.Marketing-Automation {
+    background-image: url('/images/hubautomateimages/hubdb.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .automate-growth .lftbg {
+    background: rgba(38, 198, 218, 0.42);
+}
+.automate-growth h2.text-white.pb-4 {
+    color: #383838 !important;
+}
+.automate-growth h2.text-white.pb-4 strong {
+    color: #168B9A !important;
+}
+.automate-growth .drplcmsctinnr {
+  transition: all .5s ease-in-out;
+}
+.automate-growth .drplcmsctinnr:hover {
+  background: #168b9a;
+}
+.automate-growth .drplcmsctinnr:hover h3 , .automate-growth .drplcmsctinnr:hover p {
+  color: #fff;
+}
+@media (max-width: 767px) {
+  section.counter-main.service-counter.automate-display .col.col-xs-12 {
+    margin-bottom: 20px;
+}
+section.counter-main.service-counter.automate-display label {
+  height: 100%;
+}
+.marketing-automate img.img-fluid {
+  margin-top: 30px;
+}
+
+section.dvlpsrvc.automate-growth h2 {
+  font-size: 23px;
+}
+section.dvlpsrvc.automate-growth.py-5 img{
+  max-width: 550px;
+}
+}
+@media (max-width: 575px) {
+  section.counter-main.service-counter.automate-display .col.col-xs-12 {
+    margin-bottom: 0px;
+}
+section.counter-main.service-counter.automate-display label {
+  height: auto;
+}
+section.dvlpsrvc.automate-growth.py-5 img{
+  max-width: 350px;
+}
+.automatation-choose .row {
+  flex-direction: column;
+  padding-top: 40px;
+}
+.automatation-choose .row .whrsimg {
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+}

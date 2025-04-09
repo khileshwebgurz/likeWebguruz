@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.ecommerc-box {
+  background: #fff;
+  padding: 40px;
+  display: block;
+  gap: 30px;
+  row-gap: 0;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.Ecommerceseo-section {
+  background: #f3f6f8;
+}
+.ecommerc-box:hover {
+  box-shadow: 2px 2px 32px rgba(23, 22, 22, 0.2);
+}
+.Ecommerceplate-section img {
+    max-width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+section.ecommerce-slides-working img {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+}
+
+section.ecommerce-slides-working h3 {
+  color: #168b9a;
+}
+
+.Ecommerceplate-section {
+  background: #e5f0f96c;
+}
+
+.Ecommercebenifit-section .ecommerce-benifit {
+  border: 1px solid #eee;
+  padding: 20px 20px;
+  height: 100%;
+  min-height: 100%;
+}
+
+.Ecommercebenifit-section .ecommerce-benifit img {
+  width: 55%;
+
+}
+.ecommerce-small-icon {
+  background: #26c6da2e;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  margin-top: 0;
+}
+.Ecommercebenifit-section .ecommerce-benifit h5 {
+  color: #00adb3;
+  margin-bottom: 15px;
+}
+.Ecommercebenifit-section .col-lg-4 {
+  padding: 0;
+}
+
+.Ecommercebenifit-section .row {
+  padding: 0 0px;
+}
+.Whychooseseo-section {
+  background: #f1f2f3;
+}
+
+.Whychooseseo-section .why-seo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.slider-seo-content {
+  position: relative;
+  z-index: 1;
+  padding: 75px 0;
+  padding-bottom: 111px;
+}
+
+.slider-seo-content:before {
+  content: "01";
+  position: absolute;
+  left: -74px;
+  font-size: 300px;
+  font-weight: bold;
+  opacity: 0.3;
+  z-index: -1;
+  top: -54px;
+  color: #dde1eb;
+}
+section.ecommerce-slides-working .ecom-slide-2 .slider-seo-content:before {
+    content: "02";
+}
+section.ecommerce-slides-working .ecom-slide-3 .slider-seo-content:before {
+    content: "03";
+}
+section.ecommerce-slides-working span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #168B9A;
+}
+section.ecommerce-slides-working span.swiper-pagination-bullet {
+    color: #858585;
+    width: 12px;
+    height: 12px;
+}
+section.ecommerce-slides-working .row:nth-child(2) .swiper-wrapper {
+  padding-bottom: 74px;
+}
+@media (min-width: 768px) {
+  .Ecommercebenifit-section .ecommerce-benifit p {
+    min-height: 150px;
+  }
+}
+@media (min-width: 576px) {
+  .ecommerc-box {
+    display: flex;
+    text-align: left;
+  }
+  .ecommerc-box h3,
+  .ecommerc-box p {
+    margin: 0;
+  }
+  .Ecommercebenifit-section .row {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider-seo-content {
+    padding-bottom: 28px;
+  }
+  .slider-seo-content:before {
+    font-size: 210px;
+    left: 0;
+  }
+  .seobanner-main.ecommerce-banner button.explore-btn {
+    margin-top: 20px;
+}
+}
+@media (max-width: 576px) {
+    .slider-seo-content:before {
+        font-size: 196px;
+        top: -38px;
+        opacity: 0.4;
+        left: 0;
+        right: 0;
+    }
+  .slider-seo-content {
+    padding-bottom: 28px;
+    text-align: center;
+    padding-top: 50px;
+}
+.Whychooseseo-section {
+    text-align: center;
+}
+
+}
+@media (max-width: 479px) {
+    section.ecommerce-slides-working .row:nth-child(2) .swiper-wrapper {
+        padding-bottom: 50px;
+    }
+}

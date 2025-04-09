@@ -1,0 +1,65 @@
+.terms-banner-wgz {
+  background-image: url(/images/term-banner.webp);
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.terms-content {
+  position: relative;
+  z-index: 1;
+}
+.webguruz-terms p a:hover {
+    color: #1ab6ca;
+}
+.terms-banner-wgz h1.color-wt {
+  font-size: 40px;
+  line-height: 58px;
+  font-weight: 300;
+  position: relative;
+}
+
+.terms-banner-wgz h1.color-wt strong {
+  color: #26c6da !important;
+  font-size: 55px;
+  font-weight: bold;
+}
+section.webguruz-terms p , section.webguruz-terms li {
+  font-size: 15px;
+}
+section.webguruz-terms h5 {
+  font-weight: 600;
+}
+
+section.webguruz-terms li {
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+section.webguruz-terms ul {
+  list-style: disc;
+  padding-left: 18px;
+}
+
+@media(min-width:768px){
+  .terms-banner-wgz h1.color-wt:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 91%;
+    width: 125px;
+    height: 125px;
+    background-image: url(/images/bubbles.webp);
+}
+.terms-banner-wgz h1{
+  text-align: left !important;
+}
+.terms-banner-wgz h1.color-wt {
+  transform: translateY(80px);
+}
+}

@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+.wix-development-services {
+  background-image: url(/images/bg-dots.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.wix-development-services .wix-services-points {
+  padding: 25px;
+  background: #fff;
+  box-shadow: 0 4px 13px 1px #d3d3d3;
+  border-radius: 10px;
+  min-height: 100%;
+  text-align: center;
+  transition: all 0.4sease-in-out;
+}
+.wix-btn-group {
+  display: flex;
+  justify-content: center;
+  row-gap: 5px;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.wix-development-services .wix-service-img {
+  max-width: 90px;
+  height: 90px;
+  /* background: #fc5e3d4d; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin: 0 auto 20px;
+}
+.wix-services-points:hover .wix-service-img img {
+  transform: rotateY(360deg);
+}
+.wix-development-services .wix-service-img img {
+  max-width: 50px;
+  transition: 0.5s ease-in-out;
+}
+.wix-dev-solution.bigcommerce-services {
+  background-color: #ffffff;
+}
+.wix-development-process {
+  background: #26c6da14;
+}
+
+.wix-development-process .google-card {
+  background: #ffffff;
+  min-height: 100%;
+  border: 1px solid rgba(212, 224, 237, 0.7);
+  border-radius: 5px;
+  padding: 30px 20px;
+  transition: all 0.3s ease-in-out;
+}
+.wix-development-process .google-card:hover {
+  border: 1px solid #20a0b1;
+  box-shadow: 0 16px 40px rgba(176, 202, 228, 0.2);
+  border-radius: 5px;
+}
+.wix-development-process h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #26c6da;
+}
+.wix-choose-section .wix-choose-card {
+  padding: 30px 25px;
+  text-align: center;
+  min-height: 100%;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 0 7px #c0c0c069;
+  background: #fff;
+}
+.wix-choose-section .row .col-md-4:nth-child(5) , .wix-choose-section .row .col-md-4:nth-child(6) {
+  margin-bottom: 0 !important;
+}
+
+.wix-choose-section .wix-choose-card:hover {
+  transform: translateY(-10px);
+}
+.wix-choose-section .img-card img {
+  max-width: 55px;
+  margin-bottom: 20px;
+}
+.wix-development-benefits {
+  background: #a6a6a629;
+}
+.wix-development-benefits .wix-benefit-card {
+  box-shadow: 0 0 7px #c0c0c069;
+  background: #fff;
+  transition: all 0.4s ease-in-out;
+  padding: 30px 25px;
+  text-align: center;
+  min-height: 100%;
+  overflow: hidden;
+}
+.wix-development-benefits .wix-benefit-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.wix-dev-solution.bigcommerce-services .bigcommerce-content-inner {
+  background: #20a0b1;
+}
+.wix-development-benefits .wix-benefit-card h4 {
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.wix-development-benefits .wix-benefit-card h4:after {
+  content: "";
+  height: 3px;
+  width: 80%;
+  background: #349cdd;
+  left: 50%;
+  position: absolute;
+  bottom: 0px;
+  transform: translate(-50%, 0);
+}
+.wix-facts-features .servteaminr.wix-img img {
+  max-width: 350px;
+}
+.wix-facts-row .facts-content-card .facts-card-inner p {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #d9d9d9;
+}
+.wix-facts-row .facts-content-card .facts-card-inner {
+  position: relative;
+  padding-left: 70px;
+}
+.wix-facts-row .facts-content-card .facts-card-inner::before {
+  counter-increment: my-sec-counter;
+  content: "0" counter(my-sec-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: "__Outfit_37322b";
+  font-weight: 700;
+  color: #bcbcbc;
+  font-size: 32px;
+  line-height: 40px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  transform: translateY(-13px);
+}
+.wix-facts-row .facts-content-card {
+  counter-reset: my-sec-counter;
+}
+section.wix-facts-features {
+  background: #fbfbfb;
+}
+@media (max-width: 767px) {
+  .wix-development-process .google-card {
+    text-align: center;
+  }
+  .wix-choose-section .row .col-md-4:nth-child(5){
+    margin-bottom: 1.5rem !important;
+  }
+}

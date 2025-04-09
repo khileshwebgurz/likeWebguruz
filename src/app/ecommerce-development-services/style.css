@@ -1,0 +1,244 @@
+section.ecom-development-platforms
+  .ecom-platform-cards
+  .ecom-platform-holdings {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+section.ecom-development-platforms
+  .ecom-platform-cards
+  .ecom-platform-holdings
+  img {
+  max-width: 55px;
+}
+section.contact-logo {
+  background: #fff;
+}
+.ecom-development-platforms .row {
+  row-gap: 20px;
+}
+.Amazonoffer-section {
+  background: #fff;
+  background-image: none !important;
+}
+.ecom-development-solutions {
+  background: #afb6e573;
+}
+.ecom-development-solutions ul {
+  padding-left: 0;
+}
+.seo-organic-process-service.ecom-development-solutions .tab-content {
+  background: rgb(255 255 255);
+}
+.seo-organic-process-service.ecom-development-solutions .nav.nav-tabs button {
+  background: rgb(255 255 255);
+}
+.ecom-benefits-card {
+  background-color: #43aae985;
+  padding: 25px 30px;
+  border-radius: 12px;
+  min-height: 100%;
+  transition: all 0.3s ease-in;
+}
+.ecom-benefits-card:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.ecommerce-dev-benefits .row {
+  row-gap: 20px;
+}
+.ecom-bg-img {
+  max-width: 70px;
+  height: 70px;
+  background: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin: 0 0px 20px;
+}
+.ecom-development-approach img {
+  max-width: 45px;
+}
+.ecom-bg-img img {
+  max-width: 40px;
+}
+.ecommerce-details-page {
+  background-color: #f5f9fd;
+}
+section.ecom-development-platforms {
+  background-image: url(/images/bg-dots.webp);
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.ecom-development-platforms:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #cbcbcb26;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+section.ecom-development-platforms h4 {
+  font-size: 24px;
+}
+section.ecom-development-platforms .ecom-platform-cards {
+  padding: 25px;
+  background: #fff;
+  min-height: 100%;
+  box-shadow: #6e82d02b 0 2px 40px 0;
+  transition: all 0.5s linear;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+section.ecom-development-platforms .ecom-platform-cards:hover {
+  border-color: #0dcaf0;
+}
+section.ecom-development-platforms
+  .ecom-platform-cards
+  .ecom-platform-holdings
+  img {
+  max-width: 55px;
+}
+.ecom-development-solutions ul {
+  padding-left: 0;
+}
+
+.ecom-dev-steps {
+  background-color: rgba(67, 155, 194, 0.5);
+  padding: 35px 30px 25px 30px;
+  width: calc(25% - 2px);
+  border-radius: 20px;
+  min-height: 100%;
+  position: relative;
+  color: #0a2734;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+  min-width: 100%;
+}
+
+span.step-counts {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  font-family: "GilroyBold", sans-serif;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.2;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ecom-dev-steps:after {
+  content: "";
+  background: url(/images/devecomservicesimg/step-arrow.webp);
+  display: inline-block;
+  width: 140px;
+  height: 29px;
+  position: absolute;
+  top: -40px;
+  right: 0;
+  transform: translateX(50%);
+  background-repeat: no-repeat;
+}
+section.ecommerce-steps-conclude .col-md-6:last-child .ecom-dev-steps:after {
+  content: unset;
+}
+section.ecommerce-steps-conclude .row.step-row {
+  margin-top: 50px;
+  padding: 0 10px;
+}
+section.ecommerce-steps-conclude .row.step-row .col-md-6 {
+  padding: 0 3px;
+}
+section.ecommerce-steps-conclude .ecom-dev-steps:before {
+  content: "";
+  background: url(/images/devecomservicesimg/step-shape.webp);
+  display: inline-block;
+  width: 86px;
+  height: 35px;
+  position: absolute;
+  z-index: 0;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-44%);
+  background-repeat: no-repeat;
+}
+.Voiceservices-section.dev-ecom-reasons .col-md-6.col-12 {
+  margin-bottom: 25px;
+}
+section.ecommerce-dev-benefits .ecom-benefits-card h4 {
+  font-size: 24px;
+}
+@media (max-width: 1600px) {
+  span.step-counts {
+    top: -14px;
+  }
+}
+
+@media (max-width: 991px) {
+  section.ecommerce-steps-conclude
+    .row.step-row
+    .col-md-6:nth-child(2)
+    .ecom-dev-steps:after {
+    content: unset;
+  }
+  section.ecommerce-steps-conclude
+    .row.step-row
+    .col-md-6:nth-child(3)
+    .ecom-dev-steps:after {
+    top: -31px;
+  }
+  section.ecommerce-steps-conclude .row.step-row .ecom-dev-steps {
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  section.ecommerce-steps-conclude .row.step-row .ecom-dev-steps::after {
+    content: unset;
+  }
+  section.ecommerce-steps-conclude .row.step-row {
+    margin-top: 25px;
+    padding: 0 10px;
+  }
+  section.ecommerce-dev-benefits .ecom-benefits-card {
+    text-align: center;
+  }
+  section.ecommerce-dev-benefits .ecom-bg-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section.magento-dev-details .mag-details-left h4 {
+    padding-top: 10px;
+  }
+  .ecom-development-approach span.nmmb {
+    width: 65px;
+    height: 66px;
+    margin: 0;
+}
+.ecom-development-approach img {
+  max-width: 40px;
+}
+.ecom-development-approach .qstbox.right, .ecom-development-approach .qstbox.left {
+  padding-left: 85px;
+}
+}

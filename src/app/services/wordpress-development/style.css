@@ -1,0 +1,353 @@
+.wordpress-box {
+  padding: 40px;
+  /* background-image: url(/images/helpdeskimg/green-frame.webp); */
+  text-align: center;
+  /* box-shadow: 0 0 22px #00000026; */
+  min-height: 100%;
+  transition: all 0.4s ease-in-out;
+  padding-top: 0;
+}
+.wordpress-box img {
+  max-width: 65px;
+  display: block;
+  margin: 0 auto 20px;
+}
+/* .wordpress-hire-section .wordpress-box:hover {
+  box-shadow: #00000083 0 0 22px;
+  transform: translateY(-8px);
+} */
+.Wocommerceservices-section.wordpress-services
+  .row.woocommerces-row
+  .woocard-one:hover {
+  background: #20a0b1;
+}
+.wordpress-box p {
+  font-weight: 600;
+  margin: 0;
+}
+
+/* start */
+* {
+  box-sizing: border-box;
+}
+.approach.icon img,
+.wordpress-benifit-section img {
+  max-width: 45px;
+}
+.ourapporach-section p {
+  margin: 0;
+  margin-top: 15px;
+}
+.ourapporach-section h5 {
+  margin: 0;
+}
+.apporach-card {
+  padding: 10px;
+  min-height: 100%;
+}
+
+
+.apporach-card .approach.icon {
+  position: relative;
+  z-index: 1;
+  width: 85px;
+  height: 85px;
+  background: #00a0af;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #00a0ad47 0 0 20px;
+}
+.apporach-card .approach.icon:after {
+  content: "1";
+  font-size: 90px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -65px;
+  color: #00a0af;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #00a0af;
+  left: 100%;
+  text-shadow: 3px 4px #00a0af;
+}
+.ourapporach-section .card-decription {
+  margin-top: 20px;
+}
+.row.our-apporach .col-xl:nth-child(2) .apporach-card .approach.icon:after {
+  content: "2";
+}
+.row.our-apporach .col-xl:nth-child(3) .apporach-card .approach.icon:after {
+  content: "3";
+}
+.row.our-apporach .col-xl:nth-child(4) .apporach-card .approach.icon:after {
+  content: "4";
+}
+.row.our-apporach .col-xl:nth-child(5) .apporach-card .approach.icon:after {
+  content: "5";
+}
+.wordpress-hire-section {
+  background: #f5f5f5;
+}
+/* why-choose-start */
+.why-choose-section .why-choose-card {
+  padding: 20px;
+  background: #fff;
+  box-shadow: #0000003b 0 0 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s ease-in-out;
+  align-items: self-start;
+  justify-content: center;
+  border: 2px solid transparent;
+  min-height: 100%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.why-choose-section {
+  background: rgb(212, 223, 251);
+  background: linear-gradient(
+    0deg,
+    rgba(212, 223, 251, 1) 0%,
+    rgba(193, 219, 251, 1) 100%
+  );
+}
+
+
+.why-choose-section .heading-main {
+  display: flex;
+  align-items: center;
+}
+
+.why-choose-section .why-choose-card:after {
+  content: "";
+  width: 10%;
+  height: 10%;
+  background: transparent;
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  border-radius: 50%;
+  transition: 400ms ease-in-out;
+  z-index: -1;
+}
+
+.why-choose-section .why-choose-card:hover:after {
+  background: #FBF0D4;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+}
+.why-choose-section .why-choose-card:hover {
+  border: 2px solid #FBF0D4;
+  transform: scale(1.03);
+}
+/* end */
+
+/* wordpress-benifit */
+.benifit-card {
+  display: flex;
+  gap: 20px;
+  min-height: 100%;
+}
+
+.benifit-description {
+  width: 77%;
+}
+/* .benifit-description h4{
+    font-size: 24px;
+} */
+
+.wordpress-benifit-section .row.our-btn-group {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.wordpress-benifit-section .benifit-cta {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.benifit-img {
+  max-width: 100%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #3f6d8e;
+  border-radius: 50px;
+}
+.Wocommerceservices-section.wordpress-services:after {
+  background: #b7b7b71c;
+}
+.benifit-img img {
+  max-width: 40px;
+}
+.wordpress-company-section .benifit-img {
+    border: 1px solid #00a0af40;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+
+
+.wordpress-company-section {
+  background: #f2f2f2;
+}
+
+
+/* why-cms-dev 7-3-2025 */
+.wordpress-benifit-section .benifit-card {
+  display: block;
+}
+.wordpress-benifit-section .row .col-lg-4 {
+  margin: 0 !important;
+}
+
+.wordpress-benifit-section .row {
+  row-gap: 30px;
+}
+.wordpress-benifit-section .benifit-card .benifit-description {
+  width: 100%;
+}
+
+.wordpress-benifit-section .benifit-card .img-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #00a0af;
+}
+
+.wordpress-benifit-section .benifit-card .img-title .benifit-img {
+  border: 0;
+  width: auto;
+  height: 100%;
+}
+
+.wordpress-benifit-section .benifit-card .img-title h5 {
+  margin: 0;
+}
+
+/* end */
+
+
+
+h4 {
+  font-size: 22px;
+}
+@media (min-width: 768px) {
+  .why-choose-section .heading-main h2, .why-choose-section .heading-main h2 span {
+    line-height: 1.4;
+  }
+
+}
+
+@media (min-width: 1399px) {
+  .why-choose-section .heading-main h2, .why-choose-section .heading-main h2 span {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+
+}
+@media(max-width:1399px) and (min-width:992px){
+  .why-choose-section .heading-main h2, .why-choose-section .heading-main h2 span {
+    font-size: 35px;
+    line-height: 1.4;
+}
+}
+@media (min-width: 1199px) {
+  .ourapporach-section p {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  .wordpress-box p {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 767px) {
+  .wordpress-box {
+    padding-bottom: 15px;
+}
+  .apporach-card .approach.icon:after {
+    font-size: 60px;
+    top: -40px;
+  }
+  .apporach-card {
+    text-align: center;
+  }
+  .wordpress-hire-section .hire-box {
+    padding: 30px;
+  }
+  .why-choose-section .row .col-md-4.col-12.mb-4:nth-child(1) {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+  .apporach-card .approach.icon {
+    margin: 0 auto;
+  }
+  .why-choose-section {
+    text-align: center;
+  }
+  .benifit-cta a {
+    padding: 11px 22px;
+  }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+  .why-choose-section .row .col-md-4.col-12.mb-4 {
+    width: 50%;
+    flex: 0 0 auto;
+  }
+
+  .why-choose-section .row {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 576px) {
+  .benifit-description {
+    width: 100%;
+  }
+  .benifit-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .why-choose-section {
+    text-align: center;
+  }
+
+  .why-choose-section .why-choose-card {
+    align-items: center;
+  }
+  section.counter-main.wordpress-counter label {
+    margin: 0;
+    min-height: 100%;
+  }
+
+  section.counter-main.wordpress-counter .col {
+    margin-bottom: 20px;
+  }
+  .wordpress-benifit-section .benifit-cta {
+    flex-wrap: wrap;
+  }
+
+}
+/* end */

@@ -1,0 +1,288 @@
+.salesforce-partner .row {
+  padding: 40px;
+  border-radius: 20px;
+  margin: 0;
+  background: linear-gradient(219deg, #004e92, #0064e0, #0c00ff);
+}
+.salesforce-partner .row h2 , .salesforce-partner .row h2 span , .salesforce-partner .row p {
+  color: #fff;
+}
+.choose-salesforce .devbox {
+  background-color: #fefaf9;
+  padding: 24px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  min-height: 100%;
+}
+.choose-salesforce .box-count span {
+    align-items: center;
+    background-color: #bff0ff;
+    border-radius: 6px;
+    color: #00c2ff;
+    display: inline-flex;
+    justify-content: center;
+    min-height: 48px;
+    min-width: 48px;
+    padding: 0 10px;
+}
+.choose-salesforce .devbox h4 {
+  font-size: 24px;
+}
+.choose-salesforce .box-count {
+  margin-bottom: 15px;
+}
+.choose-salesforce .devbox:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+section.local-search-result.salesforce-expertise {
+  background: #f2f2f2ab;
+}
+section.local-search-result.salesforce-expertise {
+  background: #f2f2f2ab;
+}
+
+section.salesforce-effecieny  .sale-right-content {
+  max-height: 600px;
+  height: 600px;
+  overflow: auto;
+  padding: 0 30px;
+
+}
+section.salesforce-effecieny  .sale-right-content::-webkit-scrollbar-track {
+  background: #00BCD4;
+  border-radius: 5px;
+}
+section.salesforce-effecieny .row .slider-dots {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  gap: 25px;
+  transform: translateY(-50%);
+}
+section.salesforce-effecieny .row .slider-dots span {
+  width: 10px;
+  height: 10px;
+  background: #00a0af;
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: .3;
+}
+section.salesforce-effecieny .row .slider-dots span.active {
+  opacity: 1;
+}
+section.salesforce-effecieny .row {
+  position: relative;
+  /* padding: 20px; */
+}
+.salesforce-working {
+  background: #00a0af12;
+}
+
+section.salesforce-effecieny  .sale-right-content::-webkit-scrollbar-thumb {
+  background: #00BCD4;
+  border-radius: 10px;
+}
+section.salesforce-effecieny ul.sale-list {
+  margin-bottom: 22px;
+  list-style: disc !important;
+  padding-left: 25px;
+}
+.sale-right-content-one.active h3 {
+  color: #000000;
+}
+.salesforce-working .sales-steps {
+  background: #00a0af;
+  text-align: center;
+  padding: 6px 5px;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  max-width: 101px;
+}
+.sale-right-content-one {
+  padding-bottom: 30px;
+}
+section.salesforce-effecieny .sale-right-content p {
+  font-size: 15px;
+}
+section.salesforce-effecieny ul.sale-list li {
+  padding-top: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #00a0af;
+
+}
+section.salesforce-effecieny  .sale-right-content::-webkit-scrollbar {
+  width: 0px;
+  height: 85px;
+  border-radius: 5px;
+  overflow: scroll;
+}
+section.salesforce-effecieny p.small {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.clickable-points .sidepanel-icon {
+  width: 100%;
+  max-width: 90px;
+  height: 90px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 3px solid #d6d6d6;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.clickable-points {
+  text-align: center;
+  padding: 20px 15px;
+  background: #fff;
+}
+.saleforce-sidepanel li.active {
+  background-color: #f0f0f0; /* or any styling you prefer */
+  font-weight: bold;
+}
+.saleforce-sidepanel li.active .sidepanel-icon {
+  background: #ffffff;
+  border-color: #00a0af;
+}
+section.salesforce-planning img {
+  max-width: 50px;
+}
+.saleforce-sidepanel li.active h5 {
+  color: #00a0af;
+}
+.saleforce-sidepanel li {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.salesforce-planning .planning-category ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.salesforce-planning .planning-category ul li {
+  font-size: 18px;
+  position: relative;
+  background: #f3f3f3;
+  flex-wrap: wrap;
+  padding: 18px 14px;
+  width: 24%;
+  text-align: center;
+  color: #000;
+  line-height: 28px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+section.salesforce-planning .planning-content {
+  margin-bottom: 40px;
+}
+
+section.salesforce-planning .planning-content h3 {
+  margin-bottom: 17px;
+}
+.salesforce-efficiency .slider-dots span {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  display: inline-block;
+  background: #ccc;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+.salesforce-efficiency .slider-dots .active {
+  background: #007bff;
+}
+section.customized-approach .diverse-main > div {
+  border: 1px solid #B5BCE8;
+
+}
+section.customized-approach {
+  background-image: url(/images/features-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #b5bce8a6;
+  background-position: center center;
+}
+@media (max-width: 991px) {
+  .salesforce-planning .planning-category ul li {
+font-size: 16px;
+  }
+  .salesforce-working .indrngserv .indrngservinnr {
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 20px 10px;
+}
+.salesforce-working .indrngserv .indrngservinnr:first-child {
+  margin-left: 0px;
+}
+  section.salesforce-effecieny .row {
+margin: 0;
+  }
+  section.salesforce-effecieny .row  .slider-dots{
+    right: 5px;
+    transform: translateY(0);
+  }
+  section.salesforce-planning .row.plaining-row .col-md-12 .planning-content:last-child {
+    margin-bottom: 0;
+}
+.salesforce-working .indrngserv .indrngservinnr h3 {
+  font-size: 18px;
+  margin: 10px 0px;
+}
+}
+@media (max-width: 767px) {
+  .choose-salesforce .devbox {
+    text-align: center;
+  }
+  .sale-right-content {
+    margin-top: 40px;
+}
+.salesforce-planning .planning-category ul {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.salesforce-planning .planning-category ul li {
+  width: 49%;
+
+}
+.salesforce-partner .row {
+  padding: 40px 30px;
+
+}
+.salesforce-working .indrngserv .indrngservinnr{
+  padding: 20px;
+}
+.choose-salesforce .box-count span{
+  font-size: 20px;
+}
+}
+@media (max-width: 576px) {
+  .salesforce-planning .planning-category ul li {
+    width: 100%;
+}
+section.salesforce-planning .planning-content p , .salesforce-working , section.salesforce-partner{
+  text-align: center;
+}
+.salesforce-working .sales-steps{
+  margin: 0 auto;
+}
+.salesforce-partner .row .col-lg-6.col-md-6 {
+  padding: 0;
+}
+section.salesforce-planning .planning-content{
+  text-align: center;
+}
+}

@@ -1,0 +1,129 @@
+.training-benfit .row {
+  background: linear-gradient(
+    335deg,
+    rgba(0, 29, 111, 1) 0%,
+    rgba(0, 95, 155, 1) 63%
+  );
+  align-items: center;
+  border-radius: 10px;
+  gap: 0;
+  margin: 0;
+  position: relative;
+  padding: 0;
+}
+.training-benfit p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.training-benfit .row h2,
+.training-benfit .row p {
+  color: #fff;
+}
+
+.training-benfit .row .col-md-5 {
+  padding: 0;
+}
+
+.training-benfit .row h2 {
+  margin-bottom: 20px;
+}
+
+.training-benfit .benifit-left {
+  padding: 60px;
+}
+
+.traning-benifit-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  max-width: 547px;
+}
+
+.traning-benifit-right img {
+  height: 100%;
+}
+.traning-org-section {
+  background: #349cdd03;
+  background-image: url(/images/bg-dots.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pardotfeat-section .eservices-main {
+  display: flex;
+  background-color: #fff;
+  border-left: 3px solid #ff5b00;
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 700;
+  min-height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.pardotfeat-section h5 {
+  margin: 0;
+}
+
+.traning-offer {
+  background: #f3f3f3;
+}
+.pardotfeat-section .eservices-main:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.webguruzprocesswork-sec.training-help,
+.training-development-processes {
+  background: #fff;
+}
+.Econsultingservices.training-offer .eservices-main {
+  align-items: center;
+}
+@media (max-width: 767px) and (min-width: 576px) {
+  .traning-offer .row .col-md-4 {
+    width: 50%;
+  }
+  .traning-offer .row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .traning-org-section .row {
+    flex-direction: row-reverse;
+  }
+}
+@media (max-width: 991px) {
+  .training-benfit .benifit-left {
+    padding: 60px 20px;
+  }
+  .pardotfeat-section h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .training-benfit .benifit-left {
+    padding: 40px 20px;
+  }
+  .traning-benifit-right {
+    position: relative;
+    max-width: 100%;
+  }
+  .training-benfit .row {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 576px) {
+  .training-benfit .benifit-left {
+    padding: 40px 0px;
+  }
+  .training-development-processes .servteaminr {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+}
