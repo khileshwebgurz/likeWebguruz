@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import axios from "axios";
 import { notFound, redirect } from "next/navigation";
 import ContentBlogClient from "../../../components/blogComponents/ContentBlogClient";
 import NewBlogSubscriber from "@/components/blogComponents/NewBlogSubscriber";
-import '../../blogs/blogs.css'
+import "../../blogs/blogs.css";
 import HomeHiring from "@/components/PopUpForms/HomeHiring";
 const categoryLinks = {
   "artificial-intelligence": "/categories/artificial-intelligence",
@@ -98,6 +99,17 @@ const Page = async ({ params }) => {
   }
 
   const post = data.find((p) => p.slug === slug);
+  // console.log('my data is >>',typeof(post._id));
+
+  const res = await fetch(
+    `${process.env.NEXTAUTH_URL}/api/Likes?slug=${post.slug}`,
+    {
+      params: { slug },
+    }
+  );
+
+  const datas = await res.json();
+
   if (post.acf && post.acf.inforgaphic_image) {
     redirect(`/infographic/${slug}`);
   }
@@ -117,6 +129,7 @@ const Page = async ({ params }) => {
     notFound();
   }
 
+
   return (
     <>
       <section className="all-blog-head">
@@ -129,11 +142,12 @@ const Page = async ({ params }) => {
             categoryLinks={categoryLinks}
             userData={userData}
             count={count}
+            myLikes={datas.totalLikes}
             categoryCounts={categoryCounts}
           />
         </div>
       </section>
-      <NewBlogSubscriber/>
+      <NewBlogSubscriber />
       <section className="latest-blog py-5">
         <div className="container">
           <div className="row">
@@ -219,7 +233,7 @@ const Page = async ({ params }) => {
         </div>
       </section>
 
-      <HomeHiring/>
+      <HomeHiring />
     </>
   );
 };

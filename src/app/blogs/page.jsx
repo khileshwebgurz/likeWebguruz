@@ -26,6 +26,7 @@ const page = async ({ searchParams }) => {
   // Use the fetchBlogPosts function
   const { data, currentPage, totalPages } = await fetchBlogPosts(page);
 
+
   return (
     <>
       <section className="all-blog-head">
